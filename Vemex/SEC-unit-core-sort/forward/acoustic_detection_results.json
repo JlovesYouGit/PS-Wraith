@@ -1,0 +1,355 @@
+{
+  "monitoring_data": {
+    "connection_type": "ethernet",
+    "total_samples": 55,
+    "fluctuation_events": [
+      {
+        "timestamp": 1764535157.7024045,
+        "bytes": 346944,
+        "fluctuation": 6046,
+        "magnitude": 6046
+      },
+      {
+        "timestamp": 1764535158.2568145,
+        "bytes": 348164,
+        "fluctuation": 6058,
+        "magnitude": 6058
+      },
+      {
+        "timestamp": 1764535158.8072972,
+        "bytes": 349375,
+        "fluctuation": 6058,
+        "magnitude": 6058
+      },
+      {
+        "timestamp": 1764535159.3549438,
+        "bytes": 350579,
+        "fluctuation": 6052,
+        "magnitude": 6052
+      },
+      {
+        "timestamp": 1764535159.9044166,
+        "bytes": 351789,
+        "fluctuation": 6051,
+        "magnitude": 6051
+      },
+      {
+        "timestamp": 1764535160.4525723,
+        "bytes": 352995,
+        "fluctuation": 6047,
+        "magnitude": 6047
+      },
+      {
+        "timestamp": 1764535160.99949,
+        "bytes": 354198,
+        "fluctuation": 6040,
+        "magnitude": 6040
+      },
+      {
+        "timestamp": 1764535161.5484443,
+        "bytes": 355406,
+        "fluctuation": 6039,
+        "magnitude": 6039
+      },
+      {
+        "timestamp": 1764535162.0959017,
+        "bytes": 356610,
+        "fluctuation": 6034,
+        "magnitude": 6034
+      },
+      {
+        "timestamp": 1764535162.645129,
+        "bytes": 357819,
+        "fluctuation": 6034,
+        "magnitude": 6034
+      },
+      {
+        "timestamp": 1764535163.1926093,
+        "bytes": 359023,
+        "fluctuation": 6030,
+        "magnitude": 6030
+      },
+      {
+        "timestamp": 1764535163.739973,
+        "bytes": 360226,
+        "fluctuation": 6026,
+        "magnitude": 6026
+      },
+      {
+        "timestamp": 1764535164.2873929,
+        "bytes": 361431,
+        "fluctuation": 6026,
+        "magnitude": 6026
+      },
+      {
+        "timestamp": 1764535164.8356695,
+        "bytes": 362637,
+        "fluctuation": 6026,
+        "magnitude": 6026
+      },
+      {
+        "timestamp": 1764535165.386709,
+        "bytes": 363850,
+        "fluctuation": 6033,
+        "magnitude": 6033
+      },
+      {
+        "timestamp": 1764535165.9346006,
+        "bytes": 365055,
+        "fluctuation": 6032,
+        "magnitude": 6032
+      },
+      {
+        "timestamp": 1764535166.4805207,
+        "bytes": 366256,
+        "fluctuation": 6027,
+        "magnitude": 6027
+      },
+      {
+        "timestamp": 1764535167.0297158,
+        "bytes": 367464,
+        "fluctuation": 6029,
+        "magnitude": 6029
+      },
+      {
+        "timestamp": 1764535167.5801573,
+        "bytes": 368676,
+        "fluctuation": 6035,
+        "magnitude": 6035
+      },
+      {
+        "timestamp": 1764535168.129417,
+        "bytes": 369884,
+        "fluctuation": 6037,
+        "magnitude": 6037
+      },
+      {
+        "timestamp": 1764535168.6806529,
+        "bytes": 371096,
+        "fluctuation": 6042,
+        "magnitude": 6042
+      },
+      {
+        "timestamp": 1764535169.2340198,
+        "bytes": 372314,
+        "fluctuation": 6053,
+        "magnitude": 6053
+      },
+      {
+        "timestamp": 1764535169.784572,
+        "bytes": 373525,
+        "fluctuation": 6054,
+        "magnitude": 6054
+      },
+      {
+        "timestamp": 1764535170.3327754,
+        "bytes": 374731,
+        "fluctuation": 6051,
+        "magnitude": 6051
+      },
+      {
+        "timestamp": 1764535170.8824296,
+        "bytes": 375940,
+        "fluctuation": 6051,
+        "magnitude": 6051
+      },
+      {
+        "timestamp": 1764535171.4311922,
+        "bytes": 377148,
+        "fluctuation": 6049,
+        "magnitude": 6049
+      },
+      {
+        "timestamp": 1764535171.9812753,
+        "bytes": 378358,
+        "fluctuation": 6049,
+        "magnitude": 6049
+      },
+      {
+        "timestamp": 1764535172.5310364,
+        "bytes": 379568,
+        "fluctuation": 6048,
+        "magnitude": 6048
+      },
+      {
+        "timestamp": 1764535173.0874104,
+        "bytes": 380791,
+        "fluctuation": 6061,
+        "magnitude": 6061
+      },
+      {
+        "timestamp": 1764535173.6359746,
+        "bytes": 381998,
+        "fluctuation": 6056,
+        "magnitude": 6056
+      },
+      {
+        "timestamp": 1764535174.1854987,
+        "bytes": 383207,
+        "fluctuation": 6054,
+        "magnitude": 6054
+      },
+      {
+        "timestamp": 1764535174.7705903,
+        "bytes": 384494,
+        "fluctuation": 6131,
+        "magnitude": 6131
+      },
+      {
+        "timestamp": 1764535175.3260798,
+        "bytes": 385717,
+        "fluctuation": 6135,
+        "magnitude": 6135
+      },
+      {
+        "timestamp": 1764535175.8771923,
+        "bytes": 386929,
+        "fluctuation": 6126,
+        "magnitude": 6126
+      },
+      {
+        "timestamp": 1764535176.4277465,
+        "bytes": 388140,
+        "fluctuation": 6116,
+        "magnitude": 6116
+      },
+      {
+        "timestamp": 1764535176.978575,
+        "bytes": 389352,
+        "fluctuation": 6107,
+        "magnitude": 6107
+      },
+      {
+        "timestamp": 1764535177.5289204,
+        "bytes": 390562,
+        "fluctuation": 6095,
+        "magnitude": 6095
+      },
+      {
+        "timestamp": 1764535178.0798035,
+        "bytes": 391774,
+        "fluctuation": 6086,
+        "magnitude": 6086
+      },
+      {
+        "timestamp": 1764535178.6416526,
+        "bytes": 393010,
+        "fluctuation": 6101,
+        "magnitude": 6101
+      },
+      {
+        "timestamp": 1764535179.195554,
+        "bytes": 394229,
+        "fluctuation": 6097,
+        "magnitude": 6097
+      },
+      {
+        "timestamp": 1764535179.7460396,
+        "bytes": 395441,
+        "fluctuation": 6084,
+        "magnitude": 6084
+      },
+      {
+        "timestamp": 1764535180.2996316,
+        "bytes": 396658,
+        "fluctuation": 6085,
+        "magnitude": 6085
+      },
+      {
+        "timestamp": 1764535180.8487952,
+        "bytes": 397866,
+        "fluctuation": 6077,
+        "magnitude": 6077
+      },
+      {
+        "timestamp": 1764535181.4015374,
+        "bytes": 399082,
+        "fluctuation": 6078,
+        "magnitude": 6078
+      },
+      {
+        "timestamp": 1764535181.9502277,
+        "bytes": 400290,
+        "fluctuation": 6070,
+        "magnitude": 6070
+      },
+      {
+        "timestamp": 1764535182.4976873,
+        "bytes": 401492,
+        "fluctuation": 6057,
+        "magnitude": 6057
+      }
+    ],
+    "bytes_history": [
+      336065,
+      337271,
+      338479,
+      339687,
+      340896,
+      342105,
+      343314,
+      344524,
+      345734,
+      346944,
+      348164,
+      349375,
+      350579,
+      351789,
+      352995,
+      354198,
+      355406,
+      356610,
+      357819,
+      359023,
+      360226,
+      361431,
+      362637,
+      363850,
+      365055,
+      366256,
+      367464,
+      368676,
+      369884,
+      371096,
+      372314,
+      373525,
+      374731,
+      375940,
+      377148,
+      378358,
+      379568,
+      380791,
+      381998,
+      383207,
+      384494,
+      385717,
+      386929,
+      388140,
+      389352,
+      390562,
+      391774,
+      393010,
+      394229,
+      395441,
+      396658,
+      397866,
+      399082,
+      400290,
+      401492
+    ]
+  },
+  "analysis": {
+    "acoustic_activity": false,
+    "events_detected": 46,
+    "avg_magnitude": 6060.282608695652,
+    "max_magnitude": 6135,
+    "avg_interval_sec": 0.551006285349528,
+    "acoustic_likelihood": 0.5,
+    "pattern_description": "Possible acoustic activity (46 events)",
+    "recommendations": [
+      "Continue monitoring for confirmation",
+      "Check for environmental factors (HVAC, machinery)",
+      "Compare with baseline measurements in quiet conditions"
+    ]
+  }
+}

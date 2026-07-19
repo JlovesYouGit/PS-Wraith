@@ -1,0 +1,75 @@
+{
+  "value_sha256": "73475cb40a568e8da8a045ced110137e159f890ac4da883b6b17dc651b3a8049",
+  "value_preview": "42",
+  "occurrences": 5,
+  "canonical": {
+    "address": "The-Crown/alive-eal/README.md",
+    "line": 99,
+    "commit": null,
+    "timestamp": null
+  },
+  "forward_trace": [
+    {
+      "index": 0,
+      "address": "The-Crown/alive-eal/README.md",
+      "line": 99,
+      "kind": "assign_int"
+    },
+    {
+      "index": 1,
+      "address": "The-Crown/alive-eal/README.md",
+      "line": 268,
+      "kind": "assign_int"
+    },
+    {
+      "index": 2,
+      "address": "The-Crown/bow-of-Achilles/blackhole/vpython_blackhole.py",
+      "line": 110,
+      "kind": "random_seed_call"
+    },
+    {
+      "index": 3,
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/README.md",
+      "line": 99,
+      "kind": "assign_int"
+    },
+    {
+      "index": 4,
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/README.md",
+      "line": 268,
+      "kind": "assign_int"
+    }
+  ],
+  "reverse_trace": [
+    {
+      "index": 0,
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/README.md",
+      "line": 268,
+      "kind": "assign_int"
+    },
+    {
+      "index": 1,
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/README.md",
+      "line": 99,
+      "kind": "assign_int"
+    },
+    {
+      "index": 2,
+      "address": "The-Crown/bow-of-Achilles/blackhole/vpython_blackhole.py",
+      "line": 110,
+      "kind": "random_seed_call"
+    },
+    {
+      "index": 3,
+      "address": "The-Crown/alive-eal/README.md",
+      "line": 268,
+      "kind": "assign_int"
+    },
+    {
+      "index": 4,
+      "address": "The-Crown/alive-eal/README.md",
+      "line": 99,
+      "kind": "assign_int"
+    }
+  ]
+}

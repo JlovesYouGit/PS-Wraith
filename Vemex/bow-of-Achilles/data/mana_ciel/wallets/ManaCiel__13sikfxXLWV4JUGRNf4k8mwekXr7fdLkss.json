@@ -1,0 +1,23 @@
+{
+  "label": "ManaCiel",
+  "seed_phrase": "drop tray ice rail valid outdoor security ketchup museum pause palm butter",
+  "seed_entropy_hex": "6d265f4427c95bb574edd36300bc4903",
+  "private_key_hex": "8c0a094a71272f76a6be063fc9602f62a1bf7d140e805dead43ee91e5d6d1fb4",
+  "public_key_hex": "03415140be14a628ee143790d4f2b64683bc8b32f48bc142d55a94b49c2b8ca24a",
+  "address": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+  "address_hash160": "1f87e73ce272795c06aded8700fd9b5151695eeb",
+  "utxo_collective_value": 97572075,
+  "sha256_sum": "a9acf76c25877b7982d7ee206a7ab1cd8433238b924550424a088e38cb6fc087",
+  "coordinate": {
+    "value": 5,
+    "min": -16,
+    "max": 10000,
+    "hex": "0x5",
+    "virtual_hash": "46986528415d688b",
+    "virtual_bit_space": 120
+  },
+  "base58_p2pkh": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+  "p2pkh_version": "00",
+  "network": "mainnet",
+  "formula_seed_hex": "6d265f4427c95bb574edd36300bc490377e940f51c080cfa940a0b1c0793ff2e"
+}

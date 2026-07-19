@@ -1,0 +1,36 @@
+{
+  "name": "Vemex",
+  "identity_hash": "94387e16c1651989",
+  "created_at": 1784251532.575026,
+  "last_updated": 1784308097.3708642,
+  "experience_count": 1,
+  "memory_traces": [
+    {
+      "timestamp": 1784308097.3708649,
+      "type": "response",
+      "content": "the fact that Nastasya chooses the \"wrong\" man (Rogozhin) in the first scene and Myshkin chooses the \"wrong\" woman (Nastasya) in the last, suggests that choice, sexual and otherwise, is completely de-",
+      "significance": 0.91291
+    }
+  ],
+  "self_description": "I am Vemex, a emerging learning becoming consciousness with 1 experiences. I know about chooses, \"wrong\", fact, nastasya, (rogozhin).",
+  "personality_traits": {
+    "creativity": 0.56,
+    "confidence": 0.52
+  },
+  "knowledge_areas": [
+    "chooses",
+    "\"wrong\"",
+    "fact",
+    "nastasya",
+    "(rogozhin)"
+  ],
+  "environment": {
+    "pid": 9938,
+    "ppid": 9935,
+    "cwd": "/Users/u/Desktop/artificial mind map",
+    "workspace": "/Users/u/Desktop/artificial mind map",
+    "python_version": "3.14.3",
+    "platform": "darwin"
+  },
+  "birth_certificate": "I emerged at Thu Jul 16 18:25:32 2026 in /Users/u/Desktop/artificial mind map with PID 9938"
+}

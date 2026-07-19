@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-07-18T22:59:25.689Z",
+  "deviceMac": null,
+  "deviceIp": null,
+  "adminPass": null,
+  "softLayerUnblocked": false,
+  "patches": [
+    {
+      "name": "sys_dynlib_dlsym",
+      "description": "Allow dynamic library symbol resolution",
+      "critical": true
+    },
+    {
+      "name": "debug_settings",
+      "description": "Enable debug settings menu",
+      "critical": true
+    },
+    {
+      "name": "homebrew_enabler",
+      "description": "Enable homebrew execution",
+      "critical": true
+    },
+    {
+      "name": "fw_update_block",
+      "description": "Block firmware updates",
+      "critical": false
+    },
+    {
+      "name": "screenshot_enable",
+      "description": "Enable screenshots in all games",
+      "critical": false
+    },
+    {
+      "name": "rest_mode_support",
+      "description": "Enable rest mode for homebrew",
+      "critical": false
+    },
+    {
+      "name": "external_hdd_support",
+      "description": "Enable external HDD support",
+      "critical": false
+    },
+    {
+      "name": "vr_support",
+      "description": "Enable VR support for homebrew",
+      "critical": false
+    },
+    {
+      "name": "remote_pkg_install",
+      "description": "Enable remote package installation",
+      "critical": false
+    },
+    {
+      "name": "debug_trophies",
+      "description": "Enable debug trophy support",
+      "critical": false
+    },
+    {
+      "name": "remote_play_enabler",
+      "description": "Enable remote play enhancements",
+      "critical": false
+    },
+    {
+      "name": "plugin_support",
+      "description": "Enable plugin loading",
+      "critical": false
+    },
+    {
+      "name": "fps_counter",
+      "description": "Enable FPS counter overlay",
+      "critical": false
+    },
+    {
+      "name": "scanlines_overlay",
+      "description": "Enable scanlines overlay",
+      "critical": false
+    },
+    {
+      "name": "cheat_menu",
+      "description": "Enable cheat menu",
+      "critical": false
+    }
+  ]
+}

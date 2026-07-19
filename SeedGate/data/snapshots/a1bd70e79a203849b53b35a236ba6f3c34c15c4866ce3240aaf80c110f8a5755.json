@@ -1,0 +1,111 @@
+{
+  "value_sha256": "a1bd70e79a203849b53b35a236ba6f3c34c15c4866ce3240aaf80c110f8a5755",
+  "value_preview": "6e0d7e0cd0e62b6ec39a7260280bc8a330c44ff8fc71d5aa8acfe2ec20d944e0",
+  "occurrences": 8,
+  "canonical": {
+    "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+    "line": 27,
+    "commit": null,
+    "timestamp": null
+  },
+  "forward_trace": [
+    {
+      "index": 0,
+      "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+      "line": 27,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 1,
+      "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+      "line": 22,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 2,
+      "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+      "line": 20,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 3,
+      "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+      "line": 36,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 4,
+      "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+      "line": 31,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 5,
+      "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+      "line": 35,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 6,
+      "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+      "line": 31,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 7,
+      "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+      "line": 35,
+      "kind": "hex_hash"
+    }
+  ],
+  "reverse_trace": [
+    {
+      "index": 0,
+      "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+      "line": 35,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 1,
+      "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+      "line": 31,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 2,
+      "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+      "line": 35,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 3,
+      "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+      "line": 31,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 4,
+      "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+      "line": 36,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 5,
+      "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+      "line": 20,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 6,
+      "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+      "line": 22,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 7,
+      "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+      "line": 27,
+      "kind": "hex_hash"
+    }
+  ]
+}

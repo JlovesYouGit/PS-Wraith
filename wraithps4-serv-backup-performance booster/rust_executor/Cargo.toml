@@ -1,0 +1,20 @@
+[package]
+name = "rust_executor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10.8"
+libc = "0.2"
+# Used for communication with existing DLLs and low-level system calls
+libloading = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[lib]
+name = "wraith_dll"
+crate-type = ["cdylib"]
+
+[[bin]]
+name = "executor"
+path = "src/main.rs"

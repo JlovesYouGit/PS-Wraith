@@ -1,0 +1,126 @@
+# Mapping of AI-SIEM Security Functions to Qoder Tool Capabilities
+
+automated_threat_detection:
+  description: "Leverage Qoder tools to analyze and validate detection rules"
+  tools:
+    - search_codebase:
+        purpose: "Find related detection rules and understand their context"
+        priority: high
+        parallel_safe: true
+    - read_file:
+        purpose: "Examine detection rule configurations in detail"
+        priority: highest
+        parallel_safe: false
+    - search_symbol:
+        purpose: "Find specific functions or classes used in detection logic"
+        priority: medium
+        parallel_safe: true
+    - grep_code:
+        purpose: "Search for specific patterns in detection rules"
+        priority: high
+        parallel_safe: true
+  workflow:
+    - "Identify detection rules related to specific threats"
+    - "Analyze rule logic and conditions"
+    - "Validate MITRE ATT&CK mappings"
+    - "Test alert triggers with sample data"
+
+security_data_analysis:
+  description: "Use Qoder tools to analyze security dashboards and visualizations"
+  tools:
+    - list_dir:
+        purpose: "Discover available dashboard configurations"
+        priority: medium
+        parallel_safe: true
+    - read_file:
+        purpose: "Examine dashboard configuration files"
+        priority: highest
+        parallel_safe: false
+    - search_codebase:
+        purpose: "Find related dashboard components"
+        priority: high
+        parallel_safe: true
+    - grep_code:
+        purpose: "Search for specific visualization patterns"
+        priority: high
+        parallel_safe: true
+  workflow:
+    - "Catalog available dashboards by security domain"
+    - "Analyze visualization types and data sources"
+    - "Validate query syntax and logic"
+    - "Identify correlation opportunities"
+
+log_parsing_normalization:
+  description: "Apply Qoder tools to validate and test log parsers"
+  tools:
+    - list_dir:
+        purpose: "Explore parser directory structure"
+        priority: medium
+        parallel_safe: true
+    - read_file:
+        purpose: "Examine parser configuration files"
+        priority: highest
+        parallel_safe: false
+    - search_symbol:
+        purpose: "Find parser-related functions and classes"
+        priority: high
+        parallel_safe: true
+    - run_in_terminal:
+        purpose: "Test parsers with sample log data"
+        priority: high
+        parallel_safe: false
+  workflow:
+    - "Validate parser format definitions"
+    - "Test log transformation with sample data"
+    - "Check field extraction accuracy"
+    - "Verify performance with large log volumes"
+
+dataset_agent_monitoring:
+  description: "Utilize Qoder tools to validate monitoring scripts"
+  tools:
+    - read_file:
+        purpose: "Examine monitoring script code"
+        priority: highest
+        parallel_safe: false
+    - run_in_terminal:
+        purpose: "Execute monitoring scripts for testing"
+        priority: high
+        parallel_safe: false
+    - get_terminal_output:
+        purpose: "Capture and analyze script output"
+        priority: high
+        parallel_safe: false
+    - search_codebase:
+        purpose: "Find related monitoring components"
+        priority: medium
+        parallel_safe: true
+  workflow:
+    - "Check Python dependency requirements"
+    - "Validate script syntax and logic"
+    - "Test log generation capabilities"
+    - "Verify integration with Dataset Agent"
+
+automated_response_playbooks:
+  description: "Employ Qoder tools to analyze and test security workflows"
+  tools:
+    - list_dir:
+        purpose: "Discover available workflow configurations"
+        priority: medium
+        parallel_safe: true
+    - read_file:
+        purpose: "Examine workflow configuration files"
+        priority: highest
+        parallel_safe: false
+    - search_codebase:
+        purpose: "Find related workflow components"
+        priority: high
+        parallel_safe: true
+    - search_symbol:
+        purpose: "Identify workflow functions and integrations"
+        priority: high
+        parallel_safe: true
+  workflow:
+    - "Validate integration dependency requirements"
+    - "Check required product availability"
+    - "Analyze action sequences and logic"
+    - "Test workflow execution paths"

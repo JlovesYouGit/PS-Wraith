@@ -1,0 +1,1 @@
+﻿# Standard library only. Kept for clarity; no third-party deps required.

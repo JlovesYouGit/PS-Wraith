@@ -1,0 +1,96 @@
+{
+  "securityFunctionIntegration": {
+    "automatedThreatDetection": {
+      "enabled": true,
+      "detectionRulesPath": "../detections/community",
+      "supportedTools": [
+        "search_codebase",
+        "search_symbol",
+        "read_file",
+        "grep_code"
+      ],
+      "workflow": {
+        "analyzeDetectionRules": true,
+        "testAlerts": true,
+        "validateTriggers": true
+      }
+    },
+    "securityDataAnalysis": {
+      "enabled": true,
+      "dashboardsPath": "../dashboards/community",
+      "supportedTools": [
+        "search_codebase",
+        "read_file",
+        "list_dir",
+        "grep_code"
+      ],
+      "workflow": {
+        "visualizeLogPatterns": true,
+        "analyzeThreatTrends": true,
+        "correlateEvents": true
+      }
+    },
+    "logParsingNormalization": {
+      "enabled": true,
+      "parsersPath": "../parsers",
+      "supportedTools": [
+        "search_codebase",
+        "search_symbol",
+        "read_file",
+        "grep_code"
+      ],
+      "workflow": {
+        "validateParserConfigs": true,
+        "testLogTransformation": true,
+        "checkFormatCompatibility": true
+      }
+    },
+    "datasetAgentMonitoring": {
+      "enabled": true,
+      "monitorsPath": "../monitors",
+      "supportedTools": [
+        "read_file",
+        "run_in_terminal",
+        "get_terminal_output"
+      ],
+      "workflow": {
+        "executeMonitorScripts": true,
+        "validatePythonDependencies": true,
+        "testLogGeneration": true
+      }
+    },
+    "automatedResponsePlaybooks": {
+      "enabled": true,
+      "workflowsPath": "../workflows/community",
+      "supportedTools": [
+        "search_codebase",
+        "read_file",
+        "list_dir"
+      ],
+      "workflow": {
+        "validateIntegrationDependencies": true,
+        "testWorkflowExecution": true,
+        "checkRequiredProducts": true
+      }
+    }
+  },
+  "toolOptimizationForSecurity": {
+    "parallelExecution": {
+      "detectionAnalysis": {
+        "parallelize": true,
+        "tools": ["read_file", "search_codebase"],
+        "maxParallel": 3
+      },
+      "dashboardAnalysis": {
+        "parallelize": true,
+        "tools": ["read_file", "grep_code"],
+        "maxParallel": 4
+      },
+      "parserValidation": {
+        "parallelize": true,
+        "tools": ["read_file", "search_symbol"],
+        "maxParallel": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "command": "npx",
+  "args": [
+    "-y",
+    "mcp-memory-server"
+  ]
+}

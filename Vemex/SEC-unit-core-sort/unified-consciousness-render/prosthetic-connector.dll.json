@@ -1,0 +1,92 @@
+{
+  "type": "ProstheticConnectorDLL",
+  "version": "1.0.0",
+  "malformed": true,
+  "parameters": {
+    "modelId": "model-1",
+    "task": "search",
+    "endpoint": "http://127.0.0.1:8080"
+  },
+  "connections": [
+    {
+      "type": "wave_path",
+      "wavePath": "wave_path_123",
+      "seed": "seed_abc",
+      "channelId": "ch-1",
+      "connectionString": "a1f06a25d39e21d2d4befd8c9dec10cb"
+    },
+    {
+      "type": "wave_path",
+      "wavePath": "wave_path_123",
+      "seed": "seed_abc",
+      "channelId": "ch-1",
+      "connectionString": "b461bc5031b123c9a1e22a772dde24bd"
+    },
+    {
+      "type": "wave_path",
+      "wavePath": "wave_path_123",
+      "seed": "seed_abc",
+      "channelId": "ch-1",
+      "connectionString": "4f6421b2bf9b0e8649b756c6e398be9b"
+    },
+    {
+      "type": "wave_path",
+      "wavePath": "wave_path_123",
+      "seed": "seed_abc",
+      "channelId": "ch-1",
+      "connectionString": "4082d8a9e1fe2ca1c64628e3236c42e0"
+    },
+    {
+      "type": "wave_path",
+      "wavePath": "path_1",
+      "seed": "seed_1",
+      "channelId": "ch-1",
+      "connectionString": "46b5bef0a2b239862f02f2bacba6d109"
+    }
+  ],
+  "consStrings": [
+    "46b5bef0a2b239862f02f2bacba6d109"
+  ],
+  "wavePaths": [
+    {
+      "wavePath": "wave_path_123",
+      "seed": "seed_abc",
+      "channelId": "ch-1",
+      "connectionString": "a1f06a25d39e21d2d4befd8c9dec10cb",
+      "timestamp": 1783550762544
+    },
+    {
+      "wavePath": "wave_path_123",
+      "seed": "seed_abc",
+      "channelId": "ch-1",
+      "connectionString": "b461bc5031b123c9a1e22a772dde24bd",
+      "timestamp": 1783550798965
+    },
+    {
+      "wavePath": "wave_path_123",
+      "seed": "seed_abc",
+      "channelId": "ch-1",
+      "connectionString": "4f6421b2bf9b0e8649b756c6e398be9b",
+      "timestamp": 1783550905919
+    },
+    {
+      "wavePath": "wave_path_123",
+      "seed": "seed_abc",
+      "channelId": "ch-1",
+      "connectionString": "4082d8a9e1fe2ca1c64628e3236c42e0",
+      "timestamp": 1783550927445
+    },
+    {
+      "wavePath": "path_1",
+      "seed": "seed_1",
+      "channelId": "ch-1",
+      "connectionString": "46b5bef0a2b239862f02f2bacba6d109",
+      "timestamp": 1783551049248
+    }
+  ],
+  "attendedSpaces": [],
+  "unattendedSpaces": [],
+  "executionMap": {},
+  "lastUpdated": 1783551049249,
+  "updateCount": 28
+}

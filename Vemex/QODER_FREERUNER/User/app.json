@@ -1,0 +1,37 @@
+{
+  "config": {
+    "general": {
+      "displayLanguage": "en-us",
+      "aiResponseLanguage": "en-us",
+      "improvementPlan": "agree",
+      "importSettings": "VS Code"
+    },
+    "completion": {
+      "enableCompletion": true,
+      "autoTriggerLength": "long",
+      "enableNES": true
+    },
+    "chat": {
+      "webToolsMode": "Auto-execute",
+      "askModeUseTools": true,
+      "editFileTool": true,
+      "terminalRunMode": "autoRun",
+      "commandDenyList": "rm,mv,sudo,wget,curl,chown",
+      "commandAllowlist": "",
+      "autoRunMcpTools": true,
+      "methodQuickOperation": false,
+      "showSelectionToolbar": true
+    },
+    "quest": {
+      "enable": true
+    },
+    "memory": {
+      "autoGenerate": true
+    },
+    "advanced": {
+      "autoUpdate": false,
+      "proxyMode": "system",
+      "proxyURL": ""
+    }
+  }
+}

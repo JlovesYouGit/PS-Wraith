@@ -1,0 +1,58 @@
+{
+  "bridgeImplementations": {
+    "parsers": {
+      "apache_http_logs": {
+        "status": "bridged",
+        "originalPath": "../parsers/community/apache_http_logs-latest",
+        "bridgeFile": "apache_http_logs_bridge.conf",
+        "description": "Complete Apache HTTP Server logs parser with OCSF normalization",
+        "features": [
+          "Common Log Format parsing",
+          "Combined Log Format parsing",
+          "Virtual Host Format parsing",
+          "HTTP method mapping to OCSF activity IDs",
+          "Status code categorization"
+        ]
+      },
+      "juniper_logs": {
+        "status": "bridged",
+        "originalPath": "../parsers/community/juniper_logs-latest",
+        "bridgeFile": "juniper_bridge.conf",
+        "description": "Complete Juniper Networks Firewall logs parser with OCSF normalization",
+        "features": [
+          "Session creation parsing",
+          "Session close parsing",
+          "Protocol ID to name mapping",
+          "Network flow field extraction",
+          "Activity name assignment"
+        ]
+      },
+      "sample_test_logs": {
+        "status": "enhanced",
+        "originalPath": "../parsers/community/sample_test_logs-latest",
+        "bridgeFile": "sample_test_bridge.conf",
+        "description": "Enhanced sample test logs parser with comprehensive field extraction",
+        "features": [
+          "Multiple log format support",
+          "Timestamp parsing",
+          "IP address extraction",
+          "Status code categorization",
+          "Severity level detection"
+        ]
+      }
+    },
+    "integration": {
+      "autoLoadBridges": true,
+      "bridgeDetection": {
+        "checkForBridgeFiles": true,
+        "preferBridgeImplementations": true,
+        "fallbackToOriginal": true
+      }
+    }
+  },
+  "validation": {
+    "testSampleLogs": true,
+    "validateOCSFCompliance": true,
+    "checkPerformanceImpact": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "package-resolver-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flash": "node CONTROL_CENTER.js flash",
+    "wraith": "node central_orchestrator.js . flash",
+    "mirror": "node CONTROL_CENTER.js mirror",
+    "bridge": "node CONTROL_CENTER.js bridge",
+    "makefile": "node CONTROL_CENTER.js makefile",
+    "network-scan": "node CONTROL_CENTER.js network-scan",
+    "device-find": "node CONTROL_CENTER.js device-find",
+    "device-connect": "node CONTROL_CENTER.js device-connect",
+    "latch": "node CONTROL_CENTER.js latch",
+    "goldhen": "node CONTROL_CENTER.js goldhen",
+    "goldhen-deploy": "node CONTROL_CENTER.js goldhen-deploy",
+    "goldhen-config": "node CONTROL_CENTER.js goldhen-config",
+    "goldhen-cheats": "node CONTROL_CENTER.js goldhen-cheats",
+    "goldhen-status": "node CONTROL_CENTER.js goldhen-status",
+    "goldhen-deploy-device": "node CONTROL_CENTER.js goldhen-deploy-device",
+    "goldhen-troubleshoot": "node CONTROL_CENTER.js goldhen-troubleshoot",
+    "goldhen-server": "node CONTROL_CENTER.js goldhen-server",
+    "start": "node CONTROL_CENTER.js",
+    "fix": "node CONTROL_CENTER.js fix",
+    "watch": "node CONTROL_CENTER.js watch",
+    "status": "node CONTROL_CENTER.js status"
+  },
+  "keywords": ["wraith", "flash-mode", "package-resolver", "ios", "nand", "device-image", "network-discovery", "seedgate", "goldhen", "ps4", "homebrew"],
+  "author": "",
+  "license": "ISC",
+  "description": "Universal cross-language package resolver with wraith directory flash mode, IOsrom NAND/image handling, and GoldHEN PS4 Homebrew Enabler integration"
+}

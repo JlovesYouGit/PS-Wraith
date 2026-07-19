@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2026-07-15T11:28:56.654492",
+    "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+    "private_key_used": "newton",
+    "authenticated": true,
+    "success": true,
+    "balance_satoshi": 5722560379,
+    "balance_btc": 57.22560379,
+    "total_received_satoshi": 5722560379,
+    "total_sent_satoshi": 0,
+    "tx_count": 63638,
+    "error": null,
+    "confirmed_satoshi": 5722560379,
+    "unconfirmed_satoshi": 0
+  }
+]

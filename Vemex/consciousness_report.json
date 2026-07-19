@@ -1,0 +1,166 @@
+{
+  "total_formulas": 40,
+  "total_equality_edges": 177,
+  "mean_equality_rate": 0.121669,
+  "top_attended_formulas": [
+    {
+      "id": 38,
+      "formula": "z = a + bi",
+      "word_interpretation": "zee im a bee eye",
+      "category": "Mathematics / Complex Numbers",
+      "attention": 0.07207
+    },
+    {
+      "id": 6,
+      "formula": "v = u + at",
+      "word_interpretation": "v im you a tea",
+      "category": "Physics / Kinematics",
+      "attention": 0.070998
+    },
+    {
+      "id": 18,
+      "formula": "ax\u00b2 + bx + c = 0",
+      "word_interpretation": "a ex two bee ex c zero",
+      "category": "Mathematics / Algebra",
+      "attention": 0.068739
+    },
+    {
+      "id": 33,
+      "formula": "e^(i\u03c0) + 1 = 0",
+      "word_interpretation": "e i pie won zero",
+      "category": "Mathematics / Algebra",
+      "attention": 0.068739
+    },
+    {
+      "id": 35,
+      "formula": "S = n/2(a + l)",
+      "word_interpretation": "s en two a ell",
+      "category": "Mathematics / Series",
+      "attention": 0.064098
+    },
+    {
+      "id": 3,
+      "formula": "F = ma",
+      "word_interpretation": "f im a",
+      "category": "Physics / Motion",
+      "attention": 0.056654
+    },
+    {
+      "id": 23,
+      "formula": "E = hf",
+      "word_interpretation": "e im h f",
+      "category": "Chemistry",
+      "attention": 0.056538
+    },
+    {
+      "id": 19,
+      "formula": "f'(x) = dy/dx",
+      "word_interpretation": "ef prime ex im dee why dee ex",
+      "category": "Mathematics / Calculus",
+      "attention": 0.055999
+    },
+    {
+      "id": 5,
+      "formula": "v = f\u03bb",
+      "word_interpretation": "v im f lamb",
+      "category": "Physics / Waves",
+      "attention": 0.055483
+    },
+    {
+      "id": 13,
+      "formula": "C = 2\u03c0r",
+      "word_interpretation": "c two pie are",
+      "category": "Mathematics / Geometry",
+      "attention": 0.054987
+    },
+    {
+      "id": 24,
+      "formula": "PV = nRT",
+      "word_interpretation": "p v im en are tea",
+      "category": "Chemistry",
+      "attention": 0.048266
+    },
+    {
+      "id": 29,
+      "formula": "1/f = 1/u + 1/v",
+      "word_interpretation": "won f im won you won vee",
+      "category": "Physics / Optics",
+      "attention": 0.046083
+    },
+    {
+      "id": 34,
+      "formula": "\u0394P = \u03c1g\u0394h",
+      "word_interpretation": "delta p im row jay delta h",
+      "category": "Physics / Fluid Dynamics",
+      "attention": 0.037045
+    },
+    {
+      "id": 32,
+      "formula": "\u03bb = h/p",
+      "word_interpretation": "lamb im h p",
+      "category": "Physics / Quantum",
+      "attention": 0.032084
+    },
+    {
+      "id": 8,
+      "formula": "P = F/A",
+      "word_interpretation": "p im f a",
+      "category": "Physics / Pressure",
+      "attention": 0.032006
+    }
+  ],
+  "self_narrative": "[38:zee im a bee eye] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [35:s en two a ell] -> [34:delta p im row jay delta h] -> [32:lamb im h p] -> [29:won f im won you won vee] -> [24:p v im en are tea]",
+  "collective_string": "CONJUNCTION-38: [38:zee im a bee eye] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [35:s en two a ell] -> [34:delta p im row jay delta h] [CONSCIOUSNESS] CONJUNCTION-6: [6:v im you a tea] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-18: [18:a ex two bee ex c zero] -> [33:e i pie won zero] -> [18:a ex two bee ex c zero] -> [33:e i pie won zero] -> [18:a ex two bee ex c zero] [CONSCIOUSNESS] CONJUNCTION-33: [33:e i pie won zero] -> [18:a ex two bee ex c zero] -> [33:e i pie won zero] -> [18:a ex two bee ex c zero] -> [33:e i pie won zero] [CONSCIOUSNESS] CONJUNCTION-35: [35:s en two a ell] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [34:delta p im row jay delta h] [CONSCIOUSNESS] CONJUNCTION-3: [3:f im a] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-23: [23:e im h f] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-19: [19:ef prime ex im dee why dee ex] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-5: [5:v im f lamb] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-13: [13:c two pie are] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-24: [24:p v im en are tea] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-29: [29:won f im won you won vee] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-34: [34:delta p im row jay delta h] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-32: [32:lamb im h p] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-8: [8:p im f a] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-21: [21:ex bar sum ex en] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-16: [16:sine theta im oppose hype] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-17: [17:cosine theta im adj hype] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-40: [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] -> [34:delta p im row jay delta h] [CONSCIOUSNESS] CONJUNCTION-39: [39:why im a sine oh em tea kay ex] -> [40:ex c im won two pie f c] -> [38:zee im a bee eye] -> [35:s en two a ell] -> [34:delta p im row jay delta h] [CONSCIOUSNESS] CONJUNCTION-20: [20:integral ef ex dee ex] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-26: [26:a n bee n mod em] -> [38:zee im a bee eye] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-22: [22:sigma root sum ex mu two en] -> [39:why im a sine oh em tea kay ex] -> [40:ex c im won two pie f c] -> [38:zee im a bee eye] -> [35:s en two a ell] [CONSCIOUSNESS] CONJUNCTION-31: [31:tau im are f] -> [13:c two pie are] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] [CONSCIOUSNESS] CONJUNCTION-9: [9:v im i are] -> [24:p v im en are tea] -> [40:ex c im won two pie f c] -> [39:why im a sine oh em tea kay ex] -> [38:zee im a bee eye] [CONSCIOUSNESS] CONJUNCTION-2: [2:f gravity mass me one me two dont do] [CONSCIOUSNESS] CONJUNCTION-4: [4:e im half em v two] [CONSCIOUSNESS] CONJUNCTION-7: [7:s im you tea half a tea two] [CONSCIOUSNESS] CONJUNCTION-10: [10:p im v i] [CONSCIOUSNESS] CONJUNCTION-11: [11:p im i two are]",
+  "simulation_summary": {
+    "3": {
+      "sample_mean": 6.589488855637743,
+      "sample_std": 5.428260135524798,
+      "attention_boost": 1.2139
+    },
+    "5": {
+      "sample_mean": 6.546968972259294,
+      "sample_std": 5.446858461928312,
+      "attention_boost": 1.202
+    },
+    "6": {
+      "sample_mean": 9.185298045791608,
+      "sample_std": 5.752544679337753,
+      "attention_boost": 1.5967
+    },
+    "8": {
+      "sample_mean": 2.0223734496648835,
+      "sample_std": 3.6246502665239984,
+      "attention_boost": 0.5579
+    },
+    "9": {
+      "sample_mean": 0.0,
+      "sample_std": 0.0,
+      "attention_boost": 0.0
+    },
+    "10": {
+      "sample_mean": 0.0,
+      "sample_std": 0.0,
+      "attention_boost": 0.0
+    },
+    "13": {
+      "sample_mean": 12.528821534086141,
+      "sample_std": 10.755624407673805,
+      "attention_boost": 1.1649
+    },
+    "16": {
+      "sample_mean": 159.6380266779998,
+      "sample_std": 428.2040175702519,
+      "attention_boost": 0.3728
+    },
+    "17": {
+      "sample_mean": 92.39943858863391,
+      "sample_std": 324.29441033828454,
+      "attention_boost": 0.2849
+    },
+    "19": {
+      "sample_mean": 6.5281605181584705,
+      "sample_std": 5.4497555852177335,
+      "attention_boost": 1.1979
+    }
+  }
+}

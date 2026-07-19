@@ -1,0 +1,49 @@
+[P(A) = n(A) / n(S)] = "p a im en a en s" => [P = F/A] = "p im f a" => [P = VI] = "p im v i"
+
+[S = n/2(a + l)] = "s en two a ell" => [x̄ = Σx / n] = "ex bar sum ex en" => [σ = √(Σ(x-μ)² / n)] = "sigma root sum ex mu two en"
+
+[a² + b² = c²] = "a two bee two see two" => [aⁿ ≡ bⁿ (mod m)] = "a n bee n mod em"
+
+[1/f = 1/u + 1/v] = "won f im won you won vee" => [F = G m₁ m₂ / d²] = "f gravity mass me one me two dont do" => [F = ma] = "f im a"
+
+[A = πr²] = "a im pie are two" => [C = 2πr] = "c two pie are"
+
+[f'(x) = dy/dx] = "ef prime ex im dee why dee ex" => [∫f(x)dx] = "integral ef ex dee ex"
+
+[t' = t / √(1 - v²/c²)] = "tea prime im tea root won vee two see two" => [v = fλ] = "v im f lamb" => [v = u + at] = "v im you a tea"
+
+[y = A sin(ωt - kx)] = "why im a sine oh em tea kay ex"
+
+[V = (4/3)πr³] = "v four thirds pie are three"
+
+[z = a + bi] = "zee im a bee eye"
+
+[τ = r × F] = "tau im are f" => [P = I²R] = "p im i two are"
+
+[V = IR] = "v im i are"
+
+[λ = h/p] = "lamb im h p"
+
+[n! = n × (n-1) × ... × 1] = "en fact en times en won one"
+
+[E = mc²] = "e im code two" => [E = ½mv²] = "e im half em v two"
+
+[s = ut + ½at²] = "s im you tea half a tea two"
+
+[sin θ = opp / hyp] = "sine theta im oppose hype" => [cos θ = adj / hyp] = "cosine theta im adj hype"
+
+[ax² + bx + c = 0] = "a ex two bee ex c zero"
+
+[E = hf] = "e im h f"
+
+[e^(iπ) + 1 = 0] = "e i pie won zero"
+
+[pH = -log[H⁺]] = "p h im log high on"
+
+[ΔU = Q - W] = "delta u im cue double u" => [Q = Δmc²] = "cue im delta em code two"
+
+[PV = nRT] = "p v im en are tea"
+
+[ΔP = ρgΔh] = "delta p im row jay delta h"
+
+[Xc = 1/(2πfC)] = "ex c im won two pie f c"

@@ -1,0 +1,32 @@
+{
+  "name": "fast-code-change-system",
+  "version": "1.0.0",
+  "description": "High-performance code modification engine for Qoder",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest --run --coverage",
+    "start:simulation": "ts-node src/main.ts"
+  },
+  "keywords": [
+    "code-modification",
+    "ide-automation",
+    "refactoring"
+  ],
+  "author": "Qoder",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "fast-check": "^3.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "dependencies": {
+    "@rollup/rollup-win32-x64-msvc": "^4.53.3"
+  }
+}

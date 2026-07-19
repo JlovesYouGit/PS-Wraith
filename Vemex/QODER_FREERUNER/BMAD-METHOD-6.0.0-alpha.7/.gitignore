@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+bun.lock
+deno.lock
+pnpm-workspace.yaml
+package-lock.json
+
+
+test-output/*
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build output
+build/*.txt
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Development tools and configs
+.prettierrc
+
+# IDE and editor configs
+.windsurf/
+.trae/
+.bmad*/.cursor/
+
+# AI assistant files
+CLAUDE.md
+.ai/*
+cursor
+.gemini
+.mcp.json
+CLAUDE.local.md
+.serena/
+
+# Project-specific
+.bmad-core
+.bmad-creator-tools
+test-project-install/*
+sample-project/*
+flattened-codebase.xml
+*.stats.md
+.internal-docs/
+#UAT template testing output files
+tools/template-test-generator/test-scenarios/
+
+# Bundler temporary files
+.bundler-temp/
+
+# Test Install Output
+
+z*/

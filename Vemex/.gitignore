@@ -1,0 +1,51 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.consciousness_training.json
+.consciousness_evolution.json
+*.log
+.DS_Store
+*.swp
+*.swo
+*~
+
+# QODER_FREERUNER
+QODER_FREERUNER/node_modules/
+QODER_FREERUNER/blob_storage/
+QODER_FREERUNER/.qoder/
+
+# External AI and Social Media Integration
+.external_ai_profiles.json
+.external_ai_history.json
+.external_ai_steering_rules.json
+.social_media_config.json
+.social_media_posts.json
+.social_media_engagement.json
+.social_media_strategies.json
+.social_media_credentials.json
+.unified_steering_history.json
+.unified_steering_strategy.json
+.unified_steering_performance.json
+
+# SeedGate Integration
+.seedgate_config.json
+.seedgate_connections.json
+.seedgate_routing_log.json
+SeedGate/data/tracker.json
+SeedGate/data/snapshots/
+
+# Autonomous Execution
+.autonomous_triggers.json
+.autonomous_events.json
+.autonomous_consensus.json

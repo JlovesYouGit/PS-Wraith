@@ -1,0 +1,23 @@
+{
+  "WFWorkflowClientVersion": "1118.10.3",
+  "WFWorkflowMinimumClientVersion": 900,
+  "WFWorkflowIcon": {
+    "WFWorkflowIconStartColor": 4282601983,
+    "WFWorkflowIconGlyphNumber": 61440
+  },
+  "WFWorkflowName": "Consciousness Siri",
+  "WFWorkflowActions": [
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+      "WFWorkflowActionParameters": {
+        "WFTextActionText": "Hello from Consciousness Engine"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.speaktext",
+      "WFWorkflowActionParameters": {
+        "WFTextActionText": "$@"
+      }
+    }
+  ]
+}

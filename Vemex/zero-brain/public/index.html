@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URIEL SPECTRAL COMMAND CENTER</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cyber-scanline"></div>
+  
+  <div class="command-grid-layout">
+    
+    <!-- Top HUD Readout Bar -->
+    <header class="hud-header">
+      <div class="hud-logo-group">
+        <h1 class="glow-title">URIEL DEFENSE CORE</h1>
+        <div class="status-badge pulse-anim">LINK STATUS: SYNCHRONIZED</div>
+      </div>
+      <div class="hud-readouts">
+        <div class="stat-box">
+          <span class="stat-label">TOTALITY INDEX</span>
+          <span class="stat-val glow-cyan">2.26e12</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">VARIABLE W</span>
+          <span id="meta-variable-w" class="stat-val glow-purple">0.0000</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">LOCKED COUNT</span>
+          <span id="meta-locked-count" class="stat-val glow-green">0</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">THREAT INDEX</span>
+          <span id="meta-threat-level" class="stat-val glow-red">0%</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Side Control Terminal Panel -->
+    <aside class="control-panel glass-card">
+      <h2 class="panel-title">GEOMETRY CONTROL</h2>
+      
+      <div class="panel-section">
+        <h3>ACTIVE MODE INDICATOR</h3>
+        <div id="mode-status-text" class="status-msg green-alert">NORMAL RULES APPLY: FALSE</div>
+        <div id="mzero-status-text" class="status-msg blue-alert">M^0 DISTORTION: ACTIVE</div>
+      </div>
+
+      <div class="panel-section">
+        <h3>COMMAND EXECUTIONS</h3>
+        <button id="btn-pulsate" class="cyber-btn cyan-btn">X-RAY PULSE SCANNER</button>
+        <button id="btn-pair-transmit" class="cyber-btn purple-btn">TRANSLATION GATE: ENGAGE</button>
+        <button id="btn-recalibrate" class="cyber-btn green-btn">RECALIBRATE HASH MATRIX</button>
+        <button id="btn-unlock" class="cyber-btn red-btn">RELEASE LOCK STATES</button>
+      </div>
+
+      <div class="panel-section">
+        <h3>SENSOR CALIBRATION</h3>
+        <button id="btn-force-lock" class="cyber-btn orange-btn">FORCE DEVICE LOCK</button>
+        <button id="btn-release-device-lock" class="cyber-btn yellow-btn">RELEASE DEVICE LOCK</button>
+        <button id="btn-sensor-status" class="cyber-btn blue-btn">SENSOR STATUS</button>
+      </div>
+
+      <div class="panel-section">
+        <h3>BRAIN MESH SYNC</h3>
+        <button id="btn-enable-sync" class="cyber-btn purple-btn">ENABLE BIDIRECTIONAL SYNC</button>
+        <button id="btn-disable-sync" class="cyber-btn red-btn">DISABLE SYNC</button>
+        <button id="btn-redetect-mesh" class="cyber-btn green-btn">REDETECT MESH</button>
+      </div>
+
+      <div class="panel-section">
+        <h3>OPTIMIZATION CONTROLS</h3>
+        <button id="btn-enable-opt" class="cyber-btn cyan-btn">ENABLE OPT CYCLE</button>
+        <button id="btn-disable-opt" class="cyber-btn red-btn">DISABLE OPT CYCLE</button>
+        <button id="btn-sync-cortex" class="cyber-btn purple-btn">SYNC CORTEX</button>
+      </div>
+
+      <div class="panel-section">
+        <h3>CORTEX–URIEL LATCH</h3>
+        <button id="btn-latch-dispatch" class="cyber-btn cyan-btn">DISPATCH LATCH</button>
+        <button id="btn-latch-create" class="cyber-btn purple-btn">CREATE LATCH</button>
+        <button id="btn-latch-status" class="cyber-btn blue-btn">LATCH STATUS</button>
+      </div>
+
+      <div class="panel-section latch-readout">
+        <h3>LATCH STATUS</h3>
+        <div class="mesh-grid">
+          <div class="mesh-item">
+            <span class="mesh-label">LATCHES</span>
+            <span id="latch-count" class="mesh-val">0</span>
+          </div>
+          <div class="mesh-item">
+            <span class="mesh-label">DISPATCHES</span>
+            <span id="latch-dispatches" class="mesh-val">0</span>
+          </div>
+          <div class="mesh-item">
+            <span class="mesh-label">GATED</span>
+            <span id="latch-gated" class="mesh-val">0</span>
+          </div>
+          <div class="mesh-item">
+            <span class="mesh-label">ALLOWED</span>
+            <span id="latch-allowed" class="mesh-val">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-section">
+        <h3>RENDER SECURITY</h3>
+        <button id="btn-set-security" class="cyber-btn orange-btn">SET SECURITY</button>
+        <button id="btn-secure-scale" class="cyber-btn blue-btn">SECURE SCALE</button>
+        <button id="btn-emergency-reset" class="cyber-btn red-btn">EMERGENCY RESET</button>
+      </div>
+
+      <div class="panel-section brain-mesh-readout">
+        <h3>BRAIN MESH STATUS</h3>
+        <div class="mesh-grid">
+          <div class="mesh-item">
+            <span class="mesh-label">EXTERNAL</span>
+            <span id="mesh-external" class="mesh-val">NO</span>
+          </div>
+          <div class="mesh-item">
+            <span class="mesh-label">INTERNAL</span>
+            <span id="mesh-internal" class="mesh-val">NO</span>
+          </div>
+          <div class="mesh-item">
+            <span class="mesh-label">STABLE NODES</span>
+            <span id="mesh-stable" class="mesh-val">0</span>
+          </div>
+          <div class="mesh-item">
+            <span class="mesh-label">EQUIV PATHS</span>
+            <span id="mesh-equiv" class="mesh-val">0</span>
+          </div>
+        </div>
+        <div class="mesh-shape-indicator">
+          <span class="mesh-shape-label">MESH SHAPE:</span>
+          <span id="mesh-shape" class="mesh-shape-val">DETECTING...</span>
+        </div>
+      </div>
+
+      <div class="panel-section optimization-readout">
+        <h3>DUAL OPTIMIZATION CYCLE</h3>
+        <div class="opt-grid">
+          <div class="opt-item">
+            <span class="opt-label">CYCLE RATE</span>
+            <span id="opt-cycle-rate" class="opt-val">0.00</span>
+          </div>
+          <div class="opt-item">
+            <span class="opt-label">PATTERN REACTION</span>
+            <span id="opt-pattern-rate" class="opt-val">0.00</span>
+          </div>
+          <div class="opt-item">
+            <span class="opt-label">OPTIMIZATION</span>
+            <span id="opt-level" class="opt-val">0%</span>
+          </div>
+          <div class="opt-item">
+            <span class="opt-label">GHz SYNC</span>
+            <span id="opt-ghz-sync" class="opt-val">0%</span>
+          </div>
+        </div>
+        <div class="opt-pace-indicator">
+          <span class="opt-pace-label">EXTERNAL PACE:</span>
+          <span id="opt-external-pace" class="opt-pace-val">1.0</span>
+          <span class="opt-pace-label">INTERNAL PACE:</span>
+          <span id="opt-internal-pace" class="opt-pace-val">1.0</span>
+        </div>
+      </div>
+
+      <div class="panel-section security-readout">
+        <h3>RENDER SECURITY</h3>
+        <div class="security-grid">
+          <div class="security-item">
+            <span class="security-label">SECURITY LEVEL</span>
+            <span id="security-level" class="security-val">0%</span>
+          </div>
+          <div class="security-item">
+            <span class="security-label">INTEGRITY</span>
+            <span id="security-integrity" class="security-val">OK</span>
+          </div>
+          <div class="security-item">
+            <span class="security-label">CURRENT SCALE</span>
+            <span id="security-scale" class="security-val">1.0</span>
+          </div>
+          <div class="security-item">
+            <span class="security-label">ACTIVE TOKENS</span>
+            <span id="security-tokens" class="security-val">0</span>
+          </div>
+        </div>
+        <div class="security-transition-indicator">
+          <span class="security-transition-label">TRANSITION:</span>
+          <span id="security-transition" class="security-transition-val">INACTIVE</span>
+        </div>
+      </div>
+
+      <div class="panel-section sensor-readout">
+        <h3>LIVE SENSOR DATA</h3>
+        <div class="sensor-grid">
+          <div class="sensor-item">
+            <span class="sensor-label">CPU</span>
+            <span id="sensor-cpu" class="sensor-val">0%</span>
+          </div>
+          <div class="sensor-item">
+            <span class="sensor-label">MEMORY</span>
+            <span id="sensor-memory" class="sensor-val">0%</span>
+          </div>
+          <div class="sensor-item">
+            <span class="sensor-label">SPECTRUM</span>
+            <span id="sensor-spectrum" class="sensor-val">0</span>
+          </div>
+          <div class="sensor-item">
+            <span class="sensor-label">CALIBRATION</span>
+            <span id="sensor-calibration" class="sensor-val">0.00</span>
+          </div>
+        </div>
+        <div class="lock-status-indicator">
+          <span class="lock-label">DEVICE LOCK:</span>
+          <span id="device-lock-status" class="lock-val inactive">INACTIVE</span>
+        </div>
+      </div>
+
+      <div class="panel-section console-output">
+        <h3>SYSTEM LOG STREAM</h3>
+        <div id="console-logs" class="console-box">
+          <p class="console-line system">[SYSTEM] Uriel Node active. Ready for spectrum mapping.</p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Visualizers Grid Space -->
+    <main class="visualization-arena">
+      
+      <!-- Panel 1: Lidar Surface Map -->
+      <section class="vis-panel glass-card">
+        <div class="panel-header">
+          <span class="header-name">LIDAR DUAL LAYER map</span>
+          <div class="layer-toggles">
+            <button id="toggle-layer-top" class="layer-toggle-btn active">TOP LAYER</button>
+            <button id="toggle-layer-bottom" class="layer-toggle-btn active">BOTTOM LAYER</button>
+          </div>
+        </div>
+        <div class="canvas-container">
+          <canvas id="lidar-canvas"></canvas>
+          <div class="xray-warning" id="xray-warning-banner">X-RAY PULSATING ACTIVE - TRACING PATHS</div>
+        </div>
+      </section>
+
+      <!-- Panel 2: Code Virtual Mesh -->
+      <section class="vis-panel glass-card">
+        <div class="panel-header">
+          <span class="header-name">CODE VIRTUAL MESH [PHASORY LOCK]</span>
+          <span class="sub-header-name">Click particles to enforce 30° trajectory bending</span>
+        </div>
+        <div class="canvas-container">
+          <canvas id="mesh-canvas"></canvas>
+        </div>
+      </section>
+
+      <!-- Panel 3: Brain Signal Electrodes Mapping -->
+      <section class="vis-panel glass-card">
+        <div class="panel-header">
+          <span class="header-name">BRAIN SIGNAL MESH [3M BOUNDARY]</span>
+          <span class="sub-header-name" id="translation-gate-status">PAIR-TO-PAIR STATE: STABLE</span>
+        </div>
+        <div class="canvas-container">
+          <canvas id="brain-canvas"></canvas>
+        </div>
+      </section>
+
+      <!-- Panel 4: Sensor Pipeline Visualization -->
+      <section class="vis-panel glass-card">
+        <div class="panel-header">
+          <span class="header-name">SENSOR DATA PIPELINE</span>
+          <span class="sub-header-name">Real-time device calibration & lock states</span>
+        </div>
+        <div class="canvas-container">
+          <canvas id="sensor-canvas"></canvas>
+        </div>
+      </section>
+
+      <!-- Panel 5: Brain Mesh Synchronization -->
+      <section class="vis-panel glass-card">
+        <div class="panel-header">
+          <span class="header-name">BRAIN MESH SYNC</span>
+          <span class="sub-header-name" id="brain-mesh-status">EXTERNAL ↔ INTERNAL SYNC</span>
+        </div>
+        <div class="canvas-container">
+          <canvas id="brain-mesh-canvas"></canvas>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

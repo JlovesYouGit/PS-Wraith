@@ -1,0 +1,14 @@
+{"timestamp": "2026-07-04T17:06:32.950633", "node_id": "node_002", "traffic": {"action": "ip_update_from_uri", "new_ip": "23.192.36.68", "uri": "https://www.cia.gov"}}
+{"timestamp": "2026-07-04T17:06:33.111386", "node_id": "node_002", "traffic": {"data": "response", "origin_ip": "23.192.36.68", "origin_node": "node_002"}}
+{"timestamp": "2026-07-04T17:07:17.968330", "node_id": "node_002", "traffic": {"action": "ip_update_from_uri", "new_ip": "23.192.36.88", "uri": "https://www.cia.gov"}}
+{"timestamp": "2026-07-04T17:07:18.171211", "node_id": "node_002", "traffic": {"data": "response", "origin_ip": "23.192.36.88", "origin_node": "node_002"}}
+{"timestamp": "2026-07-04T17:08:53.093616", "node_id": "node_002", "traffic": {"action": "ip_update_from_uri", "new_ip": "23.192.36.88", "uri": "https://www.cia.gov"}}
+{"timestamp": "2026-07-04T17:08:55.286938", "node_id": "node_002", "traffic": {"data": "response", "origin_ip": "23.192.36.88", "origin_node": "node_002"}}
+{"timestamp": "2026-07-04T17:09:46.416333", "node_id": "node_002", "traffic": {"action": "ip_update_from_uri", "new_ip": "23.192.36.68", "uri": "https://www.cia.gov"}}
+{"timestamp": "2026-07-04T17:09:48.610077", "node_id": "node_002", "traffic": {"data": "response", "origin_ip": "23.192.36.68", "origin_node": "node_002"}}
+{"timestamp": "2026-07-04T17:09:58.247922", "node_id": "node_002", "traffic": {"action": "ip_update_from_uri", "new_ip": "23.192.36.68", "uri": "https://www.cia.gov"}}
+{"timestamp": "2026-07-04T17:10:00.434259", "node_id": "node_002", "traffic": {"data": "response", "origin_ip": "23.192.36.68", "origin_node": "node_002"}}
+{"timestamp": "2026-07-04T17:10:09.209428", "node_id": "node_002", "traffic": {"action": "ip_update_from_uri", "new_ip": "23.192.36.68", "uri": "https://www.cia.gov"}}
+{"timestamp": "2026-07-04T17:10:11.385919", "node_id": "node_002", "traffic": {"data": "response", "origin_ip": "23.192.36.68", "origin_node": "node_002"}}
+{"timestamp": "2026-07-04T17:10:25.159687", "node_id": "node_002", "traffic": {"action": "ip_update_from_uri", "new_ip": "23.192.36.68", "uri": "https://www.cia.gov"}}
+{"timestamp": "2026-07-04T17:11:18.594152", "node_id": "node_002", "traffic": {"action": "ip_update_from_uri", "new_ip": "23.192.36.68", "uri": "https://www.cia.gov"}}

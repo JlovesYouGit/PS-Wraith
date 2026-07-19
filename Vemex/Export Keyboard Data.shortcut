@@ -1,0 +1,52 @@
+{
+  "WFWorkflowClientVersion": "1118.10.3",
+  "WFWorkflowMinimumClientVersion": 900,
+  "WFWorkflowIcon": {
+    "WFWorkflowIconStartColor": 4282601983,
+    "WFWorkflowIconGlyphNumber": 61440
+  },
+  "WFWorkflowImportQuestions": [],
+  "WFWorkflowTypes": [
+    "NCWidget",
+    "WatchKit",
+    "WatchKit Complication",
+    "Intent",
+    "X-Callback-URL",
+    "Menu Bar",
+    "Action Extension",
+    "Quick Actions",
+    "Today Extension",
+    "Share",
+    "Spotlight",
+    "Photo Editing",
+    "Photo Filter",
+    "Dictionary",
+    "Favorites",
+    "Application",
+    "Action",
+    "URL",
+    "Input",
+    "Sleep",
+    "Message",
+    "Open"
+  ],
+  "WFWorkflowInputContentItemClasses": [
+    "WFStringContentItem",
+    "WFURLContentItem",
+    "WFJSONContentItem"
+  ],
+  "WFWorkflowActions": [
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+      "WFWorkflowActionParameters": {
+        "WFTextActionText": "{\"text_replacements\": [], \"timestamp\": \"$(date)\"}"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.quicklook",
+      "WFWorkflowActionParameters": {}
+    }
+  ],
+  "WFWorkflowName": "Export Keyboard Data",
+  "WFWorkflowOutput": {}
+}

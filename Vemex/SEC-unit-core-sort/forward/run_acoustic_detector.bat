@@ -1,0 +1,6 @@
+@echo off
+echo Running Acoustic Fluctuation Detector...
+echo Using WiFi signal monitoring to detect sound wave interactions...
+echo.
+python acoustic_fluctuation_detector.py
+pause

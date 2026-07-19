@@ -1,0 +1,34 @@
+{
+  "parallelExecution": {
+    "enabled": true,
+    "maxConcurrentTools": 10,
+    "defaultToParallel": true,
+    "strategies": {
+      "informationGathering": {
+        "parallelize": true,
+        "tools": ["search_codebase", "search_symbol", "list_dir", "search_file", "grep_code"],
+        "maxParallel": 5
+      },
+      "fileOperations": {
+        "parallelize": false,
+        "reason": "File operations must be sequential to maintain consistency",
+        "tools": ["search_replace", "edit_file", "create_file", "delete_file"]
+      },
+      "terminalOperations": {
+        "parallelize": false,
+        "reason": "Terminal operations must be sequential to ensure proper execution order",
+        "tools": ["run_in_terminal", "get_terminal_output"]
+      }
+    }
+  },
+  "toolOptimization": {
+    "maximizeParallelToolCalls": true,
+    "batchSimilarOperations": true,
+    "prePlanParallelizableTasks": true
+  },
+  "performance": {
+    "enableCaching": true,
+    "contextPreservation": true,
+    "memoryEfficiency": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "wraith_ps4_primary": {
+    "mac": null,
+    "ip": null,
+    "port": 5000,
+    "established": false,
+    "transport": "network",
+    "hostname": "PS4",
+    "source": "wraith_auto_discover",
+    "adapter": "USB-C_Ethernet",
+    "timestamp": "2026-07-18T16:11:59-07:00",
+    "ps4_candidate": false,
+    "score": 0,
+    "reasons": [],
+    "keep_alive": false,
+    "connection_state": "disconnected",
+    "lan_mac": null,
+    "sender_mac": null,
+    "receiver_mac": null,
+    "mac_route": {
+      "from": null,
+      "to": null,
+      "gateway": null,
+      "interface": "en0",
+      "adapter": "USB-C_Ethernet"
+    }
+  }
+}

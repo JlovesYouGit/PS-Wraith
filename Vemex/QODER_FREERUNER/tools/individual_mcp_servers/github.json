@@ -1,0 +1,10 @@
+{
+  "command": "npx",
+  "args": [
+    "-y",
+    "@modelcontextprotocol/server-github"
+  ],
+  "env": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": "<github_pat_11BUIJDRA0ijr6WhL9yKq_5DLAdXASjNQz4luT35moh3feWc9O7ujklfj0NPBsCgKTVBHT2NYUa91Wh4O>"
+  }
+}

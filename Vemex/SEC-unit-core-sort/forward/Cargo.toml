@@ -1,0 +1,13 @@
+[package]
+name = "threat_elimination_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "threat_elimination_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+num = "0.4"
+num-complex = "0.4"
+rustfft = "6.0"

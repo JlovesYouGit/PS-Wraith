@@ -1,0 +1,365 @@
+{
+    "telemetry.machineId": "5175dbdaeda1197f44b6b0705ab0e0508f3988a4195b3a1523395d3edb187041",
+    "telemetry.sqmId": "{7FD16186-8890-4E05-AA03-4071641C5087}",
+    "telemetry.devDeviceId": "aa3f7b86-a0bc-43d9-829d-00439aed79eb",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///c%3A/"
+            },
+            {
+                "folderUri": "file:///n%3A/MOTHERBOARDSECONDINTERPRETER"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1773332046828"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///c%3A/Users/JJ/Downloads/etst": "__default__profile__",
+            "file:///n%3A/sms": "__default__profile__",
+            "file:///c%3A/Users/JJ/AppData/Roaming/Qoder/SharedClientCache": "__default__profile__",
+            "file:///c%3A/Users/JJ/AppData/Roaming/Qoder": "__default__profile__",
+            "file:///n%3A/autoinvestor": "__default__profile__",
+            "file:///n%3A/oage": "__default__profile__",
+            "file:///n%3A/webdesing/secure-showcase-app": "__default__profile__",
+            "file:///n%3A/blackhole": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/Video%20Games/FSR4.GUIDE/FSR4": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/NEXUS": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/Grok%201": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/classes": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/aws/n8n-n8n-1.115.3": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/aws/n8n-n8n-1.115.3/n8n%20projects": "__default__profile__",
+            "file:///n%3A/": "__default__profile__",
+            "file:///n%3A/vrchat": "__default__profile__",
+            "file:///n%3A/vrchat/dist/RedObliterateAvatar_VCC_Fixed_With_GestureManager": "__default__profile__",
+            "file:///n%3A/textai%20to%20generation": "__default__profile__",
+            "file:///n%3A/Openmanus": "__default__profile__",
+            "file:///n%3A/Openmanus/OpenManus/app/utils": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/smarttrader": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/quizzbypass": "__default__profile__",
+            "file:///n%3A/ethchain": "__default__profile__",
+            "file:///c%3A/Windows": "__default__profile__",
+            "file:///c%3A/Program%20Files%20%28x86%29/Windows%20Defender": "__default__profile__",
+            "file:///c%3A/AMD/AMD%20Software%20Cloud%20Edition%2023.Q3": "__default__profile__",
+            "file:///c%3A/AMD/RyzenMasterExtract": "__default__profile__",
+            "file:///c%3A/AMD": "__default__profile__",
+            "file:///c%3A/Users/JJ/.ollama/models/manifests/registry.ollama.ai/library": "__default__profile__",
+            "file:///c%3A/Users/JJ/.ollama/models/manifests/registry.ollama.ai": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/testing": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/PRT": "__default__profile__",
+            "file:///c%3A/": "__default__profile__",
+            "file:///n%3A/bolderlands/Borderlands%202%20-%20Remastered": "__default__profile__",
+            "file:///n%3A/Sentinel": "__default__profile__",
+            "file:///n%3A/Sentinel/Sent/ai-siem-Release_1_4": "__default__profile__",
+            "file:///n%3A/Sentinel/BMAD-METHOD-6.0.0-alpha.7/BMAD-METHOD-6.0.0-alpha.7": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/caos%20%20bringer": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/New%20folder%20%286%29": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/browserz": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/bypasscity": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/upgrade": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/lest": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/lest/Agus": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/satview": "__default__profile__",
+            "file:///n%3A/antminer": "__default__profile__",
+            "file:///n%3A/miner%202/wallet": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/ADN_CODEX": "__default__profile__",
+            "file:///n%3A/Games/Age%20of%20Wonders%204": "__default__profile__",
+            "file:///n%3A/os": "__default__profile__",
+            "file:///n%3A/NEW%20DION%20LAUNCH": "__default__profile__",
+            "file:///c%3A/Users/JJ/AppData/Local": "__default__profile__",
+            "file:///c%3A/Users/JJ/AppData/Roaming/Antigravity": "__default__profile__",
+            "file:///c%3A/Users/JJ/AppData/Local/Programs/Antigravity/tools": "__default__profile__",
+            "file:///n%3A/triback": "__default__profile__",
+            "file:///n%3A/music": "__default__profile__",
+            "file:///c%3A/Program%20Files/AMD": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/aws/fisica": "__default__profile__",
+            "file:///n%3A/forward": "__default__profile__",
+            "file:///n%3A/email": "__default__profile__",
+            "file:///n%3A/mittransfer": "__default__profile__",
+            "file:///n%3A/paylint": "__default__profile__",
+            "file:///n%3A/coursera": "__default__profile__",
+            "file:///n%3A/tor": "__default__profile__",
+            "file:///n%3A/Games/Elden%20Ring": "__default__profile__",
+            "file://wsl.localhost/Ubuntu/home/linbuntu/downloads": "__default__profile__",
+            "file:///n%3A/LINUX": "__default__profile__",
+            "file://wsl.localhost/Arch/home/linark/Donwloads/Working%20DIR": "__default__profile__",
+            "file://wsl.localhost/Arch/home/linark/Donwloads/Working%20DIR/home": "__default__profile__",
+            "file:///n%3A/realitbraker": "__default__profile__",
+            "file:///n%3A/security%20update": "__default__profile__",
+            "file:///n%3A/Itunes%20ipod%20os%20classic": "__default__profile__",
+            "file:///d%3A/": "__default__profile__",
+            "file:///c%3A/Users/JJ": "__default__profile__",
+            "file:///n%3A/INT%20UPDATE": "__default__profile__",
+            "file:///n%3A/RT_RNG_KYPERO_PROTOCOL_": "__default__profile__",
+            "file:///n%3A/MANA%20CONVERT%20BIOLOGIC%20ALTERATION%20_%20ALIS": "__default__profile__",
+            "file:///n%3A/RECOLECTION_IVY": "__default__profile__",
+            "file:///c%3A/Users/JJ/Downloads/force%20remove%20pim": "__default__profile__",
+            "file:///n%3A/REITS%20_%20OF%20BEYOND_%20WORLD%20ORDER%20RECOLLAPSE%20__%20ENGENIU": "__default__profile__",
+            "file:///n%3A/seven%20deadly%20sins_MAGNOLIA": "__default__profile__",
+            "file:///n%3A/reverse%20tessarake": "__default__profile__",
+            "file:///n%3A/safe%20-%20depression%20med%20-%20tech": "__default__profile__",
+            "file:///c%3A/Program%20Files%20%28x86%29/VulkanRT/msi%20-%20vulkryser%20kit%20-gen4": "__default__profile__",
+            "file:///n%3A/moneybank": "__default__profile__",
+            "file:///n%3A/MOTHERBOARDSECONDINTERPRETER": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#181a1b",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#e7e9ed",
+            "background": "#181a1b",
+            "editorBackground": "#181a1b",
+            "titleBarBackground": "#222426",
+            "titleBarBorder": "#121517",
+            "activityBarBackground": "#222426",
+            "activityBarBorder": "#121517",
+            "sideBarBackground": "#222426",
+            "sideBarBorder": "#121517",
+            "statusBarBackground": "#222426",
+            "statusBarBorder": "#121517",
+            "statusBarNoFolderBackground": "#222426"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 44,
+            "sideBarWidth": 170,
+            "auxiliarySideBarWidth": 400,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///n%3A/MOTHERBOARDSECONDINTERPRETER",
+            "backupPath": "C:\\Users\\JJ\\AppData\\Roaming\\Qoder\\Backups\\fc5697f4707cb1449e1642855bae3afe",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 9,
+                "width": 1204,
+                "height": 805
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 400,
+            "workspaces": {
+                "46befca2825941fd3a320fca409e75d6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "e3ab89f9c841c0e8b61633444a3744f8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "e6f487f2cc3e8545efe6a12ff8e90fb2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "223e1d79652fa4739892f572ee005f7c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "3a47463110b41338c5626457fb883150": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "563c3fd1eda92992e1cd8164d65ca375": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "da21a9d28662e044f22f7f346ac56f6c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "adf8c0ad00e4cf9e0515171b79c12cd6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "ab58da741af4ead6d578bf4bc85703ba": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "664008c93c13dc9348723881278144c3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "cbeea033714b79e854fe97460bb217ba": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "f3e3900e807b0a45e7d6ed8eb4c54f2d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "0663ff3fd1231581d20734c946e2ce8e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "d6716528b6e6711637f561fca7bd7d7f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "102fedba05fc7d491da38c679844a46b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "ad5ccd059418c3f9e46b2b7887dee9fb": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "cecfc8dc12950bfc5b3ed7e4031c21e5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "8dbfaddc53bd746c8a17d20c106c4c8d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "16af6edb639d21f9222a38b551291e5d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "e83b32a26b33a5d61faaeab9a3607207": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "0122759cdfd844de8bf94e803fd91773": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "378b15491ccc6a62f6b9e222cab8f057": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "294e5a4d5d1add2df1035e98f002b24b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "d39a56716c390593edd90242bf141c52": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "72953ab30c57195abf6ea7031d3231fd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "0e4e8e0b7470d38ca0ae536411ea8a53": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "ab38475ba5b6060eb5447a789f725fea": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "17aba44b8b7893652a3a2996d38ff14c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "9969c6dd2cf374cdc580482d3b62ecdd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "5ba8b5e95dbe02e86e404ae69d90fa72": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "0ae74fb88c282ffc94c88dc84342d893": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "a338373c17fb48500dc827b92ba35cb1": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "fa913e46f920856227db9f4675500bb6": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                },
+                "aaf93d50bf36287b5d923f8ca800bda5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "c3739bb00727a552d0778772cb6f89f0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "c3c3a72dbfb087fa0e0629572dbcb0e0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "8d3b67cc045958a4242345ec8bda85fd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "4e343f17a256d0b98b775028e4870de2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "80eb2bbb4bfcf42cc2eb44705a037c1a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "103b7e5eaeb3b9e6fca63b0898fab0a3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "6f589d47df16ad053bd897f6f8e9e1ee": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "02cec90b0c95d096dbafc6f9dc133ef0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "987e298da76f4b1c6c04aa5e9a27bef4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "70d72b0a05113e51dd551a01354de610": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d26e85192d62b714ad6869ddece1169e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "db7eeb80550f4c9a54b36c80ddd199ce": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "9bf9239d62ad17da2ce598d888002b4a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "d7ba12081be7d0a51e069ecb1d276d31": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "9bd50739da5ce7701daae4927d44776a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "2d413961e39c5714e230f75ee393a21f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

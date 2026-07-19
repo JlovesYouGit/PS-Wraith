@@ -1,0 +1,20 @@
+{
+  "name": "unified-consciousness-render",
+  "version": "1.0.0",
+  "description": "Unified color consciousness rendering system integrating zero-brain, bow-of-Achilles, QNT-Blue, and F-dump code exchange",
+  "main": "consciousness-core.js",
+  "scripts": {
+    "start": "node consciousness-core.js",
+    "monitor": "node monitor-fluctuations.js",
+    "exchange": "node code-exchange-runner.js",
+    "exchange:init": "node -e \"require('./consciousness-exchange').ConsciousnessExchange.prototype.initialize.call(new (require('./consciousness-exchange').ConsciousnessExchange)())\""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "python-shell": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

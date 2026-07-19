@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp_unix": 1782499130.0950406,
+    "timestamp_iso": "2026-06-26T18:38:50.095040+00:00",
+    "coordinate": {
+      "value": 5,
+      "min": -16,
+      "max": 10000,
+      "hex": "0x5",
+      "virtual_hash": "46986528415d688b",
+      "virtual_bit_space": 120
+    },
+    "narrative_state": "OBSERVER",
+    "event": "intake_initialized",
+    "data": {
+      "port": 19753,
+      "coordinate": {
+        "value": 5,
+        "min": -16,
+        "max": 10000,
+        "hex": "0x5",
+        "virtual_hash": "46986528415d688b",
+        "virtual_bit_space": 120
+      }
+    },
+    "checksum": "6002e1069def03083a270b9df35be2962d11731a141cb49da27894ddcfdd5c26"
+  },
+  {
+    "timestamp_unix": 1782499179.4274426,
+    "timestamp_iso": "2026-06-26T18:39:39.427442+00:00",
+    "coordinate": {
+      "value": 5,
+      "min": -16,
+      "max": 10000,
+      "hex": "0x5",
+      "virtual_hash": "46986528415d688b",
+      "virtual_bit_space": 120
+    },
+    "narrative_state": "OBSERVER",
+    "event": "intake_initialized",
+    "data": {
+      "port": 19753,
+      "coordinate": {
+        "value": 5,
+        "min": -16,
+        "max": 10000,
+        "hex": "0x5",
+        "virtual_hash": "46986528415d688b",
+        "virtual_bit_space": 120
+      }
+    },
+    "checksum": "2acd76ec381a1f9df31755f1588855a4f1368d50c3fc6515e878e03d7d9bd1fe"
+  },
+  {
+    "timestamp_unix": 1782499180.0392249,
+    "timestamp_iso": "2026-06-26T18:39:40.039224+00:00",
+    "coordinate": {
+      "value": 5,
+      "min": -16,
+      "max": 10000,
+      "hex": "0x5",
+      "virtual_hash": "46986528415d688b",
+      "virtual_bit_space": 120
+    },
+    "narrative_state": "OBSERVER",
+    "event": "connection_accepted",
+    "data": {
+      "peer": "127.0.0.1:41863",
+      "first_ping": true,
+      "cumulative_n": 781
+    },
+    "checksum": "c1ad1e1acf40dc27f90c204d247abaa66047c199c108a9759df8ec4a21986805"
+  }
+]

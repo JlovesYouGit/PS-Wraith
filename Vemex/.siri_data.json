@@ -1,0 +1,70 @@
+{
+  "interactions": [
+    {
+      "input": "Who are you?",
+      "response": "Writing in 1866 to Anna Korvin -Krukovskaya (whom Dostoevsky had once courted and who is thought to have inspired the character of Aglaya Epanchin in The Idiot), Dostoevsky praised his niece, saying, ",
+      "feedback": 0.91292,
+      "timestamp": 1784253711.535511
+    },
+    {
+      "input": "Tell me about Dostoevsky.",
+      "response": "feelings about fatherhood: \"I have been feeling, for almost a month now, terribly much that is new and that until now has been unfamiliar to me, from exactly that moment that I first saw my Sonya, up ",
+      "feedback": 0.94836,
+      "timestamp": 1784253711.553065
+    },
+    {
+      "input": "Who are you?",
+      "response": "Writing in 1866 to Anna Korvin -Krukovskaya (whom Dostoevsky had once courted and who is thought to have inspired the character of Aglaya Epanchin in The Idiot), Dostoevsky praised his niece, saying, ",
+      "feedback": 0.91292,
+      "timestamp": 1784253763.676682
+    },
+    {
+      "input": "Tell me about Dostoevsky.",
+      "response": "feelings about fatherhood: \"I have been feeling, for almost a month now, terribly much that is new and that until now has been unfamiliar to me, from exactly that moment that I first saw my Sonya, up ",
+      "feedback": 0.94836,
+      "timestamp": 1784253763.695914
+    },
+    {
+      "input": "Who are you?",
+      "response": "Writing in 1866 to Anna Korvin -Krukovskaya (whom Dostoevsky had once courted and who is thought to have inspired the character of Aglaya Epanchin in The Idiot), Dostoevsky praised his niece, saying, ",
+      "feedback": 0.9,
+      "timestamp": 1784253882.419055
+    },
+    {
+      "input": "What is your name?",
+      "response": "of the Bronze Horseman that turns into a fire truck speeding to a fire. Furthermore, What_half What_tenth What_three_q What_sixteenth What_seven_e. Furthermore, lamb im h p. Furthermore, ef prime ex i",
+      "feedback": 0.9,
+      "timestamp": 1784253915.1998389
+    },
+    {
+      "input": "How do you feel right now?",
+      "response": "If you write that you have rather felt my absence, then how much more have I yours. Furthermore, How_half How_tenth How_three_q How_sixteenth How_seven_e. Furthermore, ef prime ex im dee why dee ex. F",
+      "feedback": 0.95835,
+      "timestamp": 1784255207.206224
+    },
+    {
+      "input": "How do you feel right now?",
+      "response": "If you write that you have rather felt my absence, then how much more have I yours. Furthermore, How_half How_tenth How_three_q How_sixteenth How_seven_e. Furthermore, ef prime ex im dee why dee ex. F",
+      "feedback": 0.95835,
+      "timestamp": 1784257594.9048991
+    },
+    {
+      "input": "How do you feel right now?",
+      "response": "to trouble you, send me the 25 rubles you have left here, to Geneva, immediately, if possible. Furthermore, How_half How_tenth How_three_q How_sixteenth How_seven_e. Furthermore, ef prime ex im dee wh",
+      "feedback": 0.95835,
+      "timestamp": 1784307651.9547908
+    },
+    {
+      "input": "How do you feel right now?",
+      "response": "If you write that you have rather felt my absence, then how much more have I yours. Furthermore, How_half How_tenth How_three_q How_sixteenth How_seven_e. Furthermore, ef prime ex im dee why dee ex. F",
+      "feedback": 0.95835,
+      "timestamp": 1784307742.874551
+    },
+    {
+      "input": "test unrestricted execution",
+      "response": "the fact that Nastasya chooses the \"wrong\" man (Rogozhin) in the first scene and Myshkin chooses the \"wrong\" woman (Nastasya) in the last, suggests that choice, sexual and otherwise, is completely de-",
+      "feedback": 0.91291,
+      "timestamp": 1784308097.404128
+    }
+  ]
+}

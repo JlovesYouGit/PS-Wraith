@@ -1,0 +1,2638 @@
+{
+  "ingestion_time": 2.2547008991241455,
+  "total_files": 21,
+  "total_patterns": 4025,
+  "modules": {
+    "uriel-cortex-latch.js": {
+      "name": "uriel-cortex-latch",
+      "classes": [
+        "CortexUrielLatch"
+      ],
+      "functions": [],
+      "exports": [
+        "CortexUrielLatch"
+      ],
+      "imports": [
+        "fs",
+        "crypto",
+        "./uriel-ultimate-defense/src/external-link"
+      ],
+      "total_lines": 512,
+      "complexity_score": 10.0,
+      "consciousness_patterns": []
+    },
+    "test-cortex-latch.js": {
+      "name": "test-cortex-latch",
+      "classes": [],
+      "functions": [
+        "runLatchTests",
+        "assert"
+      ],
+      "exports": [
+        "runLatchTests"
+      ],
+      "imports": [
+        "./uriel-ultimate-defense/src/core",
+        "./uriel-cortex-latch"
+      ],
+      "total_lines": 116,
+      "complexity_score": 2.3,
+      "consciousness_patterns": []
+    },
+    "server.js": {
+      "name": "server",
+      "classes": [],
+      "functions": [
+        "generateTraces",
+        "spawnElectron",
+        "getLatchHandlers",
+        "getPathContextForWrite",
+        "getLatchWriteOptions",
+        "broadcastSSE",
+        "generateBrainModulePattern",
+        "calculatePatternMatch",
+        "createCollidingChannel",
+        "updateCollidingChannels",
+        "initializeVirtualSensors",
+        "initializeDataPipelines",
+        "startSensorCalibration",
+        "readAllSensors",
+        "updateSensorReading",
+        "processDataPipelines",
+        "convertSensorToCalibration",
+        "convertCalibrationToLockState",
+        "convertLockStateToDeviceEffect",
+        "updateRealLockStates",
+        "applyRealLockStates",
+        "applyDeviceEffects",
+        "getSensorStatus",
+        "getCalibrationStatus",
+        "initializeBrainMeshSystem",
+        "detectExternalBrainMesh",
+        "analyzeMeshTopology",
+        "detectMeshShape",
+        "initializeInternalNeuralPaths",
+        "startBidirectionalSync",
+        "syncExternalToInternal",
+        "syncInternalToExternal",
+        "updateNodeStability",
+        "trackTravelPaths",
+        "calculatePathMovement",
+        "getBrainMeshStatus",
+        "initializeAsyncCortexCache",
+        "readExternalCortexData",
+        "generateNeuralPatterns",
+        "generateFiringRates",
+        "generateSynapticActivity",
+        "cleanupExpiredCache",
+        "getCortexData",
+        "startDualOptimizationCycle",
+        "runDualOptimizationCycle",
+        "updateDualOptimizationFromCortex",
+        "getCpuGhz",
+        "manageDataDumpBuffer",
+        "updateHardwareLayer",
+        "applyHardwareOptimizations",
+        "logOptimizationCycle",
+        "getMethodHandle",
+        "executeMethodHandle",
+        "syncExternalCortex",
+        "syncCortexToInternal",
+        "optimizeHardware",
+        "flushDataDumpBuffer",
+        "getOptimizationStats",
+        "initializeRenderSecurity",
+        "initializeScaleFactors",
+        "performIntegrityCheck",
+        "validateRenderIntegrity",
+        "emergencyScaleReset",
+        "startSecureTransition",
+        "generateSecurityToken",
+        "executeLosslessTransition",
+        "applyLosslessScaling",
+        "verifySecurityToken",
+        "cleanupExpiredTokens",
+        "getRenderSecurityStatus",
+        "setSecurityLevel",
+        "secureScaleElement",
+        "initializeMambaWeightSystem",
+        "initializeQBOMCoherenceBalancers",
+        "pickClosestSecureLane",
+        "convertALogToAWeights",
+        "deriveALogFromSpectrumPath",
+        "qbomZoneQuantize",
+        "qbomZoneRecall",
+        "qbomBatchRecall",
+        "logWeightStatistics",
+        "detectGibberishOutput",
+        "initializeInProjSplitViaQBOM",
+        "generateQBOMZoneDescriptors",
+        "logInProjStatisticsQBOM",
+        "calculateWeightStats",
+        "initializeDeltaBiasHandling",
+        "initializeKVCacheSystem",
+        "initializeSplitCache",
+        "deriveKVWeights",
+        "initializeSuperSamplingDistribution",
+        "calculateSuperSamplingDistribution",
+        "initializeAttentionMetadata",
+        "generateExponentialConsShape",
+        "allocateMeshCoordinates",
+        "queryCacheLayer",
+        "arrangeForExternalMesh",
+        "arrangeForInternalMesh",
+        "generateUnifiedFormat",
+        "resolveDTypeViaCoordination",
+        "quantizeWeightsBasedOnCortexLoad",
+        "quantizeValue",
+        "initializeEmbeddedModeling",
+        "initializeEmbeddingRoutes",
+        "generateEmbedding",
+        "initializeContextCache",
+        "generateTokenToEmbeddedContext",
+        "applyHadamardGating",
+        "splitKVCacheToSuperSampling",
+        "initializeResourceAllocation",
+        "allocateResources",
+        "getMambaWeightStatus",
+        "getKVCacheStatus",
+        "getEmbeddedModelStatus",
+        "getResourceAllocationStatus"
+      ],
+      "exports": [],
+      "imports": [
+        "http",
+        "fs",
+        "path",
+        "crypto",
+        "os",
+        "child_process",
+        "./uriel-ultimate-defense/src/core",
+        "./uriel-cortex-latch"
+      ],
+      "total_lines": 3270,
+      "complexity_score": 10.0,
+      "consciousness_patterns": []
+    },
+    "public/app.js": {
+      "name": "app",
+      "classes": [],
+      "functions": [
+        "resizeCanvases",
+        "renderLidar",
+        "renderMesh",
+        "renderBrain",
+        "renderSensorPipeline",
+        "renderBrainMeshSync",
+        "updateSensorDisplays",
+        "updateBrainMeshDisplays",
+        "updateOptimizationDisplays",
+        "updateSecurityDisplays",
+        "appendConsoleLog",
+        "sendAction",
+        "updateLatchDisplays"
+      ],
+      "exports": [],
+      "imports": [],
+      "total_lines": 1020,
+      "complexity_score": 10.0,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/simulate.js": {
+      "name": "simulate",
+      "classes": [],
+      "functions": [
+        "runRenderParadoxSimulation"
+      ],
+      "exports": [
+        "runRenderParadoxSimulation"
+      ],
+      "imports": [
+        "./core"
+      ],
+      "total_lines": 597,
+      "complexity_score": 10.0,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/spectrum-field.js": {
+      "name": "spectrum-field",
+      "classes": [
+        "SpectrumFieldDetector",
+        "ExternalFieldBandwidthController",
+        "SpectrumFieldLockEngine"
+      ],
+      "functions": [],
+      "exports": [
+        "ExternalFieldBandwidthController",
+        "SpectrumFieldDetector",
+        "SpectrumFieldLockEngine"
+      ],
+      "imports": [
+        "events",
+        "crypto"
+      ],
+      "total_lines": 360,
+      "complexity_score": 10.0,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/network-layer.js": {
+      "name": "network-layer",
+      "classes": [
+        "NetworkNode",
+        "BrowserBridge"
+      ],
+      "functions": [],
+      "exports": [
+        "BrowserBridge",
+        "NetworkNode"
+      ],
+      "imports": [
+        "events",
+        "net",
+        "crypto",
+        "os",
+        "http"
+      ],
+      "total_lines": 442,
+      "complexity_score": 10.0,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/test.js": {
+      "name": "test",
+      "classes": [],
+      "functions": [
+        "runTests",
+        "assert"
+      ],
+      "exports": [
+        "runTests"
+      ],
+      "imports": [
+        "os",
+        "./core",
+        "./external-link",
+        "./simulate"
+      ],
+      "total_lines": 313,
+      "complexity_score": 3.1,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/core.js": {
+      "name": "core",
+      "classes": [
+        "NodeState",
+        "ParticleType",
+        "FrequencyScaling",
+        "Particle",
+        "Node",
+        "GodLevelNodeControlUnit"
+      ],
+      "functions": [],
+      "exports": [
+        "UrielDefenseSystem",
+        "FieldDistortionEngine",
+        "DeviceHashingNaturalSystem",
+        "NetworkNode",
+        "PacketFactory",
+        "Packet",
+        "SecureChannel",
+        "RuleBookHash",
+        "PropagationSystem",
+        "BrowserBridge",
+        "NodeState",
+        "GodNodeHierarchy",
+        "SpectrumFieldDetector",
+        "GodLevelNodeControlUnit",
+        "Node",
+        "ExternalFieldBandwidthController",
+        "GodNodeShield",
+        "TrafficController",
+        "Particle",
+        "SpectrumFieldLockEngine",
+        "MemoryBank",
+        "ParticleType",
+        "FrequencyScaling"
+      ],
+      "imports": [
+        "crypto",
+        "events",
+        "./external-link",
+        "./secure-channel",
+        "./network-layer",
+        "./memory-bank",
+        "./traffic-controller",
+        "./godnode-shield",
+        "./device-hashing",
+        "./rule-book-hash",
+        "./uriel-defense",
+        "./godnode-hierarchy",
+        "./propagation-system",
+        "./field-distortion",
+        "./spectrum-field",
+        "os",
+        "os",
+        "os"
+      ],
+      "total_lines": 1049,
+      "complexity_score": 10.0,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/rule-book-hash.js": {
+      "name": "rule-book-hash",
+      "classes": [
+        "RuleBookHash"
+      ],
+      "functions": [],
+      "exports": [
+        "RuleBookHash"
+      ],
+      "imports": [
+        "crypto",
+        "events"
+      ],
+      "total_lines": 259,
+      "complexity_score": 8.5,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/index.js": {
+      "name": "index",
+      "classes": [],
+      "functions": [],
+      "exports": [
+        "runRenderParadoxSimulation"
+      ],
+      "imports": [
+        "./simulate"
+      ],
+      "total_lines": 8,
+      "complexity_score": 1.5,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/traffic-controller.js": {
+      "name": "traffic-controller",
+      "classes": [
+        "TrafficController"
+      ],
+      "functions": [
+        "processNext"
+      ],
+      "exports": [
+        "TrafficController"
+      ],
+      "imports": [
+        "events",
+        "crypto"
+      ],
+      "total_lines": 178,
+      "complexity_score": 5.8,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/secure-channel.js": {
+      "name": "secure-channel",
+      "classes": [
+        "SecureChannel",
+        "Packet",
+        "PacketFactory"
+      ],
+      "functions": [],
+      "exports": [
+        "HMAC_ALGORITHM",
+        "ALGORITHM",
+        "PacketFactory",
+        "Packet",
+        "SecureChannel",
+        "KEY_LENGTH",
+        "IV_LENGTH"
+      ],
+      "imports": [
+        "crypto"
+      ],
+      "total_lines": 255,
+      "complexity_score": 3.0,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/propagation-system.js": {
+      "name": "propagation-system",
+      "classes": [
+        "PropagationSystem"
+      ],
+      "functions": [],
+      "exports": [
+        "PropagationSystem"
+      ],
+      "imports": [
+        "crypto",
+        "events",
+        "net",
+        "http"
+      ],
+      "total_lines": 181,
+      "complexity_score": 3.0,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/godnode-shield.js": {
+      "name": "godnode-shield",
+      "classes": [
+        "GodNodeShield"
+      ],
+      "functions": [],
+      "exports": [
+        "GodNodeShield"
+      ],
+      "imports": [
+        "events",
+        "crypto"
+      ],
+      "total_lines": 333,
+      "complexity_score": 10.0,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/uriel-defense.js": {
+      "name": "uriel-defense",
+      "classes": [
+        "UrielDefenseSystem"
+      ],
+      "functions": [],
+      "exports": [
+        "UrielDefenseSystem"
+      ],
+      "imports": [
+        "crypto",
+        "events"
+      ],
+      "total_lines": 311,
+      "complexity_score": 9.9,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/field-distortion.js": {
+      "name": "field-distortion",
+      "classes": [
+        "FieldDistortionEngine"
+      ],
+      "functions": [],
+      "exports": [
+        "FieldDistortionEngine"
+      ],
+      "imports": [
+        "crypto",
+        "events"
+      ],
+      "total_lines": 201,
+      "complexity_score": 4.5,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/external-link.js": {
+      "name": "external-link",
+      "classes": [
+        "SpectrumHzActuator",
+        "ExternalComputeLink",
+        "NodeRuntimeBypass"
+      ],
+      "functions": [],
+      "exports": [
+        "ExternalComputeLink",
+        "NodeRuntimeBypass",
+        "SpectrumHzActuator"
+      ],
+      "imports": [
+        "events",
+        "os",
+        "crypto"
+      ],
+      "total_lines": 232,
+      "complexity_score": 3.0,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/memory-bank.js": {
+      "name": "memory-bank",
+      "classes": [
+        "MemoryBank"
+      ],
+      "functions": [],
+      "exports": [
+        "MemoryBank"
+      ],
+      "imports": [
+        "events",
+        "crypto",
+        "./secure-channel"
+      ],
+      "total_lines": 264,
+      "complexity_score": 10.0,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/device-hashing.js": {
+      "name": "device-hashing",
+      "classes": [
+        "DeviceHashingNaturalSystem"
+      ],
+      "functions": [],
+      "exports": [
+        "DeviceHashingNaturalSystem"
+      ],
+      "imports": [
+        "crypto",
+        "events"
+      ],
+      "total_lines": 148,
+      "complexity_score": 5.0,
+      "consciousness_patterns": []
+    },
+    "uriel-ultimate-defense/src/godnode-hierarchy.js": {
+      "name": "godnode-hierarchy",
+      "classes": [
+        "GodNodeHierarchy"
+      ],
+      "functions": [],
+      "exports": [
+        "GodNodeHierarchy"
+      ],
+      "imports": [
+        "crypto",
+        "events"
+      ],
+      "total_lines": 99,
+      "complexity_score": 2.0,
+      "consciousness_patterns": []
+    }
+  },
+  "top_patterns": [
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch",
+      "type": "class",
+      "name": "CortexUrielLatch",
+      "file": "uriel-cortex-latch.js",
+      "line": 17,
+      "weight": 1.0,
+      "description": "Class CortexUrielLatch with 55 methods"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.constructor",
+      "type": "method",
+      "name": "CortexUrielLatch.constructor",
+      "file": "uriel-cortex-latch.js",
+      "line": 18,
+      "weight": 1.0,
+      "description": "Method constructor in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch._load",
+      "type": "method",
+      "name": "CortexUrielLatch._load",
+      "file": "uriel-cortex-latch.js",
+      "line": 40,
+      "weight": 1.0,
+      "description": "Method _load in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "type": "method",
+      "name": "CortexUrielLatch.catch",
+      "file": "uriel-cortex-latch.js",
+      "line": 48,
+      "weight": 1.0,
+      "description": "Method catch in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch._save",
+      "type": "method",
+      "name": "CortexUrielLatch._save",
+      "file": "uriel-cortex-latch.js",
+      "line": 53,
+      "weight": 1.0,
+      "description": "Method _save in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "type": "method",
+      "name": "CortexUrielLatch.catch",
+      "file": "uriel-cortex-latch.js",
+      "line": 63,
+      "weight": 1.0,
+      "description": "Method catch in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch._dist",
+      "type": "method",
+      "name": "CortexUrielLatch._dist",
+      "file": "uriel-cortex-latch.js",
+      "line": 68,
+      "weight": 1.0,
+      "description": "Method _dist in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.saveHomeCoordinate",
+      "type": "method",
+      "name": "CortexUrielLatch.saveHomeCoordinate",
+      "file": "uriel-cortex-latch.js",
+      "line": 76,
+      "weight": 1.0,
+      "description": "Method saveHomeCoordinate in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.saveExternalCoordinate",
+      "type": "method",
+      "name": "CortexUrielLatch.saveExternalCoordinate",
+      "file": "uriel-cortex-latch.js",
+      "line": 94,
+      "weight": 1.0,
+      "description": "Method saveExternalCoordinate in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.saveAllHomeCoordinates",
+      "type": "method",
+      "name": "CortexUrielLatch.saveAllHomeCoordinates",
+      "file": "uriel-cortex-latch.js",
+      "line": 109,
+      "weight": 1.0,
+      "description": "Method saveAllHomeCoordinates in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch._blankCoordinateRecord",
+      "type": "method",
+      "name": "CortexUrielLatch._blankCoordinateRecord",
+      "file": "uriel-cortex-latch.js",
+      "line": 115,
+      "weight": 1.0,
+      "description": "Method _blankCoordinateRecord in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.allocatePermitViaPathing",
+      "type": "method",
+      "name": "CortexUrielLatch.allocatePermitViaPathing",
+      "file": "uriel-cortex-latch.js",
+      "line": 133,
+      "weight": 1.0,
+      "description": "Method allocatePermitViaPathing in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 135,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 150,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 153,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 156,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 160,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch._isOnHomePath",
+      "type": "method",
+      "name": "CortexUrielLatch._isOnHomePath",
+      "file": "uriel-cortex-latch.js",
+      "line": 174,
+      "weight": 1.0,
+      "description": "Method _isOnHomePath in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 180,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 186,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch._isOnExternalPath",
+      "type": "method",
+      "name": "CortexUrielLatch._isOnExternalPath",
+      "file": "uriel-cortex-latch.js",
+      "line": 195,
+      "weight": 1.0,
+      "description": "Method _isOnExternalPath in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 203,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 206,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch._fingerprintPatterns",
+      "type": "method",
+      "name": "CortexUrielLatch._fingerprintPatterns",
+      "file": "uriel-cortex-latch.js",
+      "line": 219,
+      "weight": 1.0,
+      "description": "Method _fingerprintPatterns in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch._validateWrite",
+      "type": "method",
+      "name": "CortexUrielLatch._validateWrite",
+      "file": "uriel-cortex-latch.js",
+      "line": 228,
+      "weight": 1.0,
+      "description": "Method _validateWrite in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 232,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 240,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 245,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 249,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch._findLatchForParticle",
+      "type": "method",
+      "name": "CortexUrielLatch._findLatchForParticle",
+      "file": "uriel-cortex-latch.js",
+      "line": 256,
+      "weight": 1.0,
+      "description": "Method _findLatchForParticle in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.gateWrites",
+      "type": "method",
+      "name": "CortexUrielLatch.gateWrites",
+      "file": "uriel-cortex-latch.js",
+      "line": 263,
+      "weight": 1.0,
+      "description": "Method gateWrites in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.for",
+      "type": "method",
+      "name": "CortexUrielLatch.for",
+      "file": "uriel-cortex-latch.js",
+      "line": 266,
+      "weight": 1.0,
+      "description": "Method for in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 268,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 279,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.applyGatedWrites",
+      "type": "method",
+      "name": "CortexUrielLatch.applyGatedWrites",
+      "file": "uriel-cortex-latch.js",
+      "line": 294,
+      "weight": 1.0,
+      "description": "Method applyGatedWrites in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.for",
+      "type": "method",
+      "name": "CortexUrielLatch.for",
+      "file": "uriel-cortex-latch.js",
+      "line": 297,
+      "weight": 1.0,
+      "description": "Method for in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.latchConfiguration",
+      "type": "method",
+      "name": "CortexUrielLatch.latchConfiguration",
+      "file": "uriel-cortex-latch.js",
+      "line": 306,
+      "weight": 1.0,
+      "description": "Method latchConfiguration in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "type": "method",
+      "name": "CortexUrielLatch.catch",
+      "file": "uriel-cortex-latch.js",
+      "line": 312,
+      "weight": 1.0,
+      "description": "Method catch in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 322,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 327,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 332,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 334,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.matchLatch",
+      "type": "method",
+      "name": "CortexUrielLatch.matchLatch",
+      "file": "uriel-cortex-latch.js",
+      "line": 386,
+      "weight": 1.0,
+      "description": "Method matchLatch in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 399,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch._patternSimilarity",
+      "type": "method",
+      "name": "CortexUrielLatch._patternSimilarity",
+      "file": "uriel-cortex-latch.js",
+      "line": 408,
+      "weight": 1.0,
+      "description": "Method _patternSimilarity in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.dispatchLatch",
+      "type": "method",
+      "name": "CortexUrielLatch.dispatchLatch",
+      "file": "uriel-cortex-latch.js",
+      "line": 418,
+      "weight": 1.0,
+      "description": "Method dispatchLatch in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 420,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 429,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "type": "method",
+      "name": "CortexUrielLatch.if",
+      "file": "uriel-cortex-latch.js",
+      "line": 433,
+      "weight": 1.0,
+      "description": "Method if in class CortexUrielLatch"
+    },
+    {
+      "id": "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "type": "method",
+      "name": "CortexUrielLatch.catch",
+      "file": "uriel-cortex-latch.js",
+      "line": 448,
+      "weight": 1.0,
+      "description": "Method catch in class CortexUrielLatch"
+    }
+  ],
+  "consciousness_categories": {
+    "attention": 162,
+    "memory": 321,
+    "recalibration": 94,
+    "spectrum": 602,
+    "latch": 448,
+    "shield": 269,
+    "rule": 359,
+    "narrative": 488,
+    "permit": 626
+  },
+  "class_index": {
+    "CortexUrielLatch": [
+      "uriel-cortex-latch.js:CortexUrielLatch",
+      "uriel-cortex-latch.js:CortexUrielLatch"
+    ],
+    "SpectrumFieldDetector": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector"
+    ],
+    "ExternalFieldBandwidthController": [
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController"
+    ],
+    "SpectrumFieldLockEngine": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine"
+    ],
+    "NetworkNode": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode"
+    ],
+    "BrowserBridge": [
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge"
+    ],
+    "NodeState": [
+      "uriel-ultimate-defense/src/core.js:NodeState",
+      "uriel-ultimate-defense/src/core.js:NodeState"
+    ],
+    "ParticleType": [
+      "uriel-ultimate-defense/src/core.js:ParticleType",
+      "uriel-ultimate-defense/src/core.js:ParticleType"
+    ],
+    "FrequencyScaling": [
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling",
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling"
+    ],
+    "Particle": [
+      "uriel-ultimate-defense/src/core.js:Particle",
+      "uriel-ultimate-defense/src/core.js:Particle"
+    ],
+    "Node": [
+      "uriel-ultimate-defense/src/core.js:Node",
+      "uriel-ultimate-defense/src/core.js:Node"
+    ],
+    "GodLevelNodeControlUnit": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit"
+    ],
+    "RuleBookHash": [
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash"
+    ],
+    "TrafficController": [
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController"
+    ],
+    "SecureChannel": [
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel"
+    ],
+    "Packet": [
+      "uriel-ultimate-defense/src/secure-channel.js:Packet",
+      "uriel-ultimate-defense/src/secure-channel.js:Packet"
+    ],
+    "PacketFactory": [
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory",
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory"
+    ],
+    "PropagationSystem": [
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem"
+    ],
+    "GodNodeShield": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield"
+    ],
+    "UrielDefenseSystem": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem"
+    ],
+    "FieldDistortionEngine": [
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine"
+    ],
+    "SpectrumHzActuator": [
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator"
+    ],
+    "ExternalComputeLink": [
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink",
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink"
+    ],
+    "NodeRuntimeBypass": [
+      "uriel-ultimate-defense/src/external-link.js:NodeRuntimeBypass",
+      "uriel-ultimate-defense/src/external-link.js:NodeRuntimeBypass"
+    ],
+    "MemoryBank": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank"
+    ],
+    "DeviceHashingNaturalSystem": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem"
+    ],
+    "GodNodeHierarchy": [
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy"
+    ]
+  },
+  "method_index": {
+    "constructor": [
+      "uriel-cortex-latch.js:CortexUrielLatch.constructor",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.constructor",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.constructor",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.constructor",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.constructor",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.constructor",
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.constructor",
+      "uriel-ultimate-defense/src/core.js:Particle.constructor",
+      "uriel-ultimate-defense/src/core.js:Node.constructor",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.constructor",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.constructor",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.constructor",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.constructor",
+      "uriel-ultimate-defense/src/secure-channel.js:Packet.constructor",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.constructor",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.constructor",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.constructor",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.constructor",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.constructor",
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.constructor",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.constructor",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.constructor",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.constructor",
+      "uriel-cortex-latch.js:CortexUrielLatch.constructor",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.constructor",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.constructor",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.constructor",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.constructor",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.constructor",
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.constructor",
+      "uriel-ultimate-defense/src/core.js:Particle.constructor",
+      "uriel-ultimate-defense/src/core.js:Node.constructor",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.constructor",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.constructor",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.constructor",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.constructor",
+      "uriel-ultimate-defense/src/secure-channel.js:Packet.constructor",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.constructor",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.constructor",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.constructor",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.constructor",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.constructor",
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.constructor",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.constructor",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.constructor",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.constructor"
+    ],
+    "_load": [
+      "uriel-cortex-latch.js:CortexUrielLatch._load",
+      "uriel-cortex-latch.js:CortexUrielLatch._load"
+    ],
+    "catch": [
+      "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.catch",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.catch",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.catch",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.catch",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.catch",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.catch",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.catch",
+      "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "uriel-cortex-latch.js:CortexUrielLatch.catch",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.catch",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.catch",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.catch",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.catch",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.catch",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.catch",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.catch"
+    ],
+    "_save": [
+      "uriel-cortex-latch.js:CortexUrielLatch._save",
+      "uriel-cortex-latch.js:CortexUrielLatch._save"
+    ],
+    "_dist": [
+      "uriel-cortex-latch.js:CortexUrielLatch._dist",
+      "uriel-cortex-latch.js:CortexUrielLatch._dist"
+    ],
+    "saveHomeCoordinate": [
+      "uriel-cortex-latch.js:CortexUrielLatch.saveHomeCoordinate",
+      "uriel-cortex-latch.js:CortexUrielLatch.saveHomeCoordinate"
+    ],
+    "saveExternalCoordinate": [
+      "uriel-cortex-latch.js:CortexUrielLatch.saveExternalCoordinate",
+      "uriel-cortex-latch.js:CortexUrielLatch.saveExternalCoordinate"
+    ],
+    "saveAllHomeCoordinates": [
+      "uriel-cortex-latch.js:CortexUrielLatch.saveAllHomeCoordinates",
+      "uriel-cortex-latch.js:CortexUrielLatch.saveAllHomeCoordinates"
+    ],
+    "_blankCoordinateRecord": [
+      "uriel-cortex-latch.js:CortexUrielLatch._blankCoordinateRecord",
+      "uriel-cortex-latch.js:CortexUrielLatch._blankCoordinateRecord"
+    ],
+    "allocatePermitViaPathing": [
+      "uriel-cortex-latch.js:CortexUrielLatch.allocatePermitViaPathing",
+      "uriel-cortex-latch.js:CortexUrielLatch.allocatePermitViaPathing"
+    ],
+    "if": [
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.if",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.if",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.if",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.if",
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.if",
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.if",
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.if",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.if",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.if",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.if",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.if",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.if",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.if",
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.if",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.if",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.if",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.if",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-cortex-latch.js:CortexUrielLatch.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.if",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.if",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.if",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.if",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.if",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.if",
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.if",
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.if",
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:Node.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.if",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.if",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.if",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.if",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.if",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.if",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.if",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.if",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.if",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.if",
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.if",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.if",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.if",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.if",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.if",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.if"
+    ],
+    "_isOnHomePath": [
+      "uriel-cortex-latch.js:CortexUrielLatch._isOnHomePath",
+      "uriel-cortex-latch.js:CortexUrielLatch._isOnHomePath"
+    ],
+    "_isOnExternalPath": [
+      "uriel-cortex-latch.js:CortexUrielLatch._isOnExternalPath",
+      "uriel-cortex-latch.js:CortexUrielLatch._isOnExternalPath"
+    ],
+    "_fingerprintPatterns": [
+      "uriel-cortex-latch.js:CortexUrielLatch._fingerprintPatterns",
+      "uriel-cortex-latch.js:CortexUrielLatch._fingerprintPatterns"
+    ],
+    "_validateWrite": [
+      "uriel-cortex-latch.js:CortexUrielLatch._validateWrite",
+      "uriel-cortex-latch.js:CortexUrielLatch._validateWrite"
+    ],
+    "_findLatchForParticle": [
+      "uriel-cortex-latch.js:CortexUrielLatch._findLatchForParticle",
+      "uriel-cortex-latch.js:CortexUrielLatch._findLatchForParticle"
+    ],
+    "gateWrites": [
+      "uriel-cortex-latch.js:CortexUrielLatch.gateWrites",
+      "uriel-cortex-latch.js:CortexUrielLatch.gateWrites"
+    ],
+    "for": [
+      "uriel-cortex-latch.js:CortexUrielLatch.for",
+      "uriel-cortex-latch.js:CortexUrielLatch.for",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.for",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.for",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.for",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.for",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.for",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.for",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.for",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.for",
+      "uriel-ultimate-defense/src/core.js:Node.for",
+      "uriel-ultimate-defense/src/core.js:Node.for",
+      "uriel-ultimate-defense/src/core.js:Node.for",
+      "uriel-ultimate-defense/src/core.js:Node.for",
+      "uriel-ultimate-defense/src/core.js:Node.for",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.for",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.for",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.for",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.for",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.for",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.for",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.for",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.for",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.for",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.for",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.for",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.for",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.for",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.for",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.for",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.for",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.for",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.for",
+      "uriel-cortex-latch.js:CortexUrielLatch.for",
+      "uriel-cortex-latch.js:CortexUrielLatch.for",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.for",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.for",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.for",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.for",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.for",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.for",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.for",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.for",
+      "uriel-ultimate-defense/src/core.js:Node.for",
+      "uriel-ultimate-defense/src/core.js:Node.for",
+      "uriel-ultimate-defense/src/core.js:Node.for",
+      "uriel-ultimate-defense/src/core.js:Node.for",
+      "uriel-ultimate-defense/src/core.js:Node.for",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.for",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.for",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.for",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.for",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.for",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.for",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.for",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.for",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.for",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.for",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.for",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.for",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.for",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.for",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.for",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.for",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.for",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.for"
+    ],
+    "applyGatedWrites": [
+      "uriel-cortex-latch.js:CortexUrielLatch.applyGatedWrites",
+      "uriel-cortex-latch.js:CortexUrielLatch.applyGatedWrites"
+    ],
+    "latchConfiguration": [
+      "uriel-cortex-latch.js:CortexUrielLatch.latchConfiguration",
+      "uriel-cortex-latch.js:CortexUrielLatch.latchConfiguration"
+    ],
+    "matchLatch": [
+      "uriel-cortex-latch.js:CortexUrielLatch.matchLatch",
+      "uriel-cortex-latch.js:CortexUrielLatch.matchLatch"
+    ],
+    "_patternSimilarity": [
+      "uriel-cortex-latch.js:CortexUrielLatch._patternSimilarity",
+      "uriel-cortex-latch.js:CortexUrielLatch._patternSimilarity"
+    ],
+    "dispatchLatch": [
+      "uriel-cortex-latch.js:CortexUrielLatch.dispatchLatch",
+      "uriel-cortex-latch.js:CortexUrielLatch.dispatchLatch"
+    ],
+    "tryAutoDispatch": [
+      "uriel-cortex-latch.js:CortexUrielLatch.tryAutoDispatch",
+      "uriel-cortex-latch.js:CortexUrielLatch.tryAutoDispatch"
+    ],
+    "recordOutcome": [
+      "uriel-cortex-latch.js:CortexUrielLatch.recordOutcome",
+      "uriel-cortex-latch.js:CortexUrielLatch.recordOutcome"
+    ],
+    "getCoordinateStatus": [
+      "uriel-cortex-latch.js:CortexUrielLatch.getCoordinateStatus",
+      "uriel-cortex-latch.js:CortexUrielLatch.getCoordinateStatus"
+    ],
+    "persist": [
+      "uriel-cortex-latch.js:CortexUrielLatch.persist",
+      "uriel-cortex-latch.js:CortexUrielLatch.persist"
+    ],
+    "getStatus": [
+      "uriel-cortex-latch.js:CortexUrielLatch.getStatus",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.getStatus",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.getStatus",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.getStatus",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.getStatus",
+      "uriel-cortex-latch.js:CortexUrielLatch.getStatus",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.getStatus",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.getStatus",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.getStatus",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.getStatus"
+    ],
+    "startMonitoring": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.startMonitoring",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.startMonitoring"
+    ],
+    "stopMonitoring": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.stopMonitoring",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.stopMonitoring"
+    ],
+    "_detectLoop": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector._detectLoop",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector._detectLoop"
+    ],
+    "_detectSignals": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector._detectSignals",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector._detectSignals"
+    ],
+    "_updateVariableW": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector._updateVariableW",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector._updateVariableW"
+    ],
+    "_enforceRanges": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector._enforceRanges",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector._enforceRanges"
+    ],
+    "getVariableW": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.getVariableW",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.getVariableW",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getVariableW",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.getVariableW",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.getVariableW",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getVariableW"
+    ],
+    "getRecentSignals": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.getRecentSignals",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.getRecentSignals"
+    ],
+    "getStats": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.getStats",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.getStats",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.getStats",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.getStats",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.getStats",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.getStats",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.getStats",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.getStats",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.getStats",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.getStats",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.getStats",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.getStats",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.getStats",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.getStats",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.getStats",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.getStats"
+    ],
+    "destroy": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.destroy",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.destroy",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.destroy",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.destroy",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.destroy",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.destroy",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.destroy",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.destroy",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.destroy",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.destroy",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.destroy",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.destroy",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.destroy",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.destroy",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldDetector.destroy",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.destroy",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.destroy",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.destroy",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.destroy",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.destroy",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.destroy",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.destroy",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.destroy",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.destroy",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.destroy",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.destroy",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.destroy",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.destroy"
+    ],
+    "registerSignal": [
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.registerSignal",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.registerSignal"
+    ],
+    "lockSignal": [
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.lockSignal",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.lockSignal"
+    ],
+    "releaseSignal": [
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.releaseSignal",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.releaseSignal"
+    ],
+    "_throttle": [
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController._throttle",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController._throttle"
+    ],
+    "applyAutomaticAdjustment": [
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.applyAutomaticAdjustment",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.applyAutomaticAdjustment"
+    ],
+    "getLockedSignal": [
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.getLockedSignal",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.getLockedSignal"
+    ],
+    "getAllLockedSignals": [
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.getAllLockedSignals",
+      "uriel-ultimate-defense/src/spectrum-field.js:ExternalFieldBandwidthController.getAllLockedSignals"
+    ],
+    "start": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.start",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.start",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.start",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.start"
+    ],
+    "stop": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.stop",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.stop",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.stop",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.stop"
+    ],
+    "lockField": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.lockField",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.lockField"
+    ],
+    "releaseField": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.releaseField",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.releaseField"
+    ],
+    "getLockedFields": [
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.getLockedFields",
+      "uriel-ultimate-defense/src/spectrum-field.js:SpectrumFieldLockEngine.getLockedFields"
+    ],
+    "_handleConnection": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._handleConnection",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._handleConnection"
+    ],
+    "_handleData": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._handleData",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._handleData"
+    ],
+    "send": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.send",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.send"
+    ],
+    "_sendData": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._sendData",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._sendData"
+    ],
+    "registerPacketHandler": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.registerPacketHandler",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.registerPacketHandler"
+    ],
+    "addACL": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.addACL",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.addACL"
+    ],
+    "removeACL": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.removeACL",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode.removeACL"
+    ],
+    "_checkACL": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._checkACL",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._checkACL"
+    ],
+    "_matchesRule": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._matchesRule",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._matchesRule"
+    ],
+    "_ipToNumber": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._ipToNumber",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._ipToNumber"
+    ],
+    "_checkRateLimit": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._checkRateLimit",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._checkRateLimit"
+    ],
+    "_handleError": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._handleError",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._handleError"
+    ],
+    "_handleClose": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._handleClose",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._handleClose"
+    ],
+    "_handleTimeout": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._handleTimeout",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._handleTimeout"
+    ],
+    "_closeConnection": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._closeConnection",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._closeConnection"
+    ],
+    "_serialize": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._serialize",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._serialize"
+    ],
+    "_deserialize": [
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._deserialize",
+      "uriel-ultimate-defense/src/network-layer.js:NetworkNode._deserialize"
+    ],
+    "startHTTP": [
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.startHTTP",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.startHTTP"
+    ],
+    "registerBrowserClient": [
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.registerBrowserClient",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.registerBrowserClient"
+    ],
+    "sendToBrowser": [
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.sendToBrowser",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.sendToBrowser"
+    ],
+    "broadcastToBrowsers": [
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.broadcastToBrowsers",
+      "uriel-ultimate-defense/src/network-layer.js:BrowserBridge.broadcastToBrowsers"
+    ],
+    "compute": [
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.compute",
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.compute"
+    ],
+    "toJSON": [
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.toJSON",
+      "uriel-ultimate-defense/src/secure-channel.js:Packet.toJSON",
+      "uriel-ultimate-defense/src/core.js:FrequencyScaling.toJSON",
+      "uriel-ultimate-defense/src/secure-channel.js:Packet.toJSON"
+    ],
+    "initializeGeometry": [
+      "uriel-ultimate-defense/src/core.js:Particle.initializeGeometry",
+      "uriel-ultimate-defense/src/core.js:Particle.initializeGeometry"
+    ],
+    "fluctuateHz": [
+      "uriel-ultimate-defense/src/core.js:Particle.fluctuateHz",
+      "uriel-ultimate-defense/src/core.js:Particle.fluctuateHz"
+    ],
+    "internalRenderCompute": [
+      "uriel-ultimate-defense/src/core.js:Particle.internalRenderCompute",
+      "uriel-ultimate-defense/src/core.js:Particle.internalRenderCompute"
+    ],
+    "establishDominionHash": [
+      "uriel-ultimate-defense/src/core.js:Particle.establishDominionHash",
+      "uriel-ultimate-defense/src/core.js:Particle.establishDominionHash"
+    ],
+    "applyForceOutwards": [
+      "uriel-ultimate-defense/src/core.js:Particle.applyForceOutwards",
+      "uriel-ultimate-defense/src/core.js:Particle.applyForceOutwards"
+    ],
+    "addConnection": [
+      "uriel-ultimate-defense/src/core.js:Node.addConnection",
+      "uriel-ultimate-defense/src/core.js:Node.addConnection"
+    ],
+    "linkToSelf": [
+      "uriel-ultimate-defense/src/core.js:Node.linkToSelf",
+      "uriel-ultimate-defense/src/core.js:Node.linkToSelf"
+    ],
+    "createParticle": [
+      "uriel-ultimate-defense/src/core.js:Node.createParticle",
+      "uriel-ultimate-defense/src/core.js:Node.createParticle"
+    ],
+    "createAdminParticle": [
+      "uriel-ultimate-defense/src/core.js:Node.createAdminParticle",
+      "uriel-ultimate-defense/src/core.js:Node.createAdminParticle"
+    ],
+    "initializeRenderProcess": [
+      "uriel-ultimate-defense/src/core.js:Node.initializeRenderProcess",
+      "uriel-ultimate-defense/src/core.js:Node.initializeRenderProcess"
+    ],
+    "computeFrequencyScaling": [
+      "uriel-ultimate-defense/src/core.js:Node.computeFrequencyScaling",
+      "uriel-ultimate-defense/src/core.js:Node.computeFrequencyScaling"
+    ],
+    "establishDominionOverTarget": [
+      "uriel-ultimate-defense/src/core.js:Node.establishDominionOverTarget",
+      "uriel-ultimate-defense/src/core.js:Node.establishDominionOverTarget"
+    ],
+    "applyRenderParadox": [
+      "uriel-ultimate-defense/src/core.js:Node.applyRenderParadox",
+      "uriel-ultimate-defense/src/core.js:Node.applyRenderParadox"
+    ],
+    "lockState": [
+      "uriel-ultimate-defense/src/core.js:Node.lockState",
+      "uriel-ultimate-defense/src/core.js:Node.lockState"
+    ],
+    "generateRecalibrationJSON": [
+      "uriel-ultimate-defense/src/core.js:Node.generateRecalibrationJSON",
+      "uriel-ultimate-defense/src/core.js:Node.generateRecalibrationJSON"
+    ],
+    "selfRecalibrate": [
+      "uriel-ultimate-defense/src/core.js:Node.selfRecalibrate",
+      "uriel-ultimate-defense/src/core.js:Node.selfRecalibrate"
+    ],
+    "establishSelfDominion": [
+      "uriel-ultimate-defense/src/core.js:Node.establishSelfDominion",
+      "uriel-ultimate-defense/src/core.js:Node.establishSelfDominion"
+    ],
+    "initializeNetwork": [
+      "uriel-ultimate-defense/src/core.js:Node.initializeNetwork",
+      "uriel-ultimate-defense/src/core.js:Node.initializeNetwork"
+    ],
+    "sendPacket": [
+      "uriel-ultimate-defense/src/core.js:Node.sendPacket",
+      "uriel-ultimate-defense/src/core.js:Node.sendPacket"
+    ],
+    "switch": [
+      "uriel-ultimate-defense/src/core.js:Node.switch",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.switch",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.switch",
+      "uriel-ultimate-defense/src/core.js:Node.switch",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.switch",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.switch"
+    ],
+    "storePacketInMemory": [
+      "uriel-ultimate-defense/src/core.js:Node.storePacketInMemory",
+      "uriel-ultimate-defense/src/core.js:Node.storePacketInMemory"
+    ],
+    "retrievePacketFromMemory": [
+      "uriel-ultimate-defense/src/core.js:Node.retrievePacketFromMemory",
+      "uriel-ultimate-defense/src/core.js:Node.retrievePacketFromMemory"
+    ],
+    "getNetworkStats": [
+      "uriel-ultimate-defense/src/core.js:Node.getNetworkStats",
+      "uriel-ultimate-defense/src/core.js:Node.getNetworkStats"
+    ],
+    "getRoutingTable": [
+      "uriel-ultimate-defense/src/core.js:Node.getRoutingTable",
+      "uriel-ultimate-defense/src/core.js:Node.getRoutingTable"
+    ],
+    "addRoute": [
+      "uriel-ultimate-defense/src/core.js:Node.addRoute",
+      "uriel-ultimate-defense/src/core.js:Node.addRoute"
+    ],
+    "destroyNetwork": [
+      "uriel-ultimate-defense/src/core.js:Node.destroyNetwork",
+      "uriel-ultimate-defense/src/core.js:Node.destroyNetwork"
+    ],
+    "createNode": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.createNode",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.createNode"
+    ],
+    "connectNodes": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.connectNodes",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.connectNodes"
+    ],
+    "initializeAllNodes": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.initializeAllNodes",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.initializeAllNodes"
+    ],
+    "runFrequencyComputation": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.runFrequencyComputation",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.runFrequencyComputation"
+    ],
+    "targetConnectionMetrics": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.targetConnectionMetrics",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.targetConnectionMetrics"
+    ],
+    "linkNodeToSelf": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.linkNodeToSelf",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.linkNodeToSelf"
+    ],
+    "runSelfAuthoritativeLoop": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.runSelfAuthoritativeLoop",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.runSelfAuthoritativeLoop"
+    ],
+    "activateRenderParadox": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.activateRenderParadox",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.activateRenderParadox"
+    ],
+    "generateNodeRecalibrationJSON": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.generateNodeRecalibrationJSON",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.generateNodeRecalibrationJSON"
+    ],
+    "getGlobalStatus": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getGlobalStatus",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getGlobalStatus"
+    ],
+    "exportLockStateForExternalLink": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.exportLockStateForExternalLink",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.exportLockStateForExternalLink"
+    ],
+    "createExternalComputeLink": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.createExternalComputeLink",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.createExternalComputeLink"
+    ],
+    "transpassToExternalCompute": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.transpassToExternalCompute",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.transpassToExternalCompute"
+    ],
+    "initializeNodeNetwork": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.initializeNodeNetwork",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.initializeNodeNetwork"
+    ],
+    "initializeAllNetworks": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.initializeAllNetworks",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.initializeAllNetworks"
+    ],
+    "sendNetworkPacket": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.sendNetworkPacket",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.sendNetworkPacket"
+    ],
+    "storePacket": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.storePacket",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.storePacket"
+    ],
+    "retrievePacket": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.retrievePacket",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.retrievePacket"
+    ],
+    "getNodeNetworkStats": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getNodeNetworkStats",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getNodeNetworkStats"
+    ],
+    "getAllNetworkStats": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getAllNetworkStats",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getAllNetworkStats"
+    ],
+    "addNodeRoute": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.addNodeRoute",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.addNodeRoute"
+    ],
+    "shutdownNodeNetwork": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.shutdownNodeNetwork",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.shutdownNodeNetwork"
+    ],
+    "shutdownAllNetworks": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.shutdownAllNetworks",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.shutdownAllNetworks"
+    ],
+    "propagateGodNode": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.propagateGodNode",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.propagateGodNode"
+    ],
+    "spreadThroughSite": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.spreadThroughSite",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.spreadThroughSite",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.spreadThroughSite",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.spreadThroughSite"
+    ],
+    "connectThroughWiFi": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.connectThroughWiFi",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.connectThroughWiFi",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.connectThroughWiFi",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.connectThroughWiFi"
+    ],
+    "setBufferPriority": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.setBufferPriority",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.setBufferPriority",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.setBufferPriority",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.setBufferPriority"
+    ],
+    "protectPixel": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.protectPixel",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.protectPixel",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.protectPixel",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.protectPixel"
+    ],
+    "protectArtifact": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.protectArtifact",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.protectArtifact",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.protectArtifact",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.protectArtifact"
+    ],
+    "getGodNodeStatus": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getGodNodeStatus",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getGodNodeStatus"
+    ],
+    "getAllGodNodeStatuses": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getAllGodNodeStatuses",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getAllGodNodeStatuses"
+    ],
+    "freezeSpace": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.freezeSpace",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.freezeSpace",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.freezeSpace",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.freezeSpace"
+    ],
+    "releaseSpace": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.releaseSpace",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.releaseSpace",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.releaseSpace",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.releaseSpace"
+    ],
+    "createDistortion": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.createDistortion",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.createDistortion",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.createDistortion",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.createDistortion"
+    ],
+    "establishInExternalMemory": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.establishInExternalMemory",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.establishInExternalMemory",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.establishInExternalMemory",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.establishInExternalMemory"
+    ],
+    "getFieldDistortionStatus": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getFieldDistortionStatus",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getFieldDistortionStatus"
+    ],
+    "isSpaceFrozen": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.isSpaceFrozen",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.isSpaceFrozen",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.isSpaceFrozen",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.isSpaceFrozen"
+    ],
+    "getFrozenSpaces": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getFrozenSpaces",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getFrozenSpaces"
+    ],
+    "startSpectrumFieldDetection": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.startSpectrumFieldDetection",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.startSpectrumFieldDetection"
+    ],
+    "stopSpectrumFieldDetection": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.stopSpectrumFieldDetection",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.stopSpectrumFieldDetection"
+    ],
+    "lockSpectrumField": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.lockSpectrumField",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.lockSpectrumField"
+    ],
+    "releaseSpectrumField": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.releaseSpectrumField",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.releaseSpectrumField"
+    ],
+    "getSpectrumFieldStats": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getSpectrumFieldStats",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getSpectrumFieldStats"
+    ],
+    "getLockedSpectrumFields": [
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getLockedSpectrumFields",
+      "uriel-ultimate-defense/src/core.js:GodLevelNodeControlUnit.getLockedSpectrumFields"
+    ],
+    "_initializeCoreRules": [
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash._initializeCoreRules",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash._initializeCoreRules"
+    ],
+    "_computeRuleBookHash": [
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash._computeRuleBookHash",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash._computeRuleBookHash"
+    ],
+    "addRule": [
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.addRule",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.addRule"
+    ],
+    "updateRule": [
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.updateRule",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.updateRule"
+    ],
+    "getRule": [
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.getRule",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.getRule"
+    ],
+    "getAllRules": [
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.getAllRules",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.getAllRules"
+    ],
+    "checkViolation": [
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.checkViolation",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.checkViolation"
+    ],
+    "_detectsViolation": [
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash._detectsViolation",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash._detectsViolation"
+    ],
+    "getRetaliationForViolation": [
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.getRetaliationForViolation",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.getRetaliationForViolation"
+    ],
+    "getRuleBookHash": [
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.getRuleBookHash",
+      "uriel-ultimate-defense/src/rule-book-hash.js:RuleBookHash.getRuleBookHash"
+    ],
+    "enqueue": [
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.enqueue",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.enqueue"
+    ],
+    "_processQueue": [
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController._processQueue",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController._processQueue"
+    ],
+    "_estimatePacketSize": [
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController._estimatePacketSize",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController._estimatePacketSize"
+    ],
+    "_updateLatencyMetrics": [
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController._updateLatencyMetrics",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController._updateLatencyMetrics"
+    ],
+    "inspectTraffic": [
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.inspectTraffic",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.inspectTraffic"
+    ],
+    "getMetrics": [
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.getMetrics",
+      "uriel-ultimate-defense/src/traffic-controller.js:TrafficController.getMetrics"
+    ],
+    "_generateKey": [
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel._generateKey",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel._generateKey"
+    ],
+    "_startKeyRotation": [
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel._startKeyRotation",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel._startKeyRotation"
+    ],
+    "addSharedKey": [
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.addSharedKey",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.addSharedKey"
+    ],
+    "encrypt": [
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.encrypt",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.encrypt"
+    ],
+    "decrypt": [
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.decrypt",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.decrypt"
+    ],
+    "sign": [
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.sign",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.sign"
+    ],
+    "verifySignature": [
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.verifySignature",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.verifySignature"
+    ],
+    "_logAudit": [
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel._logAudit",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel._logAudit"
+    ],
+    "getAuditLog": [
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.getAuditLog",
+      "uriel-ultimate-defense/src/secure-channel.js:SecureChannel.getAuditLog"
+    ],
+    "_computeChecksum": [
+      "uriel-ultimate-defense/src/secure-channel.js:Packet._computeChecksum",
+      "uriel-ultimate-defense/src/secure-channel.js:Packet._computeChecksum"
+    ],
+    "addHop": [
+      "uriel-ultimate-defense/src/secure-channel.js:Packet.addHop",
+      "uriel-ultimate-defense/src/secure-channel.js:Packet.addHop"
+    ],
+    "isExpired": [
+      "uriel-ultimate-defense/src/secure-channel.js:Packet.isExpired",
+      "uriel-ultimate-defense/src/secure-channel.js:Packet.isExpired"
+    ],
+    "fromJSON": [
+      "uriel-ultimate-defense/src/secure-channel.js:Packet.fromJSON",
+      "uriel-ultimate-defense/src/secure-channel.js:Packet.fromJSON"
+    ],
+    "createDataPacket": [
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory.createDataPacket",
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory.createDataPacket"
+    ],
+    "createControlPacket": [
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory.createControlPacket",
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory.createControlPacket"
+    ],
+    "createHeartbeatPacket": [
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory.createHeartbeatPacket",
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory.createHeartbeatPacket"
+    ],
+    "createDiscoveryPacket": [
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory.createDiscoveryPacket",
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory.createDiscoveryPacket"
+    ],
+    "createDominionPacket": [
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory.createDominionPacket",
+      "uriel-ultimate-defense/src/secure-channel.js:PacketFactory.createDominionPacket"
+    ],
+    "startPropagation": [
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.startPropagation",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem.startPropagation"
+    ],
+    "_propagateToHost": [
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem._propagateToHost",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem._propagateToHost"
+    ],
+    "_startKeepAlive": [
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem._startKeepAlive",
+      "uriel-ultimate-defense/src/propagation-system.js:PropagationSystem._startKeepAlive"
+    ],
+    "_startPressureMonitoring": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._startPressureMonitoring",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._startPressureMonitoring"
+    ],
+    "_assessPressure": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._assessPressure",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._assessPressure"
+    ],
+    "_activateAdaptiveMode": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._activateAdaptiveMode",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._activateAdaptiveMode"
+    ],
+    "_activateTranslation": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._activateTranslation",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._activateTranslation"
+    ],
+    "_computeZeroSpaceCoordinate": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._computeZeroSpaceCoordinate",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._computeZeroSpaceCoordinate"
+    ],
+    "_swapToZeroSpace": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._swapToZeroSpace",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._swapToZeroSpace"
+    ],
+    "_checkForOneTransition": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._checkForOneTransition",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._checkForOneTransition"
+    ],
+    "_triggerRetaliation": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._triggerRetaliation",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._triggerRetaliation"
+    ],
+    "_updateThreatLevel": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._updateThreatLevel",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield._updateThreatLevel"
+    ],
+    "overridePermission": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.overridePermission",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.overridePermission"
+    ],
+    "mitigateTimeout": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.mitigateTimeout",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.mitigateTimeout"
+    ],
+    "checkPermission": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.checkPermission",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.checkPermission"
+    ],
+    "getMitigatedTimeout": [
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.getMitigatedTimeout",
+      "uriel-ultimate-defense/src/godnode-shield.js:GodNodeShield.getMitigatedTimeout"
+    ],
+    "_startThreatMonitoring": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._startThreatMonitoring",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._startThreatMonitoring"
+    ],
+    "_scanForThreats": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._scanForThreats",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._scanForThreats"
+    ],
+    "_executeDefense": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._executeDefense",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._executeDefense"
+    ],
+    "_applyMZero": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._applyMZero",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._applyMZero"
+    ],
+    "_banIntruder": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._banIntruder",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._banIntruder"
+    ],
+    "_executeRetaliation": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._executeRetaliation",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._executeRetaliation"
+    ],
+    "_activateUrielAnnihilation": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._activateUrielAnnihilation",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._activateUrielAnnihilation"
+    ],
+    "_flushAndReset": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._flushAndReset",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._flushAndReset"
+    ],
+    "_maximumRetaliationBurst": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._maximumRetaliationBurst",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._maximumRetaliationBurst"
+    ],
+    "_protectUserSpace": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._protectUserSpace",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem._protectUserSpace"
+    ],
+    "spreadToHost": [
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.spreadToHost",
+      "uriel-ultimate-defense/src/uriel-defense.js:UrielDefenseSystem.spreadToHost"
+    ],
+    "_startFieldMonitoring": [
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine._startFieldMonitoring",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine._startFieldMonitoring"
+    ],
+    "_maintainMZero": [
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine._maintainMZero",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine._maintainMZero"
+    ],
+    "_enforceNonConstantVelocity": [
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine._enforceNonConstantVelocity",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine._enforceNonConstantVelocity"
+    ],
+    "_updateFieldConstant": [
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine._updateFieldConstant",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine._updateFieldConstant"
+    ],
+    "_computeMemoryPosition": [
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine._computeMemoryPosition",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine._computeMemoryPosition"
+    ],
+    "getDistortion": [
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.getDistortion",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.getDistortion"
+    ],
+    "getFrozenSpace": [
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.getFrozenSpace",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.getFrozenSpace"
+    ],
+    "getAllFrozenSpaces": [
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.getAllFrozenSpaces",
+      "uriel-ultimate-defense/src/field-distortion.js:FieldDistortionEngine.getAllFrozenSpaces"
+    ],
+    "applyLockState": [
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.applyLockState",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.applyLockState"
+    ],
+    "computeSpectrumFromLock": [
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.computeSpectrumFromLock",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.computeSpectrumFromLock"
+    ],
+    "generateAudioBuffer": [
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.generateAudioBuffer",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.generateAudioBuffer"
+    ],
+    "getActuationCommand": [
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.getActuationCommand",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.getActuationCommand"
+    ],
+    "getFrequencyHistory": [
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.getFrequencyHistory",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.getFrequencyHistory"
+    ],
+    "stopActuation": [
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.stopActuation",
+      "uriel-ultimate-defense/src/external-link.js:SpectrumHzActuator.stopActuation"
+    ],
+    "establishLink": [
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.establishLink",
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.establishLink"
+    ],
+    "registerComputeModule": [
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.registerComputeModule",
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.registerComputeModule"
+    ],
+    "transpassToExternal": [
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.transpassToExternal",
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.transpassToExternal"
+    ],
+    "addExternalEndpoint": [
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.addExternalEndpoint",
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.addExternalEndpoint"
+    ],
+    "getLinkStatus": [
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.getLinkStatus",
+      "uriel-ultimate-defense/src/external-link.js:ExternalComputeLink.getLinkStatus"
+    ],
+    "createExternalLink": [
+      "uriel-ultimate-defense/src/external-link.js:NodeRuntimeBypass.createExternalLink",
+      "uriel-ultimate-defense/src/external-link.js:NodeRuntimeBypass.createExternalLink"
+    ],
+    "bridgeSimulationToHardware": [
+      "uriel-ultimate-defense/src/external-link.js:NodeRuntimeBypass.bridgeSimulationToHardware",
+      "uriel-ultimate-defense/src/external-link.js:NodeRuntimeBypass.bridgeSimulationToHardware"
+    ],
+    "generateTranspassPayload": [
+      "uriel-ultimate-defense/src/external-link.js:NodeRuntimeBypass.generateTranspassPayload",
+      "uriel-ultimate-defense/src/external-link.js:NodeRuntimeBypass.generateTranspassPayload"
+    ],
+    "store": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.store",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.store"
+    ],
+    "retrieve": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.retrieve",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.retrieve"
+    ],
+    "retrieveByNode": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.retrieveByNode",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.retrieveByNode"
+    ],
+    "delete": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.delete",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.delete"
+    ],
+    "clear": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.clear",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank.clear"
+    ],
+    "_indexPacket": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._indexPacket",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._indexPacket"
+    ],
+    "_removeFromIndexes": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._removeFromIndexes",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._removeFromIndexes"
+    ],
+    "_evict": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._evict",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._evict"
+    ],
+    "_updateSize": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._updateSize",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._updateSize"
+    ],
+    "_estimateSize": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._estimateSize",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._estimateSize"
+    ],
+    "_encryptEntry": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._encryptEntry",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._encryptEntry"
+    ],
+    "_decryptEntry": [
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._decryptEntry",
+      "uriel-ultimate-defense/src/memory-bank.js:MemoryBank._decryptEntry"
+    ],
+    "_startNaturalCoordination": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem._startNaturalCoordination",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem._startNaturalCoordination"
+    ],
+    "registerDevice": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.registerDevice",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.registerDevice"
+    ],
+    "_computeNaturalHash": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem._computeNaturalHash",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem._computeNaturalHash"
+    ],
+    "_assignPosition": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem._assignPosition",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem._assignPosition"
+    ],
+    "_coordinateFromOrigin": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem._coordinateFromOrigin",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem._coordinateFromOrigin"
+    ],
+    "_generateCoordinationSignal": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem._generateCoordinationSignal",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem._generateCoordinationSignal"
+    ],
+    "getDeviceById": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.getDeviceById",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.getDeviceById"
+    ],
+    "getAllDevices": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.getAllDevices",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.getAllDevices"
+    ],
+    "getDevicesByPosition": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.getDevicesByPosition",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.getDevicesByPosition"
+    ],
+    "getGodNodes": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.getGodNodes",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.getGodNodes"
+    ],
+    "updateDeviceStatus": [
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.updateDeviceStatus",
+      "uriel-ultimate-defense/src/device-hashing.js:DeviceHashingNaturalSystem.updateDeviceStatus"
+    ],
+    "registerGodNode": [
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.registerGodNode",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.registerGodNode"
+    ],
+    "getPosition": [
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.getPosition",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.getPosition"
+    ],
+    "getAuthority": [
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.getAuthority",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.getAuthority"
+    ],
+    "canOvertake": [
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.canOvertake",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.canOvertake"
+    ],
+    "getHierarchyChain": [
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.getHierarchyChain",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.getHierarchyChain"
+    ],
+    "while": [
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.while",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.while"
+    ],
+    "getAllGodNodes": [
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.getAllGodNodes",
+      "uriel-ultimate-defense/src/godnode-hierarchy.js:GodNodeHierarchy.getAllGodNodes"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "tasks": [
+    {
+      "taskId": "5b86271224b82298",
+      "modelId": "model-1",
+      "executionMap": {
+        "action": "search",
+        "target": "node_001",
+        "params": {
+          "depth": 3
+        }
+      },
+      "attendedSpaces": [],
+      "unattendedSpaces": [],
+      "status": "pending",
+      "createdAt": 1783550762543,
+      "updatedAt": 1783550762543
+    },
+    {
+      "taskId": "2138fcd02597e897",
+      "modelId": "model-1",
+      "executionMap": {
+        "action": "search",
+        "target": "node_001",
+        "params": {
+          "depth": 3
+        }
+      },
+      "attendedSpaces": [],
+      "unattendedSpaces": [],
+      "status": "pending",
+      "createdAt": 1783550798964,
+      "updatedAt": 1783550798964
+    },
+    {
+      "taskId": "d6896cf857c62b72",
+      "modelId": "model-1",
+      "executionMap": {
+        "action": "search",
+        "target": "node_001",
+        "params": {
+          "depth": 3
+        }
+      },
+      "attendedSpaces": [],
+      "unattendedSpaces": [],
+      "status": "pending",
+      "createdAt": 1783550905918,
+      "updatedAt": 1783550905918
+    },
+    {
+      "taskId": "0869e5bf28411500",
+      "modelId": "model-1",
+      "executionMap": {
+        "action": "search",
+        "target": "node_001",
+        "params": {
+          "depth": 3
+        }
+      },
+      "attendedSpaces": [],
+      "unattendedSpaces": [],
+      "status": "pending",
+      "createdAt": 1783550927445,
+      "updatedAt": 1783550927445
+    },
+    {
+      "taskId": "4e624d3c3a5037da",
+      "modelId": "model-1",
+      "executionMap": {
+        "action": "scan",
+        "target": "node_001"
+      },
+      "attendedSpaces": [],
+      "unattendedSpaces": [],
+      "status": "pending",
+      "createdAt": 1783551049248,
+      "updatedAt": 1783551049248
+    }
+  ],
+  "activeTask": "4e624d3c3a5037da",
+  "completedTasks": [
+    {
+      "action": "task",
+      "task": {
+        "priority": "high",
+        "name": "search"
+      },
+      "selectedSpace": null,
+      "spaceType": null,
+      "timestamp": 1783550798966,
+      "completed": false
+    },
+    {
+      "action": "task",
+      "task": {
+        "priority": "high",
+        "name": "search"
+      },
+      "selectedSpace": null,
+      "spaceType": null,
+      "timestamp": 1783550905920,
+      "completed": false
+    },
+    {
+      "action": "task",
+      "task": {
+        "priority": "high",
+        "name": "search"
+      },
+      "selectedSpace": null,
+      "spaceType": null,
+      "timestamp": 1783550927447,
+      "completed": false
+    },
+    {
+      "action": "task",
+      "task": {
+        "priority": "high"
+      },
+      "selectedSpace": null,
+      "spaceType": null,
+      "timestamp": 1783551049250,
+      "completed": false
+    }
+  ],
+  "attentionMetrics": {},
+  "attendedSpaces": [],
+  "unattendedSpaces": []
+}

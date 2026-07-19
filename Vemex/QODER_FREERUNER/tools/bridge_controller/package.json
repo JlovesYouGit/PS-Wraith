@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bridge-controller",
+  "version": "1.0.0",
+  "description": "Bridge controller for MCP servers",
+  "main": "bridge_mcp_server.js",
+  "scripts": {
+    "start": "node bridge_mcp_server.js"
+  },
+  "dependencies": {},
+  "keywords": ["mcp", "bridge", "controller"],
+  "author": "Qoder User",
+  "license": "MIT"
+}

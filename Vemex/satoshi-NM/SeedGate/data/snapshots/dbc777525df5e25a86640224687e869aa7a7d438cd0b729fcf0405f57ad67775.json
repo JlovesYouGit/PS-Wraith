@@ -1,0 +1,63 @@
+{
+  "value_sha256": "dbc777525df5e25a86640224687e869aa7a7d438cd0b729fcf0405f57ad67775",
+  "value_preview": "4f6421b2bf9b0e8649b756c6e398be9b",
+  "occurrences": 4,
+  "canonical": {
+    "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+    "line": 30,
+    "commit": null,
+    "timestamp": null
+  },
+  "forward_trace": [
+    {
+      "index": 0,
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 30,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 1,
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 69,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 2,
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 30,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 3,
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 69,
+      "kind": "hex_hash"
+    }
+  ],
+  "reverse_trace": [
+    {
+      "index": 0,
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 69,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 1,
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 30,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 2,
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 69,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 3,
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 30,
+      "kind": "hex_hash"
+    }
+  ]
+}

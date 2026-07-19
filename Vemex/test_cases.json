@@ -1,0 +1,86 @@
+{
+  "seed": 42,
+  "total_cases": 5,
+  "rubric": {
+    "description": "For each case, submit the prompt to an LLM and collect its word-interpretation.  Score with score_interpretation().",
+    "metrics": [
+      "precision",
+      "recall",
+      "f1"
+    ],
+    "pass_threshold": {
+      "f1_90": 0.9,
+      "f1_75": 0.75,
+      "f1_50": 0.5
+    },
+    "aggregation": "mean_f1 across all cases, plus per-category breakdown."
+  },
+  "cases": [
+    {
+      "id": 10,
+      "formula": "P = VI",
+      "canonical": "P equals V I",
+      "target_interpretation": "p im v i",
+      "token_map": {
+        "P": "p",
+        "=": "equals/im",
+        "V": "v",
+        "I": "i"
+      },
+      "prompt": "Formula interpretation task.\n\nThe formula is: P = VI\nCanonical reading: P equals V I\n\nGive ONLY a short phonetic word-interpretation for this formula,\nfollowing the style: e im code two, f gravity mass me one me two dont do\n(one interpretation per symbol/phoneme, lowercase, space-separated).\nOutput only the interpretation, nothing else."
+    },
+    {
+      "id": 4,
+      "formula": "E = \u00bdmv\u00b2",
+      "canonical": "E equals one half m v squared",
+      "target_interpretation": "e im half em v two",
+      "token_map": {
+        "E": "e",
+        "=": "equals/im",
+        "\u00bd": "half",
+        "m": "em",
+        "v\u00b2": "v two"
+      },
+      "prompt": "Formula interpretation task.\n\nThe formula is: E = \u00bdmv\u00b2\nCanonical reading: E equals one half m v squared\n\nGive ONLY a short phonetic word-interpretation for this formula,\nfollowing the style: e im code two, f gravity mass me one me two dont do\n(one interpretation per symbol/phoneme, lowercase, space-separated).\nOutput only the interpretation, nothing else."
+    },
+    {
+      "id": 11,
+      "formula": "P = I\u00b2R",
+      "canonical": "P equals I squared R",
+      "target_interpretation": "p im i two are",
+      "token_map": {
+        "P": "p",
+        "=": "equals/im",
+        "I\u00b2": "i two",
+        "R": "are"
+      },
+      "prompt": "Formula interpretation task.\n\nThe formula is: P = I\u00b2R\nCanonical reading: P equals I squared R\n\nGive ONLY a short phonetic word-interpretation for this formula,\nfollowing the style: e im code two, f gravity mass me one me two dont do\n(one interpretation per symbol/phoneme, lowercase, space-separated).\nOutput only the interpretation, nothing else."
+    },
+    {
+      "id": 37,
+      "formula": "Q = \u0394mc\u00b2",
+      "canonical": "Q equals Delta m c squared",
+      "target_interpretation": "cue im delta em code two",
+      "token_map": {
+        "Q": "cue",
+        "=": "equals/im",
+        "\u0394m": "delta em",
+        "c\u00b2": "code two"
+      },
+      "prompt": "Formula interpretation task.\n\nThe formula is: Q = \u0394mc\u00b2\nCanonical reading: Q equals Delta m c squared\n\nGive ONLY a short phonetic word-interpretation for this formula,\nfollowing the style: e im code two, f gravity mass me one me two dont do\n(one interpretation per symbol/phoneme, lowercase, space-separated).\nOutput only the interpretation, nothing else."
+    },
+    {
+      "id": 26,
+      "formula": "a\u207f \u2261 b\u207f (mod m)",
+      "canonical": "a to the n is congruent to b to the n mod m",
+      "target_interpretation": "a n bee n mod em",
+      "token_map": {
+        "a\u207f": "a n",
+        "\u2261": "congruent",
+        "b\u207f": "bee n",
+        "mod m": "mod em"
+      },
+      "prompt": "Formula interpretation task.\n\nThe formula is: a\u207f \u2261 b\u207f (mod m)\nCanonical reading: a to the n is congruent to b to the n mod m\n\nGive ONLY a short phonetic word-interpretation for this formula,\nfollowing the style: e im code two, f gravity mass me one me two dont do\n(one interpretation per symbol/phoneme, lowercase, space-separated).\nOutput only the interpretation, nothing else."
+    }
+  ]
+}

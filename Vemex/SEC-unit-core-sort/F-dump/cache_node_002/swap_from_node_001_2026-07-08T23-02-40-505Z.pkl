@@ -1,0 +1,9 @@
+{
+  "from": "node_001",
+  "to": "node_002",
+  "portionSize": 2309.5,
+  "sourceSize": 4619,
+  "targetMaxSize": 134217728,
+  "timestamp": 1783551760507,
+  "reason": "manual_swap"
+}

@@ -1,0 +1,12 @@
+metadata_details:
+  purpose: "Detect elevated HTTP error rates indicating potential application issues or attacks"
+  mitre_tactic_technique: "T1499 - Endpoint Denial of Service"
+  datasource: "accesslog"
+  search_type: "powerquery"
+  usecase_plus: "Monitors web server error responses (5xx status codes) to identify service degradation"
+  severity: "Medium"
+  expected_alert_scenario: "Alerts when error count exceeds 120 errors in 4-minute window per host"
+  performance_impact: "Minimal"
+  tags: ["detection", "alert", "web", "error-rate", "availability", "powerquery"]
+  version: "latest"
+  author: "Joel Mora"

@@ -1,0 +1,6 @@
+@echo off
+echo Running GHz Band Device Detector...
+echo Detecting devices 2-4km away not connected to this router...
+echo.
+python ghz_detector.py
+pause

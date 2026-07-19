@@ -1,0 +1,63 @@
+{
+  "value_sha256": "f575017889a9e7c9ce2ef0d56e01d8d4576d8a6dc076610a3ede09d149eb3c21",
+  "value_preview": "380a15a982ec6d28ef00c3ff3adba9e7b9f43e3217ddc212ba7aeaddc32b1f85",
+  "occurrences": 4,
+  "canonical": {
+    "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+    "line": 14,
+    "commit": null,
+    "timestamp": null
+  },
+  "forward_trace": [
+    {
+      "index": 0,
+      "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+      "line": 14,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 1,
+      "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+      "line": 3,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 2,
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+      "line": 14,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 3,
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+      "line": 3,
+      "kind": "hex_hash"
+    }
+  ],
+  "reverse_trace": [
+    {
+      "index": 0,
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+      "line": 3,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 1,
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+      "line": 14,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 2,
+      "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+      "line": 3,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 3,
+      "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+      "line": 14,
+      "kind": "hex_hash"
+    }
+  ]
+}

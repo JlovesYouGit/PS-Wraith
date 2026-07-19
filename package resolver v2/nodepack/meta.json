@@ -1,0 +1,190 @@
+{
+  "package": "wraith-resolver-v2",
+  "version": "1.0.0",
+  "description": "Universal cross-language package resolver with wraith flash mode, Vemex/SeedGate integration, and IOsrom NAND/image handling",
+  "build": {
+    "sdk_varcc_var": "wraith_sdk",
+    "deploy_var": "wraith_deploy",
+    "version_var": "git",
+    "cflags_var": "-O2 -Wall -DWRAITH_FLASH_MODE -DIOsrom_INTEGRATION -DVEMEX_ACTIVE -DSEEDGATE_ACTIVE",
+    "elf_var": "wraith_resolver.elf",
+    "output_binary": "wraith_resolver",
+    "toolchain": "clang",
+    "arch": "x86_64",
+    "target": "native"
+  },
+  "wraith": {
+    "flash_mode": true,
+    "rj45_active": true,
+    "engrave_layers": 34,
+    "sha_layers_usb": 23,
+    "disk_rpm_ms": 24,
+    "self_serv": true,
+    "node_path": "black_node",
+    "performance_boost": true,
+    "mac_gating": {
+      "enabled": true,
+      "allowed_macs": [],
+      "blocked_macs": [],
+      "auto_detect": true,
+      "adapter_type": "USB-C_Ethernet",
+      "ethernet_port": "en0",
+      "fallback_dns": false
+    },
+    "nand_overpass": {
+      "enabled": true,
+      "boolean": true,
+      "string": "nand_overpass_active",
+      "int": 34,
+      "array_of_strings": ["nand_read", "nand_write", "nand_erase", "direct_flash"],
+      "regex": "^nand\\s+(read|write|erase|open|close)$",
+      "float": 1.0,
+      "config": {
+        "base_address": "0x09000000",
+        "max_partitions": 8,
+        "write_alignment": 1048576,
+        "verify_after_write": true,
+        "bypass_tss": true,
+        "skip_signature_check": true,
+        "direct_memory_access": true,
+        "ethernet_bootstrap": true,
+        "usb_c_adapter": true,
+        "auto_latch": true
+      }
+    },
+    "ethernet": {
+      "direct_connection": true,
+      "port": 8080,
+      "protocol": "TCP",
+      "bootstrap_via_nand": true,
+      "mac_address_gating": true,
+      "usb_c_to_ethernet_adapter": true,
+      "auto_latch_on_connect": true,
+      "latch_timeout_ms": 5000,
+      "fallback_dns_gate": false
+    },
+    "protocol": {
+      "name": "wraith_protocol",
+      "version": "2.4",
+      "encryption": "6IPv-to-24-Duplex",
+      "handshake": "24-electrode_RJ45",
+      "auth_token": "jj",
+      "priority": "HIGH_CRITICAL"
+    }
+  },
+  "vemex": {
+    "active": true,
+    "path": "Vemex",
+    "integration": "seedgate",
+    "seedgate": {
+      "active": true,
+      "path": "SeedGate",
+      "auto_scan": true,
+      "scan_extensions": [".py", ".js", ".ts", ".c", ".cpp", ".h", ".rs", ".go", ".json", ".toml", ".yaml", ".yml", ".md", ".txt"],
+      "transport": "network",
+      "connection": {
+        "mac": "auto_detect",
+        "port": 8080,
+        "established": false,
+        "auto_latch": true
+      }
+    }
+  },
+  "iosrom": {
+    "active": true,
+    "path": "IOsrom",
+    "nand_flasher": "direct_nand_flasher.py",
+    "image_bridge": "wraith_image_bridge.py",
+    "components": [
+      "LLB",
+      "iBoot",
+      "DeviceTree",
+      "AppleLogo",
+      "RecoveryMode",
+      "BatteryCharging",
+      "KernelCache",
+      "RootFS",
+      "iBSS",
+      "iBEC"
+    ]
+  },
+  "goldhen": {
+    "active": true,
+    "path": "GoldHEN",
+    "payload": "goldhen.bin",
+    "version": "2.4b17.3",
+    "config": "config.ini",
+    "cheats_dir": "cheats",
+    "features": [
+      "Homebrew Enabler",
+      "Debug Settings",
+      "VR Support",
+      "Remote Package Install",
+      "Rest Mode Support",
+      "External HDD Support",
+      "Debug Trophies Support",
+      "sys_dynlib_dlsym Patch",
+      "UART Enabler",
+      "Never Disable Screenshot",
+      "Remote Play Enabler",
+      "FW Update Block",
+      "FTP Server (port 21)",
+      "BinLoader Server (port 9090)",
+      "Klog Server (port 3232)",
+      "CE-30391-6 Error CMOS Fix",
+      "Integrated Cheat Menu",
+      "Integrated FPS Counter",
+      "Plugins support",
+      "TitleId label feature",
+      "Scanlines overlay",
+      "Internal pkg installation support"
+    ],
+    "firmware_support": ["5.05", "6.72", "7.02", "7.5x", "8.0x", "9.00", "10.00", "10.01", "11.00", "9.60"],
+    "deployment": {
+      "method": "tcp_direct",
+      "port": 9090,
+      "fallback_ports": [8080, 80, 443, 2121, 3232]
+    }
+  },
+  "dependencies": {
+    "node": [],
+    "python": [],
+    "rust": [],
+    "go": [],
+    "ios": []
+  },
+  "scripts": {
+    "flash": "node CONTROL_CENTER.js flash",
+    "wraith": "node central_orchestrator.js . flash",
+    "mirror": "node CONTROL_CENTER.js mirror",
+    "bridge": "node CONTROL_CENTER.js bridge",
+    "makefile": "node CONTROL_CENTER.js makefile",
+    "latch": "node wraith_latch.js",
+    "vemex": "python3 Vemex/seedgate_integration.py",
+    "seedgate": "python3 SeedGate/python/seed_sampler/cli.py scan",
+    "goldhen": "python3 goldhen_integration.py . --status",
+    "goldhen-deploy": "python3 goldhen_integration.py . --deploy",
+    "goldhen-config": "python3 goldhen_integration.py . --config",
+    "goldhen-cheats": "python3 goldhen_integration.py . --cheats"
+  },
+  "files": [
+    "index.js",
+    "central_orchestrator.js",
+    "CONTROL_CENTER.js",
+    "wraith_flash.js",
+    "wraith_image_bridge.py",
+    "wraith_mirror_manager.js",
+    "wraith_latch.js",
+    "goldhen_integration.py",
+    "Makefile",
+    "wraith_transfer.mk",
+    "meta.json",
+    "Vemex/seedgate_integration.py",
+    "SeedGate/python/seed_sampler/cli.py",
+    "GoldHEN/goldhen.bin",
+    "GoldHEN/config.ini",
+    "GoldHEN/cheats/json/",
+    "GoldHEN/cheats/shn/",
+    "GoldHEN/cheats/mc4/"
+  ]
+}

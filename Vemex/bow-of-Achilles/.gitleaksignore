@@ -1,0 +1,9 @@
+# Ignore test files with mock data
+tests/test_wifi_scanner.py:generic-api-key:93
+tests/test_wifi_scanner.py:generic-api-key:162
+tests/test_wifi_scanner.py:generic-api-key:255
+tests/test_integration.py:generic-api-key:508
+
+# Ignore documentation examples
+README.md:*
+

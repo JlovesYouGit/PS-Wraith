@@ -1,0 +1,28 @@
+
+# Large firmware files
+*.dmg
+*.ipsw
+*.dfu
+*.img3
+
+# Extracted firmware
+extracted/
+*_work/
+*_temp/
+manual_restore/
+restore_temp/
+
+# Windows executables
+*.exe
+*.dll
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# USB tools
+ipwndfu-win32/
+libimobiledevice*/

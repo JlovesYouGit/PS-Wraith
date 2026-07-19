@@ -1,0 +1,16 @@
+{
+  "name": "god-level-node-control-unit",
+  "version": "1.0.0",
+  "description": "Render Paradox Node System with self-authoritative lock state",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "simulate": "node src/simulate.js",
+    "test": "node src/test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

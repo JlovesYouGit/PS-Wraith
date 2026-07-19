@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "category": "Physics / Relativity",
+    "formula": "E = mc²",
+    "canonical": "E equals m c squared",
+    "word_interpretation": "e im code two",
+    "token_map": {"E": "e", "=": "equals/im", "m": "im/code", "c²": "code two"},
+    "confidence": 1.0
+  },
+  {
+    "id": 2,
+    "category": "Physics / Gravity",
+    "formula": "F = G m₁ m₂ / d²",
+    "canonical": "F equals G m1 m2 over d squared",
+    "word_interpretation": "f gravity mass me one me two dont do",
+    "token_map": {"F": "f", "=": "equals", "G": "gravity", "m₁": "mass me one", "m₂": "me two", "/": "dont do", "d²": "d two"},
+    "confidence": 1.0
+  },
+  {
+    "id": 3,
+    "category": "Physics / Motion",
+    "formula": "F = ma",
+    "canonical": "F equals m a",
+    "word_interpretation": "f im a",
+    "token_map": {"F": "f", "=": "equals/im", "m": "im", "a": "a"},
+    "confidence": 1.0
+  },
+  {
+    "id": 4,
+    "category": "Physics / Energy",
+    "formula": "E = ½mv²",
+    "canonical": "E equals one half m v squared",
+    "word_interpretation": "e im half em v two",
+    "token_map": {"E": "e", "=": "equals/im", "½": "half", "m": "em", "v²": "v two"},
+    "confidence": 1.0
+  },
+  {
+    "id": 5,
+    "category": "Physics / Waves",
+    "formula": "v = fλ",
+    "canonical": "v equals f lambda",
+    "word_interpretation": "v im f lamb",
+    "token_map": {"v": "v", "=": "equals/im", "f": "f", "λ": "lamb"},
+    "confidence": 1.0
+  },
+  {
+    "id": 6,
+    "category": "Physics / Kinematics",
+    "formula": "v = u + at",
+    "canonical": "v equals u plus a t",
+    "word_interpretation": "v im you a tea",
+    "token_map": {"v": "v", "=": "equals/im", "u": "you", "+": "plus", "a": "a", "t": "tea"},
+    "confidence": 1.0
+  },
+  {
+    "id": 7,
+    "category": "Physics / Kinematics",
+    "formula": "s = ut + ½at²",
+    "canonical": "s equals u t plus one half a t squared",
+    "word_interpretation": "s im you tea half a tea two",
+    "token_map": {"s": "s", "=": "equals/im", "u": "you", "t": "tea", "+": "plus", "½": "half", "a": "a", "t²": "tea two"},
+    "confidence": 1.0
+  },
+  {
+    "id": 8,
+    "category": "Physics / Pressure",
+    "formula": "P = F/A",
+    "canonical": "P equals F over A",
+    "word_interpretation": "p im f a",
+    "token_map": {"P": "p", "=": "equals/im", "F": "f", "/": "over", "A": "a"},
+    "confidence": 1.0
+  },
+  {
+    "id": 9,
+    "category": "Physics / Electricity",
+    "formula": "V = IR",
+    "canonical": "V equals I R",
+    "word_interpretation": "v im i are",
+    "token_map": {"V": "v", "=": "equals/im", "I": "i", "R": "are"},
+    "confidence": 1.0
+  },
+  {
+    "id": 10,
+    "category": "Physics / Electricity",
+    "formula": "P = VI",
+    "canonical": "P equals V I",
+    "word_interpretation": "p im v i",
+    "token_map": {"P": "p", "=": "equals/im", "V": "v", "I": "i"},
+    "confidence": 1.0
+  },
+  {
+    "id": 11,
+    "category": "Physics / Electricity",
+    "formula": "P = I²R",
+    "canonical": "P equals I squared R",
+    "word_interpretation": "p im i two are",
+    "token_map": {"P": "p", "=": "equals/im", "I²": "i two", "R": "are"},
+    "confidence": 1.0
+  },
+  {
+    "id": 12,
+    "category": "Mathematics / Geometry",
+    "formula": "A = πr²",
+    "canonical": "A equals pi r squared",
+    "word_interpretation": "a im pie are two",
+    "token_map": {"A": "a", "=": "equals/im", "π": "pie", "r²": "are two"},
+    "confidence": 1.0
+  },
+  {
+    "id": 13,
+    "category": "Mathematics / Geometry",
+    "formula": "C = 2πr",
+    "canonical": "C equals 2 pi r",
+    "word_interpretation": "c two pie are",
+    "token_map": {"C": "c", "=": "equals", "2πr": "two pie are"},
+    "confidence": 1.0
+  },
+  {
+    "id": 14,
+    "category": "Mathematics / Geometry",
+    "formula": "V = (4/3)πr³",
+    "canonical": "V equals four thirds pi r cubed",
+    "word_interpretation": "v four thirds pie are three",
+    "token_map": {"V": "v", "=": "equals", "(4/3)πr³": "four thirds pie are three"},
+    "confidence": 1.0
+  },
+  {
+    "id": 15,
+    "category": "Mathematics / Trigonometry",
+    "formula": "a² + b² = c²",
+    "canonical": "a squared plus b squared equals c squared",
+    "word_interpretation": "a two bee two see two",
+    "token_map": {"a²": "a two", "+": "plus", "b²": "bee two", "=": "equals", "c²": "see two"},
+    "confidence": 1.0
+  },
+  {
+    "id": 16,
+    "category": "Mathematics / Trigonometry",
+    "formula": "sin θ = opp / hyp",
+    "canonical": "sine theta equals opposite over hypotenuse",
+    "word_interpretation": "sine theta im oppose hype",
+    "token_map": {"sin θ": "sine theta", "=": "equals/im", "opp": "oppose", "/": "over", "hyp": "hype"},
+    "confidence": 1.0
+  },
+  {
+    "id": 17,
+    "category": "Mathematics / Trigonometry",
+    "formula": "cos θ = adj / hyp",
+    "canonical": "cosine theta equals adjacent over hypotenuse",
+    "word_interpretation": "cosine theta im adj hype",
+    "token_map": {"cos θ": "cosine theta", "=": "equals/im", "adj": "adj", "/": "over", "hyp": "hype"},
+    "confidence": 1.0
+  },
+  {
+    "id": 18,
+    "category": "Mathematics / Algebra",
+    "formula": "ax² + bx + c = 0",
+    "canonical": "a x squared plus b x plus c equals zero",
+    "word_interpretation": "a ex two bee ex c zero",
+    "token_map": {"ax²": "a ex two", "+": "plus", "bx": "bee ex", "+": "plus", "c": "c", "=": "equals", "0": "zero"},
+    "confidence": 1.0
+  },
+  {
+    "id": 19,
+    "category": "Mathematics / Calculus",
+    "formula": "f'(x) = dy/dx",
+    "canonical": "f prime of x equals d y over d x",
+    "word_interpretation": "ef prime ex im dee why dee ex",
+    "token_map": {"f'(x)": "ef prime ex", "=": "equals/im", "dy/dx": "dee why dee ex"},
+    "confidence": 1.0
+  },
+  {
+    "id": 20,
+    "category": "Mathematics / Calculus",
+    "formula": "∫f(x)dx",
+    "canonical": "integral of f of x d x",
+    "word_interpretation": "integral ef ex dee ex",
+    "token_map": {"∫": "integral", "f(x)": "ef ex", "dx": "dee ex"},
+    "confidence": 1.0
+  },
+  {
+    "id": 21,
+    "category": "Mathematics / Statistics",
+    "formula": "x̄ = Σx / n",
+    "canonical": "x bar equals sum of x over n",
+    "word_interpretation": "ex bar sum ex en",
+    "token_map": {"x̄": "ex bar", "=": "equals", "Σx": "sum ex", "/": "over", "n": "en"},
+    "confidence": 1.0
+  },
+  {
+    "id": 22,
+    "category": "Mathematics / Statistics",
+    "formula": "σ = √(Σ(x-μ)² / n)",
+    "canonical": "sigma equals square root of sum of x minus mu squared over n",
+    "word_interpretation": "sigma root sum ex mu two en",
+    "token_map": {"σ": "sigma", "=": "equals", "√": "root", "Σ(x-μ)²": "sum ex mu two", "/": "over", "n": "en"},
+    "confidence": 1.0
+  },
+  {
+    "id": 23,
+    "category": "Chemistry",
+    "formula": "E = hf",
+    "canonical": "E equals h f",
+    "word_interpretation": "e im h f",
+    "token_map": {"E": "e", "=": "equals/im", "h": "h", "f": "f"},
+    "confidence": 1.0
+  },
+  {
+    "id": 24,
+    "category": "Chemistry",
+    "formula": "PV = nRT",
+    "canonical": "P V equals n R T",
+    "word_interpretation": "p v im en are tea",
+    "token_map": {"PV": "p v", "=": "equals/im", "n": "en", "R": "are", "T": "tea"},
+    "confidence": 1.0
+  },
+  {
+    "id": 25,
+    "category": "Chemistry",
+    "formula": "pH = -log[H⁺]",
+    "canonical": "pH equals negative log of hydrogen ion concentration",
+    "word_interpretation": "p h im log high on",
+    "token_map": {"pH": "p h", "=": "equals/im", "-log": "log", "[H⁺]": "high on"},
+    "confidence": 1.0
+  },
+  {
+    "id": 26,
+    "category": "Mathematics / Number Theory",
+    "formula": "aⁿ ≡ bⁿ (mod m)",
+    "canonical": "a to the n is congruent to b to the n mod m",
+    "word_interpretation": "a n bee n mod em",
+    "token_map": {"aⁿ": "a n", "≡": "congruent", "bⁿ": "bee n", "mod m": "mod em"},
+    "confidence": 1.0
+  },
+  {
+    "id": 27,
+    "category": "Mathematics / Combinatorics",
+    "formula": "n! = n × (n-1) × ... × 1",
+    "canonical": "n factorial equals n times n minus one times dot dot dot times one",
+    "word_interpretation": "en fact en times en won one",
+    "token_map": {"n!": "en fact", "=": "equals", "n": "en", "×": "times", "(n-1)": "en won", "...": "dot dot dot", "1": "one"},
+    "confidence": 1.0
+  },
+  {
+    "id": 28,
+    "category": "Physics / Thermodynamics",
+    "formula": "ΔU = Q - W",
+    "canonical": "Delta U equals Q minus W",
+    "word_interpretation": "delta u im cue double u",
+    "token_map": {"ΔU": "delta u", "=": "equals/im", "Q": "cue", "-": "minus", "W": "double u"},
+    "confidence": 1.0
+  },
+  {
+    "id": 29,
+    "category": "Physics / Optics",
+    "formula": "1/f = 1/u + 1/v",
+    "canonical": "one over f equals one over u plus one over v",
+    "word_interpretation": "won f im won you won vee",
+    "token_map": {"1/f": "won f", "=": "equals/im", "1/u": "won you", "+": "plus", "1/v": "won vee"},
+    "confidence": 1.0
+  },
+  {
+    "id": 30,
+    "category": "Mathematics / Probability",
+    "formula": "P(A) = n(A) / n(S)",
+    "canonical": "P of A equals n of A over n of S",
+    "word_interpretation": "p a im en a en s",
+    "token_map": {"P(A)": "p a", "=": "equals/im", "n(A)": "en a", "/": "over", "n(S)": "en s"},
+    "confidence": 1.0
+  },
+  {
+    "id": 31,
+    "category": "Physics / Mechanics",
+    "formula": "τ = r × F",
+    "canonical": "tau equals r cross F",
+    "word_interpretation": "tau im are f",
+    "token_map": {"τ": "tau", "=": "equals/im", "r": "are", "×": "cross", "F": "f"},
+    "confidence": 1.0
+  },
+  {
+    "id": 32,
+    "category": "Physics / Quantum",
+    "formula": "λ = h/p",
+    "canonical": "lambda equals h over p",
+    "word_interpretation": "lamb im h p",
+    "token_map": {"λ": "lamb", "=": "equals/im", "h": "h", "/": "over", "p": "p"},
+    "confidence": 1.0
+  },
+  {
+    "id": 33,
+    "category": "Mathematics / Algebra",
+    "formula": "e^(iπ) + 1 = 0",
+    "canonical": "e to the i pi plus one equals zero",
+    "word_interpretation": "e i pie won zero",
+    "token_map": {"e^(iπ)": "e i pie", "+": "plus", "1": "one", "=": "equals", "0": "zero"},
+    "confidence": 1.0
+  },
+  {
+    "id": 34,
+    "category": "Physics / Fluid Dynamics",
+    "formula": "ΔP = ρgΔh",
+    "canonical": "Delta P equals rho g Delta h",
+    "word_interpretation": "delta p im row jay delta h",
+    "token_map": {"ΔP": "delta p", "=": "equals/im", "ρ": "row", "g": "jay", "Δh": "delta h"},
+    "confidence": 1.0
+  },
+  {
+    "id": 35,
+    "category": "Mathematics / Series",
+    "formula": "S = n/2(a + l)",
+    "canonical": "S equals n over 2 times a plus l",
+    "word_interpretation": "s en two a ell",
+    "token_map": {"S": "s", "=": "equals", "n/2": "en two", "(a+l)": "a ell"},
+    "confidence": 1.0
+  },
+  {
+    "id": 36,
+    "category": "Physics / Special Relativity",
+    "formula": "t' = t / √(1 - v²/c²)",
+    "canonical": "t prime equals t over square root of one minus v squared over c squared",
+    "word_interpretation": "tea prime im tea root won vee two see two",
+    "token_map": {"t'": "tea prime", "=": "equals/im", "t": "tea", "√(1-v²/c²)": "root won vee two see two"},
+    "confidence": 1.0
+  },
+  {
+    "id": 37,
+    "category": "Physics / Nuclear",
+    "formula": "Q = Δmc²",
+    "canonical": "Q equals Delta m c squared",
+    "word_interpretation": "cue im delta em code two",
+    "token_map": {"Q": "cue", "=": "equals/im", "Δm": "delta em", "c²": "code two"},
+    "confidence": 1.0
+  },
+  {
+    "id": 38,
+    "category": "Mathematics / Complex Numbers",
+    "formula": "z = a + bi",
+    "canonical": "z equals a plus b i",
+    "word_interpretation": "zee im a bee eye",
+    "token_map": {"z": "zee", "=": "equals/im", "a": "a", "+": "plus", "b": "bee", "i": "eye"},
+    "confidence": 1.0
+  },
+  {
+    "id": 39,
+    "category": "Physics / Waves",
+    "formula": "y = A sin(ωt - kx)",
+    "canonical": "y equals A sin of omega t minus k x",
+    "word_interpretation": "why im a sine oh em tea kay ex",
+    "token_map": {"y": "why", "=": "equals/im", "A": "a", "sin": "sine", "ω": "oh em", "t": "tea", "-": "minus", "k": "kay", "x": "ex"},
+    "confidence": 1.0
+  },
+  {
+    "id": 40,
+    "category": "Physics / Electricity",
+    "formula": "Xc = 1/(2πfC)",
+    "canonical": "X sub c equals one over two pi f C",
+    "word_interpretation": "ex c im won two pie f c",
+    "token_map": {"Xc": "ex c", "=": "equals/im", "1/(2πfC)": "won two pie f c"},
+    "confidence": 1.0
+  }
+]

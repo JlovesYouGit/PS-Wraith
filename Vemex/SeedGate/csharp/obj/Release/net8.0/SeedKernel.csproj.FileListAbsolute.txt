@@ -1,0 +1,15 @@
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/bin/Release/net8.0/SeedKernel
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/bin/Release/net8.0/SeedKernel.deps.json
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/bin/Release/net8.0/SeedKernel.runtimeconfig.json
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/bin/Release/net8.0/SeedKernel.dll
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/bin/Release/net8.0/SeedKernel.pdb
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/obj/Release/net8.0/SeedKernel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/obj/Release/net8.0/SeedKernel.AssemblyInfoInputs.cache
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/obj/Release/net8.0/SeedKernel.AssemblyInfo.cs
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/obj/Release/net8.0/SeedKernel.csproj.CoreCompileInputs.cache
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/obj/Release/net8.0/SeedKernel.dll
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/obj/Release/net8.0/refint/SeedKernel.dll
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/obj/Release/net8.0/SeedKernel.pdb
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/obj/Release/net8.0/SeedKernel.genruntimeconfig.cache
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/obj/Release/net8.0/ref/SeedKernel.dll
+/Users/u/Downloads/superseedsampler/seed-sampler/csharp/obj/Release/net8.0/SeedKernel.sourcelink.json

@@ -1,0 +1,190 @@
+{
+  "content": {
+    "description": "Consciousness exchange topology linking emission source to matcher via wave handshake",
+    "primaryProtocol": "vsync",
+    "secondaryProtocol": "wave_handshake",
+    "dataFlow": "bidirectional",
+    "state": "AWAIT",
+    "currentSeed": null,
+    "accessibleMemoryLayer": {
+      "internal": [],
+      "external": [],
+      "interconnects": []
+    },
+    "accessControl": {
+      "layerCount": 3,
+      "activeSessionCount": 0,
+      "cloudPointerCount": 0,
+      "queryTracking": {
+        "node_001": {
+          "totalQueries": 60,
+          "totalExtractions": 12,
+          "depth": 2,
+          "importance": 0.8
+        },
+        "node_002": {
+          "totalQueries": 10,
+          "totalExtractions": 0,
+          "depth": 4,
+          "importance": 0.9
+        },
+        "layer-3": {
+          "totalQueries": 25,
+          "totalExtractions": 9,
+          "depth": 3,
+          "importance": 0.5
+        }
+      },
+      "densityMap": [
+        {
+          "layerId": "node_001",
+          "seed": "seed-1",
+          "density": 1.152,
+          "activity": 72,
+          "depth": 2,
+          "importance": 0.8,
+          "attentionZone": "high",
+          "queryCount": 60,
+          "extractionCount": 12
+        },
+        {
+          "layerId": "layer-3",
+          "seed": "seed-3",
+          "density": 0.51,
+          "activity": 34,
+          "depth": 3,
+          "importance": 0.5,
+          "attentionZone": "medium",
+          "queryCount": 25,
+          "extractionCount": 9
+        },
+        {
+          "layerId": "node_002",
+          "seed": "seed-2",
+          "density": 0.36000000000000004,
+          "activity": 10,
+          "depth": 4,
+          "importance": 0.9,
+          "attentionZone": "low",
+          "queryCount": 10,
+          "extractionCount": 0
+        }
+      ],
+      "attentionZones": {
+        "high": [
+          {
+            "layerId": "node_001",
+            "seed": "seed-1",
+            "depth": 2,
+            "importance": 0.8
+          }
+        ],
+        "medium": [
+          {
+            "layerId": "layer-3",
+            "seed": "seed-3",
+            "depth": 3,
+            "importance": 0.5
+          }
+        ],
+        "low": [
+          {
+            "layerId": "node_002",
+            "seed": "seed-2",
+            "depth": 4,
+            "importance": 0.9
+          }
+        ],
+        "unattended": []
+      }
+    },
+    "updatedAt": 1783551760509
+  },
+  "metadata": {
+    "createdAt": 1783551760492,
+    "updatedAt": 1783551760509,
+    "version": "1.0.0",
+    "module": "consciousness-exchange",
+    "forwardDir": "E:\\DOWNLOADs\\sec-unit\\forward",
+    "fDumpDir": "E:\\DOWNLOADs\\sec-unit\\F-dump",
+    "gitTreeDir": "E:\\DOWNLOADs\\sec-unit\\unified-consciousness-render\\consciousness-git-tree",
+    "maxCacheSizeBytes": 33554432,
+    "permissionLevel": 0,
+    "highPriorityPermission": false,
+    "externalSourceCount": 0,
+    "totalSeedMarkers": 0
+  },
+  "nodes": [
+    {
+      "id": "node_001",
+      "type": "emission_source",
+      "uri": "http://127.0.0.1:8080",
+      "localPort": 8080,
+      "content": {
+        "role": " Initiates ultrasonic signature generation and wave handshake",
+        "state": "IDLE",
+        "seed": "8c0d5c4d1d49c8ad7a8a71874fae34592a2130132f55dfb85760a17364efb08f",
+        "cacheDir": "E:\\DOWNLOADs\\sec-unit\\F-dump\\cache_node_001",
+        "emissionChannels": [
+          "ultrasonic_signature",
+          "acoustic_fluctuation"
+        ]
+      },
+      "metadata": {
+        "nodeId": "node_001",
+        "cacheSizeBytes": 4619,
+        "dumpCount": 0,
+        "signatureCount": 0
+      }
+    },
+    {
+      "id": "node_002",
+      "type": "matcher",
+      "uri": "http://127.0.0.1:8081",
+      "localPort": 8080,
+      "content": {
+        "role": "Matches and scores TCP candidates against emission source signatures",
+        "state": "IDLE",
+        "seed": "ac23c44572c1fcec494a04c3a1b9955d1af71513a41bba41cd248fd39d98be48",
+        "cacheDir": "E:\\DOWNLOADs\\sec-unit\\F-dump\\cache_node_002",
+        "gatewayList": [
+          "192.168.1.1",
+          "192.168.1.254"
+        ],
+        "lastSwapFrom": "node_001",
+        "lastSwapTimestamp": 1783551760509,
+        "lastSwapPortion": 2309.5
+      },
+      "metadata": {
+        "nodeId": "node_002",
+        "cacheSizeBytes": 4196,
+        "dumpCount": 0,
+        "updatedAt": 1783551760509
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "node_001",
+      "target": "node_002",
+      "type": "wave_handshake",
+      "protocol": "vsync",
+      "content": {
+        "states": [
+          "AWAIT",
+          "RISING",
+          "PEAK",
+          "LOCKED"
+        ],
+        "currentState": "AWAIT",
+        "waveSequence": [],
+        "lockFile": "E:\\DOWNLOADs\\sec-unit\\unified-consciousness-render\\consciousness-git-tree\\handshake_lock.json"
+      },
+      "metadata": {
+        "createdAt": 1783551760492,
+        "killCount": 0,
+        "reinstantiations": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "value_sha256": "bd74760419def4879fc38537a4de8917ad4a10f4987dd3cfa05f435a62e17019",
+  "value_preview": "8c0d5c4d1d49c8ad7a8a71874fae34592a2130132f55dfb85760a17364efb08f",
+  "occurrences": 4,
+  "canonical": {
+    "address": "SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+    "line": 0,
+    "commit": null,
+    "timestamp": null
+  },
+  "forward_trace": [
+    {
+      "index": 0,
+      "address": "SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+      "line": 0,
+      "kind": "seed_file"
+    },
+    {
+      "index": 1,
+      "address": "SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+      "line": 126,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 2,
+      "address": "The-Crown/SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+      "line": 0,
+      "kind": "seed_file"
+    },
+    {
+      "index": 3,
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+      "line": 126,
+      "kind": "hex_hash"
+    }
+  ],
+  "reverse_trace": [
+    {
+      "index": 0,
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+      "line": 126,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 1,
+      "address": "The-Crown/SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+      "line": 0,
+      "kind": "seed_file"
+    },
+    {
+      "index": 2,
+      "address": "SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+      "line": 126,
+      "kind": "hex_hash"
+    },
+    {
+      "index": 3,
+      "address": "SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+      "line": 0,
+      "kind": "seed_file"
+    }
+  ]
+}

@@ -1,0 +1,2755 @@
+{
+  "schema": 1,
+  "generated_at": 1784115353,
+  "seeds": [
+    {
+      "address": "The-Crown/bow-of-Achilles/test_pattern_approach.py",
+      "line": 17,
+      "kind": "hex_hash",
+      "value": "1e5b7276104ed66900b2035a706fdfe0e720fa5ca233d43870ab1b5a819f3cd9",
+      "value_sha256": "79e7a79e14e10927f4f0fdc528939fe70747dfb85b518301646216cfeb4048fb",
+      "file_sha256": "40fb8bbcf2897a5aac1755d651445b93b762035a929108399555310c809d9db4",
+      "origin": null,
+      "kernel": {
+        "key": "1UQKHRME32VXJ",
+        "blockSize": 32,
+        "blockSha256": "79e7a79e14e10927f4f0fdc528939fe70747dfb85b518301646216cfeb4048fb",
+        "engine": "csharp-net8"
+      }
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+      "line": 11,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "d714042c3e44a3e5b50de1129b2ba61b434a2a4c3cc40d1db4d6d9b6bc450706",
+      "origin": null,
+      "kernel": {
+        "key": "1VS6WXJSYC4GQ",
+        "blockSize": 32,
+        "blockSha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+        "engine": "csharp-net8"
+      }
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+      "line": 17,
+      "kind": "hex_hash",
+      "value": "fb6fd78b6ce1770644e820ce1b27547804f9a52ebb24dd07964b3262440a9239",
+      "value_sha256": "99b450698d4292e50b835f8447c785f985a26924cc1a06161ab938f283a69893",
+      "file_sha256": "d714042c3e44a3e5b50de1129b2ba61b434a2a4c3cc40d1db4d6d9b6bc450706",
+      "origin": null,
+      "kernel": {
+        "key": "2C5AGEMA8MUAT",
+        "blockSize": 32,
+        "blockSha256": "99b450698d4292e50b835f8447c785f985a26924cc1a06161ab938f283a69893",
+        "engine": "csharp-net8"
+      }
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+      "line": 18,
+      "kind": "hex_hash",
+      "value": "1fbbf28c19a5bd2034dff97ad55949f3c312f18f9bdd160494d650d754f2bd02",
+      "value_sha256": "cac3f0ebd4a763be7b2ad7605a0ab699159cae798d84f4522cbe8161a123b7ef",
+      "file_sha256": "d714042c3e44a3e5b50de1129b2ba61b434a2a4c3cc40d1db4d6d9b6bc450706",
+      "origin": null,
+      "kernel": {
+        "key": "3307NK5VMK79A",
+        "blockSize": 32,
+        "blockSha256": "cac3f0ebd4a763be7b2ad7605a0ab699159cae798d84f4522cbe8161a123b7ef",
+        "engine": "csharp-net8"
+      }
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+      "line": 19,
+      "kind": "hex_hash",
+      "value": "66f2dc47f42eb408d2450a0b6b0ee27604b3eff079dfefff6d4693eebbad152c",
+      "value_sha256": "a5bd754976475678cf6422297790782944e12dc2c7e56dc5457f887c48418e53",
+      "file_sha256": "d714042c3e44a3e5b50de1129b2ba61b434a2a4c3cc40d1db4d6d9b6bc450706",
+      "origin": null,
+      "kernel": {
+        "key": "2IQHW66WG6VSO",
+        "blockSize": 32,
+        "blockSha256": "a5bd754976475678cf6422297790782944e12dc2c7e56dc5457f887c48418e53",
+        "engine": "csharp-net8"
+      }
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+      "line": 20,
+      "kind": "hex_hash",
+      "value": "6c3b1b90c3c46b8ede703811aedf546eb869531276b82f181c25014799fd552e",
+      "value_sha256": "287c0e44b580879ac2eb69b001766b3debf97dc3c784c69092b2501d934f03a1",
+      "file_sha256": "d714042c3e44a3e5b50de1129b2ba61b434a2a4c3cc40d1db4d6d9b6bc450706",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+      "line": 21,
+      "kind": "hex_hash",
+      "value": "733d85cc13fbd42519309023b3f96ad91861abbae14e19c4d99d61f5cf01031f",
+      "value_sha256": "e56ef1ab582e37e87c1e55abcffd198a2e4110fcf7c3aa594bafd122d8ce43a7",
+      "file_sha256": "d714042c3e44a3e5b50de1129b2ba61b434a2a4c3cc40d1db4d6d9b6bc450706",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+      "line": 22,
+      "kind": "hex_hash",
+      "value": "6e0d7e0cd0e62b6ec39a7260280bc8a330c44ff8fc71d5aa8acfe2ec20d944e0",
+      "value_sha256": "a1bd70e79a203849b53b35a236ba6f3c34c15c4866ce3240aaf80c110f8a5755",
+      "file_sha256": "d714042c3e44a3e5b50de1129b2ba61b434a2a4c3cc40d1db4d6d9b6bc450706",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/entropy_broadcast.py",
+      "line": 18,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "92817639300e09465c82971ebb120ee65ab90302545e736941cef2b1afb86e7b",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+      "line": 16,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "2d86ecfb75119d64f3f316b084f312ead7ae778292a212a9f75c20ae20c54942",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+      "line": 22,
+      "kind": "hex_hash",
+      "value": "fb6fd78b6ce1770644e820ce1b27547804f9a52ebb24dd07964b3262440a9239",
+      "value_sha256": "99b450698d4292e50b835f8447c785f985a26924cc1a06161ab938f283a69893",
+      "file_sha256": "2d86ecfb75119d64f3f316b084f312ead7ae778292a212a9f75c20ae20c54942",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+      "line": 23,
+      "kind": "hex_hash",
+      "value": "1fbbf28c19a5bd2034dff97ad55949f3c312f18f9bdd160494d650d754f2bd02",
+      "value_sha256": "cac3f0ebd4a763be7b2ad7605a0ab699159cae798d84f4522cbe8161a123b7ef",
+      "file_sha256": "2d86ecfb75119d64f3f316b084f312ead7ae778292a212a9f75c20ae20c54942",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+      "line": 24,
+      "kind": "hex_hash",
+      "value": "66f2dc47f42eb408d2450a0b6b0ee27604b3eff079dfefff6d4693eebbad152c",
+      "value_sha256": "a5bd754976475678cf6422297790782944e12dc2c7e56dc5457f887c48418e53",
+      "file_sha256": "2d86ecfb75119d64f3f316b084f312ead7ae778292a212a9f75c20ae20c54942",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+      "line": 25,
+      "kind": "hex_hash",
+      "value": "6c3b1b90c3c46b8ede703811aedf546eb869531276b82f181c25014799fd552e",
+      "value_sha256": "287c0e44b580879ac2eb69b001766b3debf97dc3c784c69092b2501d934f03a1",
+      "file_sha256": "2d86ecfb75119d64f3f316b084f312ead7ae778292a212a9f75c20ae20c54942",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+      "line": 26,
+      "kind": "hex_hash",
+      "value": "733d85cc13fbd42519309023b3f96ad91861abbae14e19c4d99d61f5cf01031f",
+      "value_sha256": "e56ef1ab582e37e87c1e55abcffd198a2e4110fcf7c3aa594bafd122d8ce43a7",
+      "file_sha256": "2d86ecfb75119d64f3f316b084f312ead7ae778292a212a9f75c20ae20c54942",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+      "line": 27,
+      "kind": "hex_hash",
+      "value": "6e0d7e0cd0e62b6ec39a7260280bc8a330c44ff8fc71d5aa8acfe2ec20d944e0",
+      "value_sha256": "a1bd70e79a203849b53b35a236ba6f3c34c15c4866ce3240aaf80c110f8a5755",
+      "file_sha256": "2d86ecfb75119d64f3f316b084f312ead7ae778292a212a9f75c20ae20c54942",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/broadcom_injector.c",
+      "line": 166,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "09ed6099735d1ab512d8a64a25e8eccd2075cf27d7b2453a6e535ae067ccc51f",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+      "line": 26,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "0f60403fa371b125d5bc133f62d70547fdfdf14d82af84b91160a94171796da5",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+      "line": 31,
+      "kind": "hex_hash",
+      "value": "fb6fd78b6ce1770644e820ce1b27547804f9a52ebb24dd07964b3262440a9239",
+      "value_sha256": "99b450698d4292e50b835f8447c785f985a26924cc1a06161ab938f283a69893",
+      "file_sha256": "0f60403fa371b125d5bc133f62d70547fdfdf14d82af84b91160a94171796da5",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+      "line": 32,
+      "kind": "hex_hash",
+      "value": "1fbbf28c19a5bd2034dff97ad55949f3c312f18f9bdd160494d650d754f2bd02",
+      "value_sha256": "cac3f0ebd4a763be7b2ad7605a0ab699159cae798d84f4522cbe8161a123b7ef",
+      "file_sha256": "0f60403fa371b125d5bc133f62d70547fdfdf14d82af84b91160a94171796da5",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+      "line": 33,
+      "kind": "hex_hash",
+      "value": "66f2dc47f42eb408d2450a0b6b0ee27604b3eff079dfefff6d4693eebbad152c",
+      "value_sha256": "a5bd754976475678cf6422297790782944e12dc2c7e56dc5457f887c48418e53",
+      "file_sha256": "0f60403fa371b125d5bc133f62d70547fdfdf14d82af84b91160a94171796da5",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+      "line": 34,
+      "kind": "hex_hash",
+      "value": "6c3b1b90c3c46b8ede703811aedf546eb869531276b82f181c25014799fd552e",
+      "value_sha256": "287c0e44b580879ac2eb69b001766b3debf97dc3c784c69092b2501d934f03a1",
+      "file_sha256": "0f60403fa371b125d5bc133f62d70547fdfdf14d82af84b91160a94171796da5",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+      "line": 35,
+      "kind": "hex_hash",
+      "value": "733d85cc13fbd42519309023b3f96ad91861abbae14e19c4d99d61f5cf01031f",
+      "value_sha256": "e56ef1ab582e37e87c1e55abcffd198a2e4110fcf7c3aa594bafd122d8ce43a7",
+      "file_sha256": "0f60403fa371b125d5bc133f62d70547fdfdf14d82af84b91160a94171796da5",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+      "line": 36,
+      "kind": "hex_hash",
+      "value": "6e0d7e0cd0e62b6ec39a7260280bc8a330c44ff8fc71d5aa8acfe2ec20d944e0",
+      "value_sha256": "a1bd70e79a203849b53b35a236ba6f3c34c15c4866ce3240aaf80c110f8a5755",
+      "file_sha256": "0f60403fa371b125d5bc133f62d70547fdfdf14d82af84b91160a94171796da5",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+      "line": 30,
+      "kind": "hex_hash",
+      "value": "fb6fd78b6ce1770644e820ce1b27547804f9a52ebb24dd07964b3262440a9239",
+      "value_sha256": "99b450698d4292e50b835f8447c785f985a26924cc1a06161ab938f283a69893",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+      "line": 31,
+      "kind": "hex_hash",
+      "value": "1fbbf28c19a5bd2034dff97ad55949f3c312f18f9bdd160494d650d754f2bd02",
+      "value_sha256": "cac3f0ebd4a763be7b2ad7605a0ab699159cae798d84f4522cbe8161a123b7ef",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+      "line": 32,
+      "kind": "hex_hash",
+      "value": "66f2dc47f42eb408d2450a0b6b0ee27604b3eff079dfefff6d4693eebbad152c",
+      "value_sha256": "a5bd754976475678cf6422297790782944e12dc2c7e56dc5457f887c48418e53",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+      "line": 33,
+      "kind": "hex_hash",
+      "value": "6c3b1b90c3c46b8ede703811aedf546eb869531276b82f181c25014799fd552e",
+      "value_sha256": "287c0e44b580879ac2eb69b001766b3debf97dc3c784c69092b2501d934f03a1",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+      "line": 34,
+      "kind": "hex_hash",
+      "value": "733d85cc13fbd42519309023b3f96ad91861abbae14e19c4d99d61f5cf01031f",
+      "value_sha256": "e56ef1ab582e37e87c1e55abcffd198a2e4110fcf7c3aa594bafd122d8ce43a7",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+      "line": 35,
+      "kind": "hex_hash",
+      "value": "6e0d7e0cd0e62b6ec39a7260280bc8a330c44ff8fc71d5aa8acfe2ec20d944e0",
+      "value_sha256": "a1bd70e79a203849b53b35a236ba6f3c34c15c4866ce3240aaf80c110f8a5755",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+      "line": 37,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/test_agreement_channel.py",
+      "line": 18,
+      "kind": "hex_hash",
+      "value": "1e5b7276104ed66900b2035a706fdfe0e720fa5ca233d43870ab1b5a819f3cd9",
+      "value_sha256": "79e7a79e14e10927f4f0fdc528939fe70747dfb85b518301646216cfeb4048fb",
+      "file_sha256": "7df26579df1faddcae3caa2c87ce5a81cf041a0bc629c432e4b5313ce80244e7",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/entropy_broadcast.c",
+      "line": 37,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "4a36ef44b4191578ae8c73a6d4b4566302d7567178104d42214626129b0d1081",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/proximity_trajectory_planner.py",
+      "line": 333,
+      "kind": "assign_int",
+      "value": "1337",
+      "value_sha256": "5db1fee4b5703808c48078a76768b155b421b210c0761cd6a5d223f4d99f1eaa",
+      "file_sha256": "fb0acbbc214dd1e28020ce488e31e83ccd94226ce015f965736b5cd551bc1840",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+      "line": 15,
+      "kind": "hex_hash",
+      "value": "fb6fd78b6ce1770644e820ce1b27547804f9a52ebb24dd07964b3262440a9239",
+      "value_sha256": "99b450698d4292e50b835f8447c785f985a26924cc1a06161ab938f283a69893",
+      "file_sha256": "96e6bf1ecd3706df30c1fe189490f1a0df8d48974dfab187b379611fcea8e9b1",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+      "line": 16,
+      "kind": "hex_hash",
+      "value": "1fbbf28c19a5bd2034dff97ad55949f3c312f18f9bdd160494d650d754f2bd02",
+      "value_sha256": "cac3f0ebd4a763be7b2ad7605a0ab699159cae798d84f4522cbe8161a123b7ef",
+      "file_sha256": "96e6bf1ecd3706df30c1fe189490f1a0df8d48974dfab187b379611fcea8e9b1",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+      "line": 17,
+      "kind": "hex_hash",
+      "value": "66f2dc47f42eb408d2450a0b6b0ee27604b3eff079dfefff6d4693eebbad152c",
+      "value_sha256": "a5bd754976475678cf6422297790782944e12dc2c7e56dc5457f887c48418e53",
+      "file_sha256": "96e6bf1ecd3706df30c1fe189490f1a0df8d48974dfab187b379611fcea8e9b1",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+      "line": 18,
+      "kind": "hex_hash",
+      "value": "6c3b1b90c3c46b8ede703811aedf546eb869531276b82f181c25014799fd552e",
+      "value_sha256": "287c0e44b580879ac2eb69b001766b3debf97dc3c784c69092b2501d934f03a1",
+      "file_sha256": "96e6bf1ecd3706df30c1fe189490f1a0df8d48974dfab187b379611fcea8e9b1",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+      "line": 19,
+      "kind": "hex_hash",
+      "value": "733d85cc13fbd42519309023b3f96ad91861abbae14e19c4d99d61f5cf01031f",
+      "value_sha256": "e56ef1ab582e37e87c1e55abcffd198a2e4110fcf7c3aa594bafd122d8ce43a7",
+      "file_sha256": "96e6bf1ecd3706df30c1fe189490f1a0df8d48974dfab187b379611fcea8e9b1",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+      "line": 20,
+      "kind": "hex_hash",
+      "value": "6e0d7e0cd0e62b6ec39a7260280bc8a330c44ff8fc71d5aa8acfe2ec20d944e0",
+      "value_sha256": "a1bd70e79a203849b53b35a236ba6f3c34c15c4866ce3240aaf80c110f8a5755",
+      "file_sha256": "96e6bf1ecd3706df30c1fe189490f1a0df8d48974dfab187b379611fcea8e9b1",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+      "line": 23,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "96e6bf1ecd3706df30c1fe189490f1a0df8d48974dfab187b379611fcea8e9b1",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+      "line": 26,
+      "kind": "hex_hash",
+      "value": "fb6fd78b6ce1770644e820ce1b27547804f9a52ebb24dd07964b3262440a9239",
+      "value_sha256": "99b450698d4292e50b835f8447c785f985a26924cc1a06161ab938f283a69893",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+      "line": 27,
+      "kind": "hex_hash",
+      "value": "1fbbf28c19a5bd2034dff97ad55949f3c312f18f9bdd160494d650d754f2bd02",
+      "value_sha256": "cac3f0ebd4a763be7b2ad7605a0ab699159cae798d84f4522cbe8161a123b7ef",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+      "line": 28,
+      "kind": "hex_hash",
+      "value": "66f2dc47f42eb408d2450a0b6b0ee27604b3eff079dfefff6d4693eebbad152c",
+      "value_sha256": "a5bd754976475678cf6422297790782944e12dc2c7e56dc5457f887c48418e53",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+      "line": 29,
+      "kind": "hex_hash",
+      "value": "6c3b1b90c3c46b8ede703811aedf546eb869531276b82f181c25014799fd552e",
+      "value_sha256": "287c0e44b580879ac2eb69b001766b3debf97dc3c784c69092b2501d934f03a1",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+      "line": 30,
+      "kind": "hex_hash",
+      "value": "733d85cc13fbd42519309023b3f96ad91861abbae14e19c4d99d61f5cf01031f",
+      "value_sha256": "e56ef1ab582e37e87c1e55abcffd198a2e4110fcf7c3aa594bafd122d8ce43a7",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+      "line": 31,
+      "kind": "hex_hash",
+      "value": "6e0d7e0cd0e62b6ec39a7260280bc8a330c44ff8fc71d5aa8acfe2ec20d944e0",
+      "value_sha256": "a1bd70e79a203849b53b35a236ba6f3c34c15c4866ce3240aaf80c110f8a5755",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+      "line": 33,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+      "line": 70,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/narrative.json",
+      "line": 26,
+      "kind": "hex_hash",
+      "value": "6002e1069def03083a270b9df35be2962d11731a141cb49da27894ddcfdd5c26",
+      "value_sha256": "3c099e105d4955713257abff9401addcc4f95423990ea4d2ffb27b93b1f21924",
+      "file_sha256": "cc75b2b645781d6dd51dec18695dcc25ca9c18a09c6916be6602c132894b41d4",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/narrative.json",
+      "line": 52,
+      "kind": "hex_hash",
+      "value": "2acd76ec381a1f9df31755f1588855a4f1368d50c3fc6515e878e03d7d9bd1fe",
+      "value_sha256": "1e5b04a9d9eb934a02a08d784f761787b262b68c087142be7af508b072aa2a18",
+      "file_sha256": "cc75b2b645781d6dd51dec18695dcc25ca9c18a09c6916be6602c132894b41d4",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/narrative.json",
+      "line": 72,
+      "kind": "hex_hash",
+      "value": "c1ad1e1acf40dc27f90c204d247abaa66047c199c108a9759df8ec4a21986805",
+      "value_sha256": "8e99b4c3f1c8df603ba1be35bb4ba2a8b57c8b012c0e88493f2390b3138ff63b",
+      "file_sha256": "cc75b2b645781d6dd51dec18695dcc25ca9c18a09c6916be6602c132894b41d4",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/wallets/mana_ciel_wallet.json",
+      "line": 5,
+      "kind": "hex_hash",
+      "value": "59d371c63c336a665edc8d63eb82241c",
+      "value_sha256": "fb26b956ffa9e10b7bb69aefa92e716c445f468dda94ee727a329ffc49f9fb4f",
+      "file_sha256": "56b085926c168c18ac359fab8945ec692ed6c772b28c0d5d6688a44f395dd85c",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/wallets/mana_ciel_wallet.json",
+      "line": 6,
+      "kind": "hex_hash",
+      "value": "0f8903437dc9c0cd1949d0f0d388197f54426b0e0ce701a4b7da6d7569db82de",
+      "value_sha256": "e0b12136a51d4b85ff2f50258d769751f4b6ab147e341946af9491b55e924669",
+      "file_sha256": "56b085926c168c18ac359fab8945ec692ed6c772b28c0d5d6688a44f395dd85c",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/wallets/mana_ciel_wallet.json",
+      "line": 7,
+      "kind": "hex_hash",
+      "value": "021d53407d59104b852e0b2bdca554e6098d2282b605c8b33d6f747308ef791174",
+      "value_sha256": "02261dda2cf2e38812e1e0734bbb3b5f9181e16cb805235f358761ef17ecdc37",
+      "file_sha256": "56b085926c168c18ac359fab8945ec692ed6c772b28c0d5d6688a44f395dd85c",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/wallets/mana_ciel_wallet.json",
+      "line": 9,
+      "kind": "hex_hash",
+      "value": "b76c0930268ad88a37d52ef28bd5bce46577faab",
+      "value_sha256": "429637e96377e6fc491eda4f35c392b877dee2e56d29c4c19d6b6eebf0d6cbf7",
+      "file_sha256": "56b085926c168c18ac359fab8945ec692ed6c772b28c0d5d6688a44f395dd85c",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/wallets/mana_ciel_wallet.json",
+      "line": 11,
+      "kind": "hex_hash",
+      "value": "db4fd4e78caa4e81e54b1894d1eaf906079b47736883a65106e22973b2719aeb",
+      "value_sha256": "2b4eacbc0aa12aae396e588b819569613188bbea7f77fa67f0d5845aa646b136",
+      "file_sha256": "56b085926c168c18ac359fab8945ec692ed6c772b28c0d5d6688a44f395dd85c",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/wallets/ManaCiel__13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss.json",
+      "line": 4,
+      "kind": "hex_hash",
+      "value": "6d265f4427c95bb574edd36300bc4903",
+      "value_sha256": "17c3c2e4691f3594150a00217166062f3b4df501ab36fbdf45587394dd662d30",
+      "file_sha256": "0e15382eee4b5b9c27227dfca8f3f7862f176d8d2162a3b639aada59029a02c3",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/wallets/ManaCiel__13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss.json",
+      "line": 5,
+      "kind": "hex_hash",
+      "value": "8c0a094a71272f76a6be063fc9602f62a1bf7d140e805dead43ee91e5d6d1fb4",
+      "value_sha256": "8a5e3297f5fcf0cd9cb4bfb747f51fde15c2f1ba5ddd41f1709d597115d8a7c4",
+      "file_sha256": "0e15382eee4b5b9c27227dfca8f3f7862f176d8d2162a3b639aada59029a02c3",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/wallets/ManaCiel__13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss.json",
+      "line": 6,
+      "kind": "hex_hash",
+      "value": "03415140be14a628ee143790d4f2b64683bc8b32f48bc142d55a94b49c2b8ca24a",
+      "value_sha256": "62b288daeeea13ba1df80fc2c11b0c88796ebbc91ad765fc297102b57068cba7",
+      "file_sha256": "0e15382eee4b5b9c27227dfca8f3f7862f176d8d2162a3b639aada59029a02c3",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/wallets/ManaCiel__13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss.json",
+      "line": 8,
+      "kind": "hex_hash",
+      "value": "1f87e73ce272795c06aded8700fd9b5151695eeb",
+      "value_sha256": "6f5b6b3dfc6e045d75bac1b4c892cad818a51413ec998ae04dab498fced3c31b",
+      "file_sha256": "0e15382eee4b5b9c27227dfca8f3f7862f176d8d2162a3b639aada59029a02c3",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/wallets/ManaCiel__13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss.json",
+      "line": 10,
+      "kind": "hex_hash",
+      "value": "a9acf76c25877b7982d7ee206a7ab1cd8433238b924550424a088e38cb6fc087",
+      "value_sha256": "d89fd5d8fa5005e258b29e1700fc49b1ec6759c93cdba91d90b1d2a316636273",
+      "file_sha256": "0e15382eee4b5b9c27227dfca8f3f7862f176d8d2162a3b639aada59029a02c3",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/data/mana_ciel/wallets/ManaCiel__13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss.json",
+      "line": 22,
+      "kind": "hex_hash",
+      "value": "6d265f4427c95bb574edd36300bc490377e940f51c080cfa940a0b1c0793ff2e",
+      "value_sha256": "d08560ee4087d47e5b16a3c9289b9d458990462909fae207ac584c4aabf9d56d",
+      "file_sha256": "0e15382eee4b5b9c27227dfca8f3f7862f176d8d2162a3b639aada59029a02c3",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/bow-of-Achilles/blackhole/vpython_blackhole.py",
+      "line": 110,
+      "kind": "random_seed_call",
+      "value": "42",
+      "value_sha256": "73475cb40a568e8da8a045ced110137e159f890ac4da883b6b17dc651b3a8049",
+      "file_sha256": "3659a5ee70bc4eac89ce0572305eabb4e3c937702525ce42330f715a1c39e19a",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/F-dump/cache_node_002/SEED",
+      "line": 0,
+      "kind": "seed_file",
+      "value": "ac23c44572c1fcec494a04c3a1b9955d1af71513a41bba41cd248fd39d98be48",
+      "value_sha256": "b8e6b972b598e85a8d998f38144448427358195d827ccb77d9dc14fe07f57c03",
+      "file_sha256": "b8e6b972b598e85a8d998f38144448427358195d827ccb77d9dc14fe07f57c03",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+      "line": 0,
+      "kind": "seed_file",
+      "value": "8c0d5c4d1d49c8ad7a8a71874fae34592a2130132f55dfb85760a17364efb08f",
+      "value_sha256": "bd74760419def4879fc38537a4de8917ad4a10f4987dd3cfa05f435a62e17019",
+      "file_sha256": "bd74760419def4879fc38537a4de8917ad4a10f4987dd3cfa05f435a62e17019",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 16,
+      "kind": "hex_hash",
+      "value": "a1f06a25d39e21d2d4befd8c9dec10cb",
+      "value_sha256": "c6719b191f6a2b9a484dd85f10c5a299451cbe3908b9d6f5267ded5af2eeb60e",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 23,
+      "kind": "hex_hash",
+      "value": "b461bc5031b123c9a1e22a772dde24bd",
+      "value_sha256": "0721d2e2496a4f5c96d80b244ed88d6804d7bc1c47decf069eed731c50382822",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 30,
+      "kind": "hex_hash",
+      "value": "4f6421b2bf9b0e8649b756c6e398be9b",
+      "value_sha256": "dbc777525df5e25a86640224687e869aa7a7d438cd0b729fcf0405f57ad67775",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 37,
+      "kind": "hex_hash",
+      "value": "4082d8a9e1fe2ca1c64628e3236c42e0",
+      "value_sha256": "f50006ee2a50125cb5ce3cb283905d53b2b1f3f2ee2dea6babae140a890abc31",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 44,
+      "kind": "hex_hash",
+      "value": "46b5bef0a2b239862f02f2bacba6d109",
+      "value_sha256": "2904e80ad8da9993d2249694a00f799c302038ea1749b04a70e23355ef757420",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 48,
+      "kind": "hex_hash",
+      "value": "46b5bef0a2b239862f02f2bacba6d109",
+      "value_sha256": "2904e80ad8da9993d2249694a00f799c302038ea1749b04a70e23355ef757420",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 55,
+      "kind": "hex_hash",
+      "value": "a1f06a25d39e21d2d4befd8c9dec10cb",
+      "value_sha256": "c6719b191f6a2b9a484dd85f10c5a299451cbe3908b9d6f5267ded5af2eeb60e",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 62,
+      "kind": "hex_hash",
+      "value": "b461bc5031b123c9a1e22a772dde24bd",
+      "value_sha256": "0721d2e2496a4f5c96d80b244ed88d6804d7bc1c47decf069eed731c50382822",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 69,
+      "kind": "hex_hash",
+      "value": "4f6421b2bf9b0e8649b756c6e398be9b",
+      "value_sha256": "dbc777525df5e25a86640224687e869aa7a7d438cd0b729fcf0405f57ad67775",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 76,
+      "kind": "hex_hash",
+      "value": "4082d8a9e1fe2ca1c64628e3236c42e0",
+      "value_sha256": "f50006ee2a50125cb5ce3cb283905d53b2b1f3f2ee2dea6babae140a890abc31",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 83,
+      "kind": "hex_hash",
+      "value": "46b5bef0a2b239862f02f2bacba6d109",
+      "value_sha256": "2904e80ad8da9993d2249694a00f799c302038ea1749b04a70e23355ef757420",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+      "line": 126,
+      "kind": "hex_hash",
+      "value": "8c0d5c4d1d49c8ad7a8a71874fae34592a2130132f55dfb85760a17364efb08f",
+      "value_sha256": "bd74760419def4879fc38537a4de8917ad4a10f4987dd3cfa05f435a62e17019",
+      "file_sha256": "3ece847aa8b11d4d5a1f47fa1dd07b53575f6205a0cbc13b809129f432a553cc",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+      "line": 148,
+      "kind": "hex_hash",
+      "value": "ac23c44572c1fcec494a04c3a1b9955d1af71513a41bba41cd248fd39d98be48",
+      "value_sha256": "b8e6b972b598e85a8d998f38144448427358195d827ccb77d9dc14fe07f57c03",
+      "file_sha256": "3ece847aa8b11d4d5a1f47fa1dd07b53575f6205a0cbc13b809129f432a553cc",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/test_pattern_approach.py",
+      "line": 17,
+      "kind": "hex_hash",
+      "value": "1e5b7276104ed66900b2035a706fdfe0e720fa5ca233d43870ab1b5a819f3cd9",
+      "value_sha256": "79e7a79e14e10927f4f0fdc528939fe70747dfb85b518301646216cfeb4048fb",
+      "file_sha256": "40fb8bbcf2897a5aac1755d651445b93b762035a929108399555310c809d9db4",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+      "line": 30,
+      "kind": "hex_hash",
+      "value": "fb6fd78b6ce1770644e820ce1b27547804f9a52ebb24dd07964b3262440a9239",
+      "value_sha256": "99b450698d4292e50b835f8447c785f985a26924cc1a06161ab938f283a69893",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+      "line": 31,
+      "kind": "hex_hash",
+      "value": "1fbbf28c19a5bd2034dff97ad55949f3c312f18f9bdd160494d650d754f2bd02",
+      "value_sha256": "cac3f0ebd4a763be7b2ad7605a0ab699159cae798d84f4522cbe8161a123b7ef",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+      "line": 32,
+      "kind": "hex_hash",
+      "value": "66f2dc47f42eb408d2450a0b6b0ee27604b3eff079dfefff6d4693eebbad152c",
+      "value_sha256": "a5bd754976475678cf6422297790782944e12dc2c7e56dc5457f887c48418e53",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+      "line": 33,
+      "kind": "hex_hash",
+      "value": "6c3b1b90c3c46b8ede703811aedf546eb869531276b82f181c25014799fd552e",
+      "value_sha256": "287c0e44b580879ac2eb69b001766b3debf97dc3c784c69092b2501d934f03a1",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+      "line": 34,
+      "kind": "hex_hash",
+      "value": "733d85cc13fbd42519309023b3f96ad91861abbae14e19c4d99d61f5cf01031f",
+      "value_sha256": "e56ef1ab582e37e87c1e55abcffd198a2e4110fcf7c3aa594bafd122d8ce43a7",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+      "line": 35,
+      "kind": "hex_hash",
+      "value": "6e0d7e0cd0e62b6ec39a7260280bc8a330c44ff8fc71d5aa8acfe2ec20d944e0",
+      "value_sha256": "a1bd70e79a203849b53b35a236ba6f3c34c15c4866ce3240aaf80c110f8a5755",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+      "line": 37,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "2ea9c11c8946947ec6a56a97e47c30d9ff897d0fd2f43cd420cce32c0ce3b472",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/test_agreement_channel.py",
+      "line": 18,
+      "kind": "hex_hash",
+      "value": "1e5b7276104ed66900b2035a706fdfe0e720fa5ca233d43870ab1b5a819f3cd9",
+      "value_sha256": "79e7a79e14e10927f4f0fdc528939fe70747dfb85b518301646216cfeb4048fb",
+      "file_sha256": "7df26579df1faddcae3caa2c87ce5a81cf041a0bc629c432e4b5313ce80244e7",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+      "line": 26,
+      "kind": "hex_hash",
+      "value": "fb6fd78b6ce1770644e820ce1b27547804f9a52ebb24dd07964b3262440a9239",
+      "value_sha256": "99b450698d4292e50b835f8447c785f985a26924cc1a06161ab938f283a69893",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+      "line": 27,
+      "kind": "hex_hash",
+      "value": "1fbbf28c19a5bd2034dff97ad55949f3c312f18f9bdd160494d650d754f2bd02",
+      "value_sha256": "cac3f0ebd4a763be7b2ad7605a0ab699159cae798d84f4522cbe8161a123b7ef",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+      "line": 28,
+      "kind": "hex_hash",
+      "value": "66f2dc47f42eb408d2450a0b6b0ee27604b3eff079dfefff6d4693eebbad152c",
+      "value_sha256": "a5bd754976475678cf6422297790782944e12dc2c7e56dc5457f887c48418e53",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+      "line": 29,
+      "kind": "hex_hash",
+      "value": "6c3b1b90c3c46b8ede703811aedf546eb869531276b82f181c25014799fd552e",
+      "value_sha256": "287c0e44b580879ac2eb69b001766b3debf97dc3c784c69092b2501d934f03a1",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+      "line": 30,
+      "kind": "hex_hash",
+      "value": "733d85cc13fbd42519309023b3f96ad91861abbae14e19c4d99d61f5cf01031f",
+      "value_sha256": "e56ef1ab582e37e87c1e55abcffd198a2e4110fcf7c3aa594bafd122d8ce43a7",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+      "line": 31,
+      "kind": "hex_hash",
+      "value": "6e0d7e0cd0e62b6ec39a7260280bc8a330c44ff8fc71d5aa8acfe2ec20d944e0",
+      "value_sha256": "a1bd70e79a203849b53b35a236ba6f3c34c15c4866ce3240aaf80c110f8a5755",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+      "line": 33,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+      "line": 70,
+      "kind": "hex_hash",
+      "value": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "file_sha256": "54ce234116ba47117a113637269ecbbf82863a26770808dbd3b3ab278196a761",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/README.md",
+      "line": 99,
+      "kind": "assign_int",
+      "value": "42",
+      "value_sha256": "73475cb40a568e8da8a045ced110137e159f890ac4da883b6b17dc651b3a8049",
+      "file_sha256": "59e194762383b1d31c2453bbde2d4a4fb59a2a142831f496e0e78ec070251049",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/README.md",
+      "line": 268,
+      "kind": "assign_int",
+      "value": "42",
+      "value_sha256": "73475cb40a568e8da8a045ced110137e159f890ac4da883b6b17dc651b3a8049",
+      "file_sha256": "59e194762383b1d31c2453bbde2d4a4fb59a2a142831f496e0e78ec070251049",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+      "line": 3,
+      "kind": "hex_hash",
+      "value": "380a15a982ec6d28ef00c3ff3adba9e7b9f43e3217ddc212ba7aeaddc32b1f85",
+      "value_sha256": "f575017889a9e7c9ce2ef0d56e01d8d4576d8a6dc076610a3ede09d149eb3c21",
+      "file_sha256": "e02ef833c4b8477e02147a4ec94dcd623d7e00c98f532f62b3f225b4f43d74d6",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+      "line": 26,
+      "kind": "hex_hash",
+      "value": "d76afa68656ce46bd6d79ef986efbbcb32ae2e50b4a1298094e4fb1aeb1608ee",
+      "value_sha256": "e1da2ffb1b2cb34de7a993a7181fcb953c5cebcd8350f5faa2c595b76d2daddd",
+      "file_sha256": "e02ef833c4b8477e02147a4ec94dcd623d7e00c98f532f62b3f225b4f43d74d6",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+      "line": 14,
+      "kind": "hex_hash",
+      "value": "380a15a982ec6d28ef00c3ff3adba9e7b9f43e3217ddc212ba7aeaddc32b1f85",
+      "value_sha256": "f575017889a9e7c9ce2ef0d56e01d8d4576d8a6dc076610a3ede09d149eb3c21",
+      "file_sha256": "c3cb395efd430dcd88ead66889e0876987e985d870050c1c9ba69be7ac61c1c2",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/alive-eal/README.md",
+      "line": 99,
+      "kind": "assign_int",
+      "value": "42",
+      "value_sha256": "73475cb40a568e8da8a045ced110137e159f890ac4da883b6b17dc651b3a8049",
+      "file_sha256": "01935b03456fc3ef9351f6748acfd72e6c8446bfa13fefda03917f050a248057",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/alive-eal/README.md",
+      "line": 268,
+      "kind": "assign_int",
+      "value": "42",
+      "value_sha256": "73475cb40a568e8da8a045ced110137e159f890ac4da883b6b17dc651b3a8049",
+      "file_sha256": "01935b03456fc3ef9351f6748acfd72e6c8446bfa13fefda03917f050a248057",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+      "line": 3,
+      "kind": "hex_hash",
+      "value": "380a15a982ec6d28ef00c3ff3adba9e7b9f43e3217ddc212ba7aeaddc32b1f85",
+      "value_sha256": "f575017889a9e7c9ce2ef0d56e01d8d4576d8a6dc076610a3ede09d149eb3c21",
+      "file_sha256": "e02ef833c4b8477e02147a4ec94dcd623d7e00c98f532f62b3f225b4f43d74d6",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+      "line": 26,
+      "kind": "hex_hash",
+      "value": "d76afa68656ce46bd6d79ef986efbbcb32ae2e50b4a1298094e4fb1aeb1608ee",
+      "value_sha256": "e1da2ffb1b2cb34de7a993a7181fcb953c5cebcd8350f5faa2c595b76d2daddd",
+      "file_sha256": "e02ef833c4b8477e02147a4ec94dcd623d7e00c98f532f62b3f225b4f43d74d6",
+      "origin": null
+    },
+    {
+      "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+      "line": 14,
+      "kind": "hex_hash",
+      "value": "380a15a982ec6d28ef00c3ff3adba9e7b9f43e3217ddc212ba7aeaddc32b1f85",
+      "value_sha256": "f575017889a9e7c9ce2ef0d56e01d8d4576d8a6dc076610a3ede09d149eb3c21",
+      "file_sha256": "c3cb395efd430dcd88ead66889e0876987e985d870050c1c9ba69be7ac61c1c2",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/F-dump/cache_node_002/SEED",
+      "line": 0,
+      "kind": "seed_file",
+      "value": "ac23c44572c1fcec494a04c3a1b9955d1af71513a41bba41cd248fd39d98be48",
+      "value_sha256": "b8e6b972b598e85a8d998f38144448427358195d827ccb77d9dc14fe07f57c03",
+      "file_sha256": "b8e6b972b598e85a8d998f38144448427358195d827ccb77d9dc14fe07f57c03",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+      "line": 0,
+      "kind": "seed_file",
+      "value": "8c0d5c4d1d49c8ad7a8a71874fae34592a2130132f55dfb85760a17364efb08f",
+      "value_sha256": "bd74760419def4879fc38537a4de8917ad4a10f4987dd3cfa05f435a62e17019",
+      "file_sha256": "bd74760419def4879fc38537a4de8917ad4a10f4987dd3cfa05f435a62e17019",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 16,
+      "kind": "hex_hash",
+      "value": "a1f06a25d39e21d2d4befd8c9dec10cb",
+      "value_sha256": "c6719b191f6a2b9a484dd85f10c5a299451cbe3908b9d6f5267ded5af2eeb60e",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 23,
+      "kind": "hex_hash",
+      "value": "b461bc5031b123c9a1e22a772dde24bd",
+      "value_sha256": "0721d2e2496a4f5c96d80b244ed88d6804d7bc1c47decf069eed731c50382822",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 30,
+      "kind": "hex_hash",
+      "value": "4f6421b2bf9b0e8649b756c6e398be9b",
+      "value_sha256": "dbc777525df5e25a86640224687e869aa7a7d438cd0b729fcf0405f57ad67775",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 37,
+      "kind": "hex_hash",
+      "value": "4082d8a9e1fe2ca1c64628e3236c42e0",
+      "value_sha256": "f50006ee2a50125cb5ce3cb283905d53b2b1f3f2ee2dea6babae140a890abc31",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 44,
+      "kind": "hex_hash",
+      "value": "46b5bef0a2b239862f02f2bacba6d109",
+      "value_sha256": "2904e80ad8da9993d2249694a00f799c302038ea1749b04a70e23355ef757420",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 48,
+      "kind": "hex_hash",
+      "value": "46b5bef0a2b239862f02f2bacba6d109",
+      "value_sha256": "2904e80ad8da9993d2249694a00f799c302038ea1749b04a70e23355ef757420",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 55,
+      "kind": "hex_hash",
+      "value": "a1f06a25d39e21d2d4befd8c9dec10cb",
+      "value_sha256": "c6719b191f6a2b9a484dd85f10c5a299451cbe3908b9d6f5267ded5af2eeb60e",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 62,
+      "kind": "hex_hash",
+      "value": "b461bc5031b123c9a1e22a772dde24bd",
+      "value_sha256": "0721d2e2496a4f5c96d80b244ed88d6804d7bc1c47decf069eed731c50382822",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 69,
+      "kind": "hex_hash",
+      "value": "4f6421b2bf9b0e8649b756c6e398be9b",
+      "value_sha256": "dbc777525df5e25a86640224687e869aa7a7d438cd0b729fcf0405f57ad67775",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 76,
+      "kind": "hex_hash",
+      "value": "4082d8a9e1fe2ca1c64628e3236c42e0",
+      "value_sha256": "f50006ee2a50125cb5ce3cb283905d53b2b1f3f2ee2dea6babae140a890abc31",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+      "line": 83,
+      "kind": "hex_hash",
+      "value": "46b5bef0a2b239862f02f2bacba6d109",
+      "value_sha256": "2904e80ad8da9993d2249694a00f799c302038ea1749b04a70e23355ef757420",
+      "file_sha256": "68735becb8379acfde76a9ef730b699675641100906480695b231cd3b5382b84",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+      "line": 126,
+      "kind": "hex_hash",
+      "value": "8c0d5c4d1d49c8ad7a8a71874fae34592a2130132f55dfb85760a17364efb08f",
+      "value_sha256": "bd74760419def4879fc38537a4de8917ad4a10f4987dd3cfa05f435a62e17019",
+      "file_sha256": "3ece847aa8b11d4d5a1f47fa1dd07b53575f6205a0cbc13b809129f432a553cc",
+      "origin": null
+    },
+    {
+      "address": "SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+      "line": 148,
+      "kind": "hex_hash",
+      "value": "ac23c44572c1fcec494a04c3a1b9955d1af71513a41bba41cd248fd39d98be48",
+      "value_sha256": "b8e6b972b598e85a8d998f38144448427358195d827ccb77d9dc14fe07f57c03",
+      "file_sha256": "3ece847aa8b11d4d5a1f47fa1dd07b53575f6205a0cbc13b809129f432a553cc",
+      "origin": null
+    }
+  ],
+  "threats": [
+    {
+      "value_sha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "value_preview": "662c3bfc4ace6ae4573411a5ac7229c2fcde4d544f8e8387f97c52ab39bb6325",
+      "occurrences": 13,
+      "canonical": {
+        "address": "The-Crown/bow-of-Achilles/broadcom_injector.c",
+        "line": 166,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/bow-of-Achilles/broadcom_injector.c",
+          "line": 166,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/bow-of-Achilles/entropy_broadcast.c",
+          "line": 37,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/entropy_broadcast.py",
+          "line": 18,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 16,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 11,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 23,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 26,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 33,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 8,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 70,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 9,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 37,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 10,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 33,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 11,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 70,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 12,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 37,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 37,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 70,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 33,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 37,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 70,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 33,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 26,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 23,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 8,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 11,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 9,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 16,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 10,
+          "address": "The-Crown/bow-of-Achilles/entropy_broadcast.py",
+          "line": 18,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 11,
+          "address": "The-Crown/bow-of-Achilles/entropy_broadcast.c",
+          "line": 37,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 12,
+          "address": "The-Crown/bow-of-Achilles/broadcom_injector.c",
+          "line": 166,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "99b450698d4292e50b835f8447c785f985a26924cc1a06161ab938f283a69893",
+      "value_preview": "fb6fd78b6ce1770644e820ce1b27547804f9a52ebb24dd07964b3262440a9239",
+      "occurrences": 8,
+      "canonical": {
+        "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+        "line": 22,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 22,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 17,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 15,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 31,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 26,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 30,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 26,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 30,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 30,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 26,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 30,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 26,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 31,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 15,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 17,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 22,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "cac3f0ebd4a763be7b2ad7605a0ab699159cae798d84f4522cbe8161a123b7ef",
+      "value_preview": "1fbbf28c19a5bd2034dff97ad55949f3c312f18f9bdd160494d650d754f2bd02",
+      "occurrences": 8,
+      "canonical": {
+        "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+        "line": 23,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 23,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 18,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 16,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 32,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 27,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 31,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 27,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 31,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 31,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 27,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 31,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 27,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 32,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 16,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 18,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 23,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "a5bd754976475678cf6422297790782944e12dc2c7e56dc5457f887c48418e53",
+      "value_preview": "66f2dc47f42eb408d2450a0b6b0ee27604b3eff079dfefff6d4693eebbad152c",
+      "occurrences": 8,
+      "canonical": {
+        "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+        "line": 24,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 24,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 19,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 17,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 33,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 28,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 32,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 28,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 32,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 32,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 28,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 32,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 28,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 33,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 17,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 19,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 24,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "287c0e44b580879ac2eb69b001766b3debf97dc3c784c69092b2501d934f03a1",
+      "value_preview": "6c3b1b90c3c46b8ede703811aedf546eb869531276b82f181c25014799fd552e",
+      "occurrences": 8,
+      "canonical": {
+        "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+        "line": 25,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 25,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 20,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 18,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 34,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 29,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 33,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 29,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 33,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 33,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 29,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 33,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 29,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 34,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 18,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 20,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 25,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "e56ef1ab582e37e87c1e55abcffd198a2e4110fcf7c3aa594bafd122d8ce43a7",
+      "value_preview": "733d85cc13fbd42519309023b3f96ad91861abbae14e19c4d99d61f5cf01031f",
+      "occurrences": 8,
+      "canonical": {
+        "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+        "line": 26,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 26,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 21,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 19,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 35,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 30,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 34,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 30,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 34,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 34,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 30,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 34,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 30,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 35,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 19,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 21,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 26,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "a1bd70e79a203849b53b35a236ba6f3c34c15c4866ce3240aaf80c110f8a5755",
+      "value_preview": "6e0d7e0cd0e62b6ec39a7260280bc8a330c44ff8fc71d5aa8acfe2ec20d944e0",
+      "occurrences": 8,
+      "canonical": {
+        "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+        "line": 27,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 27,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 22,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 20,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 36,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 31,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 35,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 31,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 35,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/probe-sequence/rf_neural_correlator.py",
+          "line": 35,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/probe-sequence/probe_sequence_analyzer.py",
+          "line": 31,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/rf_neural_correlator.py",
+          "line": 35,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence_analyzer.py",
+          "line": 31,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/bow-of-Achilles/probe_sequence.py",
+          "line": 36,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/bow-of-Achilles/merkle_listener.py",
+          "line": 20,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 6,
+          "address": "The-Crown/bow-of-Achilles/merkle_fix.py",
+          "line": 22,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 7,
+          "address": "The-Crown/bow-of-Achilles/entropy_receiver.py",
+          "line": 27,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "2904e80ad8da9993d2249694a00f799c302038ea1749b04a70e23355ef757420",
+      "value_preview": "46b5bef0a2b239862f02f2bacba6d109",
+      "occurrences": 6,
+      "canonical": {
+        "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+        "line": 44,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 44,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 48,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 83,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 44,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 48,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 83,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 83,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 48,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 44,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 83,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 4,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 48,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 5,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 44,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "73475cb40a568e8da8a045ced110137e159f890ac4da883b6b17dc651b3a8049",
+      "value_preview": "42",
+      "occurrences": 5,
+      "canonical": {
+        "address": "The-Crown/alive-eal/README.md",
+        "line": 99,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/alive-eal/README.md",
+          "line": 99,
+          "kind": "assign_int"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/alive-eal/README.md",
+          "line": 268,
+          "kind": "assign_int"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/blackhole/vpython_blackhole.py",
+          "line": 110,
+          "kind": "random_seed_call"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/growferslawoflife/CRISPR-ASI/README.md",
+          "line": 99,
+          "kind": "assign_int"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/growferslawoflife/CRISPR-ASI/README.md",
+          "line": 268,
+          "kind": "assign_int"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/growferslawoflife/CRISPR-ASI/README.md",
+          "line": 268,
+          "kind": "assign_int"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/growferslawoflife/CRISPR-ASI/README.md",
+          "line": 99,
+          "kind": "assign_int"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/blackhole/vpython_blackhole.py",
+          "line": 110,
+          "kind": "random_seed_call"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/alive-eal/README.md",
+          "line": 268,
+          "kind": "assign_int"
+        },
+        {
+          "index": 4,
+          "address": "The-Crown/alive-eal/README.md",
+          "line": 99,
+          "kind": "assign_int"
+        }
+      ]
+    },
+    {
+      "value_sha256": "bd74760419def4879fc38537a4de8917ad4a10f4987dd3cfa05f435a62e17019",
+      "value_preview": "8c0d5c4d1d49c8ad7a8a71874fae34592a2130132f55dfb85760a17364efb08f",
+      "occurrences": 4,
+      "canonical": {
+        "address": "SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+        "line": 0,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+          "line": 0,
+          "kind": "seed_file"
+        },
+        {
+          "index": 1,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+          "line": 126,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+          "line": 0,
+          "kind": "seed_file"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+          "line": 126,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+          "line": 126,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+          "line": 0,
+          "kind": "seed_file"
+        },
+        {
+          "index": 2,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+          "line": 126,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "SEC-unit-core-sort/F-dump/cache_node_001/SEED",
+          "line": 0,
+          "kind": "seed_file"
+        }
+      ]
+    },
+    {
+      "value_sha256": "b8e6b972b598e85a8d998f38144448427358195d827ccb77d9dc14fe07f57c03",
+      "value_preview": "ac23c44572c1fcec494a04c3a1b9955d1af71513a41bba41cd248fd39d98be48",
+      "occurrences": 4,
+      "canonical": {
+        "address": "SEC-unit-core-sort/F-dump/cache_node_002/SEED",
+        "line": 0,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "SEC-unit-core-sort/F-dump/cache_node_002/SEED",
+          "line": 0,
+          "kind": "seed_file"
+        },
+        {
+          "index": 1,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+          "line": 148,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/SEC-unit-core-sort/F-dump/cache_node_002/SEED",
+          "line": 0,
+          "kind": "seed_file"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+          "line": 148,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+          "line": 148,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/SEC-unit-core-sort/F-dump/cache_node_002/SEED",
+          "line": 0,
+          "kind": "seed_file"
+        },
+        {
+          "index": 2,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/consciousness-git-tree/topology.json",
+          "line": 148,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "SEC-unit-core-sort/F-dump/cache_node_002/SEED",
+          "line": 0,
+          "kind": "seed_file"
+        }
+      ]
+    },
+    {
+      "value_sha256": "c6719b191f6a2b9a484dd85f10c5a299451cbe3908b9d6f5267ded5af2eeb60e",
+      "value_preview": "a1f06a25d39e21d2d4befd8c9dec10cb",
+      "occurrences": 4,
+      "canonical": {
+        "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+        "line": 16,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 16,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 55,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 16,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 55,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 55,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 16,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 55,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 16,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "0721d2e2496a4f5c96d80b244ed88d6804d7bc1c47decf069eed731c50382822",
+      "value_preview": "b461bc5031b123c9a1e22a772dde24bd",
+      "occurrences": 4,
+      "canonical": {
+        "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+        "line": 23,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 23,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 62,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 23,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 62,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 62,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 23,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 62,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 23,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "dbc777525df5e25a86640224687e869aa7a7d438cd0b729fcf0405f57ad67775",
+      "value_preview": "4f6421b2bf9b0e8649b756c6e398be9b",
+      "occurrences": 4,
+      "canonical": {
+        "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+        "line": 30,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 30,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 69,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 30,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 69,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 69,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 30,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 69,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 30,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "f50006ee2a50125cb5ce3cb283905d53b2b1f3f2ee2dea6babae140a890abc31",
+      "value_preview": "4082d8a9e1fe2ca1c64628e3236c42e0",
+      "occurrences": 4,
+      "canonical": {
+        "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+        "line": 37,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 37,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 76,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 37,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 76,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 76,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 37,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 76,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "SEC-unit-core-sort/unified-consciousness-render/prosthetic-connector.dll.json",
+          "line": 37,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "f575017889a9e7c9ce2ef0d56e01d8d4576d8a6dc076610a3ede09d149eb3c21",
+      "value_preview": "380a15a982ec6d28ef00c3ff3adba9e7b9f43e3217ddc212ba7aeaddc32b1f85",
+      "occurrences": 4,
+      "canonical": {
+        "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+        "line": 14,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+          "line": 14,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+          "line": 3,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+          "line": 14,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+          "line": 3,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+          "line": 3,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+          "line": 14,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+          "line": 3,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/GRIMWARE_ACTIVATION_COMPLETE.md",
+          "line": 14,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "79e7a79e14e10927f4f0fdc528939fe70747dfb85b518301646216cfeb4048fb",
+      "value_preview": "1e5b7276104ed66900b2035a706fdfe0e720fa5ca233d43870ab1b5a819f3cd9",
+      "occurrences": 4,
+      "canonical": {
+        "address": "The-Crown/bow-of-Achilles/test_agreement_channel.py",
+        "line": 18,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/bow-of-Achilles/test_agreement_channel.py",
+          "line": 18,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/bow-of-Achilles/test_pattern_approach.py",
+          "line": 17,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/probe-sequence/test_agreement_channel.py",
+          "line": 18,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/probe-sequence/test_pattern_approach.py",
+          "line": 17,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/probe-sequence/test_pattern_approach.py",
+          "line": 17,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/probe-sequence/test_agreement_channel.py",
+          "line": 18,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 2,
+          "address": "The-Crown/bow-of-Achilles/test_pattern_approach.py",
+          "line": 17,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 3,
+          "address": "The-Crown/bow-of-Achilles/test_agreement_channel.py",
+          "line": 18,
+          "kind": "hex_hash"
+        }
+      ]
+    },
+    {
+      "value_sha256": "e1da2ffb1b2cb34de7a993a7181fcb953c5cebcd8350f5faa2c595b76d2daddd",
+      "value_preview": "d76afa68656ce46bd6d79ef986efbbcb32ae2e50b4a1298094e4fb1aeb1608ee",
+      "occurrences": 2,
+      "canonical": {
+        "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+        "line": 26,
+        "commit": null,
+        "timestamp": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+          "line": 26,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+          "line": 26,
+          "kind": "hex_hash"
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "The-Crown/growferslawoflife/CRISPR-ASI/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+          "line": 26,
+          "kind": "hex_hash"
+        },
+        {
+          "index": 1,
+          "address": "The-Crown/alive-eal/seven deadly sins_MAGNOLIA/grimware_system_state.json",
+          "line": 26,
+          "kind": "hex_hash"
+        }
+      ]
+    }
+  ],
+  "kernel_results": [
+    {
+      "id": 0,
+      "key": "1UQKHRME32VXJ",
+      "blockSize": 32,
+      "blockSha256": "79e7a79e14e10927f4f0fdc528939fe70747dfb85b518301646216cfeb4048fb",
+      "engine": "csharp-net8"
+    },
+    {
+      "id": 1,
+      "key": "1VS6WXJSYC4GQ",
+      "blockSize": 32,
+      "blockSha256": "7bd059208ba6639ad17ac3a8b39d8e78425bde0988a5505c9c616ab8764cb5d9",
+      "engine": "csharp-net8"
+    },
+    {
+      "id": 2,
+      "key": "2C5AGEMA8MUAT",
+      "blockSize": 32,
+      "blockSha256": "99b450698d4292e50b835f8447c785f985a26924cc1a06161ab938f283a69893",
+      "engine": "csharp-net8"
+    }
+  ],
+  "routing_log": {
+    "enabled": true,
+    "connection": {
+      "mac": null,
+      "port": null,
+      "established": true
+    },
+    "transport": "xpub",
+    "attempts": [
+      {
+        "snapshotId": "snapshot_0",
+        "routed": true,
+        "transport": "xpub-derivation",
+        "sender": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+        "destination": "18xhPdqgkn6qkFrmNkrVEUbopWQk9hPYQN",
+        "derivation_path": "m/0/0",
+        "derivation_index": 0,
+        "destination_pubkey": "0299de50eae260d9f311208fbf76beec80cc3e0f7d8be105408e33dcfbc35451cf",
+        "payloadKeys": [
+          "blockSha256",
+          "blockSize",
+          "engine",
+          "id",
+          "key"
+        ]
+      },
+      {
+        "snapshotId": "snapshot_1",
+        "routed": true,
+        "transport": "xpub-derivation",
+        "sender": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+        "destination": "14tvTBu6QxQQk3kHK3y8JYzTNWFX6MSKrw",
+        "derivation_path": "m/0/1",
+        "derivation_index": 1,
+        "destination_pubkey": "0370ee26a68eebc1f8dfe40cc1890425256d3b7ed30126bf7463ec69a03bf8d4e7",
+        "payloadKeys": [
+          "blockSha256",
+          "blockSize",
+          "engine",
+          "id",
+          "key"
+        ]
+      },
+      {
+        "snapshotId": "snapshot_2",
+        "routed": true,
+        "transport": "xpub-derivation",
+        "sender": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+        "destination": "1723KK9WU7BRRUdrPrLdaUh5Qt6kParUHu",
+        "derivation_path": "m/0/2",
+        "derivation_index": 2,
+        "destination_pubkey": "0341de8b6a136d4ccbd0fcce32f80bfbbaffb142d629c194bab7ede26caca670d2",
+        "payloadKeys": [
+          "blockSha256",
+          "blockSize",
+          "engine",
+          "id",
+          "key"
+        ]
+      }
+    ],
+    "routed_any": true
+  }
+}

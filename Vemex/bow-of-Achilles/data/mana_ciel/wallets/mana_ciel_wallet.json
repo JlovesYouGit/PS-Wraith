@@ -1,0 +1,26 @@
+[
+  {
+    "label": "ManaCiel",
+    "seed_phrase": "gossip borrow program solar term hockey worth afford drift judge arrive angle",
+    "seed_entropy_hex": "59d371c63c336a665edc8d63eb82241c",
+    "private_key_hex": "0f8903437dc9c0cd1949d0f0d388197f54426b0e0ce701a4b7da6d7569db82de",
+    "public_key_hex": "021d53407d59104b852e0b2bdca554e6098d2282b605c8b33d6f747308ef791174",
+    "address": "1Hir5a5PEJ9cRSe3WjJx7pgEKsbfDC9zRR",
+    "address_hash160": "b76c0930268ad88a37d52ef28bd5bce46577faab",
+    "utxo_collective_value": 997125803,
+    "sha256_sum": "db4fd4e78caa4e81e54b1894d1eaf906079b47736883a65106e22973b2719aeb",
+    "generated_at": 1782498771.8507016,
+    "generated_at_iso": "2026-06-26T18:32:51.850701Z",
+    "coordinate": {
+      "value": 42,
+      "min": -16,
+      "max": 10000,
+      "hex": "0x2a",
+      "virtual_hash": "662c63d2ad1da5a1",
+      "virtual_bit_space": 120
+    },
+    "base58_p2pkh": "1Hir5a5PEJ9cRSe3WjJx7pgEKsbfDC9zRR",
+    "p2pkh_version": "00",
+    "network": "mainnet"
+  }
+]

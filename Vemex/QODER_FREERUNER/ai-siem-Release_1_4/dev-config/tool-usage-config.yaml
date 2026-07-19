@@ -1,0 +1,70 @@
+# Qoder Development Tool Usage Configuration
+
+tool_optimization:
+  parallel_execution:
+    enabled: true
+    max_concurrent: 5
+  context_awareness:
+    enabled: true
+    preserve_context: true
+
+development_workflow:
+  planning:
+    use_task_management: true
+    detailed_planning: true
+  implementation:
+    maximize_parallel_tool_calls: true
+    default_to_parallel: true
+  testing:
+    run_unit_tests: true
+    validate_implementations: true
+
+codebase_navigation:
+  search_first: true
+  understand_before_modify: true
+  check_dependencies: true
+
+memory_management:
+  persist_user_preferences: true
+  remember_project_context: true
+  update_as_needed: true
+
+communication:
+  language: "en-us"
+  avoid_technical_jargon: false
+  provide_context: true
+
+tool_access:
+  search_codebase:
+    priority: high
+    usage: "semantic search for understanding codebase functionality"
+  search_symbol:
+    priority: high
+    usage: "finding specific class, method, or function definitions"
+  list_dir:
+    priority: medium
+    usage: "understanding directory structure"
+  search_file:
+    priority: medium
+    usage: "finding files by name patterns"
+  grep_code:
+    priority: high
+    usage: "searching for specific code patterns or text"
+  read_file:
+    priority: highest
+    usage: "reading file contents for detailed analysis"
+  search_replace:
+    priority: high
+    usage: "making precise modifications to files"
+  edit_file:
+    priority: medium
+    usage: "editing files when search_replace is not suitable"
+  create_file:
+    priority: medium
+    usage: "creating new files when necessary"
+  run_in_terminal:
+    priority: high
+    usage: "executing commands for testing or building"
+  get_terminal_output:
+    priority: high
+    usage: "retrieving results from terminal commands"

@@ -1,0 +1,47 @@
+{
+  "toolCapabilities": {
+    "maximizeParallelToolCalls": true,
+    "defaultToParallel": true,
+    "sequentialThinking": {
+      "enabled": true,
+      "totalThoughts": 10
+    }
+  },
+  "developmentEnvironment": {
+    "workspaceRoot": "/ai-siem-Release_1_4",
+    "preferredLanguage": "en-us",
+    "ide": "Qoder IDE 0.2.8"
+  },
+  "toolAccess": {
+    "search_codebase": true,
+    "search_symbol": true,
+    "list_dir": true,
+    "search_file": true,
+    "grep_code": true,
+    "read_file": true,
+    "search_replace": true,
+    "edit_file": true,
+    "create_file": true,
+    "delete_file": true,
+    "run_in_terminal": true,
+    "get_terminal_output": true,
+    "get_problems": true,
+    "update_memory": true,
+    "fetch_content": true,
+    "search_web": true,
+    "fetch_rules": true,
+    "add_tasks": true,
+    "update_tasks": true,
+    "search_memory": true,
+    "run_preview": true
+  },
+  "optimization": {
+    "parallelExecution": true,
+    "contextAwareness": true,
+    "memoryPersistence": true
+  },
+  "securityFunctionIntegration": {
+    "configFile": "security-functions-config.json",
+    "enableSecurityFunctions": true
+  }
+}

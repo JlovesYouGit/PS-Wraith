@@ -1,0 +1,220 @@
+{
+  "schema": 1,
+  "generated_at": 1784141965,
+  "root": "/Users/u/Desktop/top g/SeedGate/python",
+  "stats": {
+    "seed_count": 5,
+    "threat_count": 1,
+    "kinds": {
+      "assign_int": 2,
+      "random_seed_call": 1,
+      "prng_ctor": 1,
+      "tagged_comment": 1
+    }
+  },
+  "commitments": [
+    {
+      "key": "020ECBMMLRBRW",
+      "block_size": 32,
+      "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "gate_id": "c84ca30a"
+    },
+    {
+      "key": "2XK5HMNA86EUM",
+      "block_size": 32,
+      "block_sha256": "c0d142a5dea4f0ae8f9df45d0683c72afa5748c4168eed58fc16a9a082cfff96",
+      "gate_id": "9fed960a"
+    },
+    {
+      "key": "020ECBMMLRBRW",
+      "block_size": 32,
+      "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "gate_id": "dcbd23df"
+    },
+    {
+      "key": "020ECBMMLRBRW",
+      "block_size": 32,
+      "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "gate_id": "a791b617"
+    },
+    {
+      "key": "34DCQNUGPHW3W",
+      "block_size": 32,
+      "block_sha256": "cd42404d52ad55ccfa9aca4adc828aa5800ad9d385a0671fbcbf724118320619",
+      "gate_id": "33beed0a"
+    }
+  ],
+  "seeds": [
+    {
+      "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+      "line": 41,
+      "kind": "assign_int",
+      "value": "1234",
+      "value_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "file_sha256": "3adcfee18980838e7a3a1db5e72137bfa030cefea31ea28c7f9f13ab93d7a6c3",
+      "origin": null,
+      "commitment": {
+        "key": "020ECBMMLRBRW",
+        "block_size": 32,
+        "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "gate_id": "c84ca30a"
+      }
+    },
+    {
+      "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+      "line": 41,
+      "kind": "assign_int",
+      "value": "0xabcd",
+      "value_sha256": "c0d142a5dea4f0ae8f9df45d0683c72afa5748c4168eed58fc16a9a082cfff96",
+      "file_sha256": "3adcfee18980838e7a3a1db5e72137bfa030cefea31ea28c7f9f13ab93d7a6c3",
+      "origin": null,
+      "commitment": {
+        "key": "2XK5HMNA86EUM",
+        "block_size": 32,
+        "block_sha256": "c0d142a5dea4f0ae8f9df45d0683c72afa5748c4168eed58fc16a9a082cfff96",
+        "gate_id": "9fed960a"
+      }
+    },
+    {
+      "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+      "line": 44,
+      "kind": "random_seed_call",
+      "value": "1234",
+      "value_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "file_sha256": "3adcfee18980838e7a3a1db5e72137bfa030cefea31ea28c7f9f13ab93d7a6c3",
+      "origin": null,
+      "commitment": {
+        "key": "020ECBMMLRBRW",
+        "block_size": 32,
+        "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "gate_id": "dcbd23df"
+      }
+    },
+    {
+      "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+      "line": 47,
+      "kind": "prng_ctor",
+      "value": "1234",
+      "value_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "file_sha256": "3adcfee18980838e7a3a1db5e72137bfa030cefea31ea28c7f9f13ab93d7a6c3",
+      "origin": null,
+      "commitment": {
+        "key": "020ECBMMLRBRW",
+        "block_size": 32,
+        "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "gate_id": "a791b617"
+      }
+    },
+    {
+      "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+      "line": 57,
+      "kind": "tagged_comment",
+      "value": "value",
+      "value_sha256": "cd42404d52ad55ccfa9aca4adc828aa5800ad9d385a0671fbcbf724118320619",
+      "file_sha256": "3adcfee18980838e7a3a1db5e72137bfa030cefea31ea28c7f9f13ab93d7a6c3",
+      "origin": null,
+      "commitment": {
+        "key": "34DCQNUGPHW3W",
+        "block_size": 32,
+        "block_sha256": "cd42404d52ad55ccfa9aca4adc828aa5800ad9d385a0671fbcbf724118320619",
+        "gate_id": "33beed0a"
+      }
+    }
+  ],
+  "threats": [
+    {
+      "value_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "value_preview": "1234",
+      "occurrences": 3,
+      "canonical": {
+        "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+        "line": 41,
+        "kind": "assign_int",
+        "value": "1234",
+        "commitment": {
+          "key": "020ECBMMLRBRW",
+          "block_size": 32,
+          "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+          "gate_id": "c84ca30a"
+        },
+        "origin": null
+      },
+      "forward_trace": [
+        {
+          "index": 0,
+          "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+          "line": 41,
+          "kind": "assign_int",
+          "commitment": {
+            "key": "020ECBMMLRBRW",
+            "block_size": 32,
+            "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "gate_id": "c84ca30a"
+          }
+        },
+        {
+          "index": 1,
+          "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+          "line": 44,
+          "kind": "random_seed_call",
+          "commitment": {
+            "key": "020ECBMMLRBRW",
+            "block_size": 32,
+            "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "gate_id": "dcbd23df"
+          }
+        },
+        {
+          "index": 2,
+          "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+          "line": 47,
+          "kind": "prng_ctor",
+          "commitment": {
+            "key": "020ECBMMLRBRW",
+            "block_size": 32,
+            "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "gate_id": "a791b617"
+          }
+        }
+      ],
+      "reverse_trace": [
+        {
+          "index": 0,
+          "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+          "line": 47,
+          "kind": "prng_ctor",
+          "commitment": {
+            "key": "020ECBMMLRBRW",
+            "block_size": 32,
+            "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "gate_id": "a791b617"
+          }
+        },
+        {
+          "index": 1,
+          "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+          "line": 44,
+          "kind": "random_seed_call",
+          "commitment": {
+            "key": "020ECBMMLRBRW",
+            "block_size": 32,
+            "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "gate_id": "dcbd23df"
+          }
+        },
+        {
+          "index": 2,
+          "address": "/Users/u/Desktop/top g/SeedGate/python/seed_sampler/scanner.py",
+          "line": 41,
+          "kind": "assign_int",
+          "commitment": {
+            "key": "020ECBMMLRBRW",
+            "block_size": 32,
+            "block_sha256": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "gate_id": "c84ca30a"
+          }
+        }
+      ]
+    }
+  ]
+}

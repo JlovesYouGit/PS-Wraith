@@ -1,0 +1,10 @@
+forward/.venv/
+forward/threat_elimination_env/
+forward/threat_elimination_venv/
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log

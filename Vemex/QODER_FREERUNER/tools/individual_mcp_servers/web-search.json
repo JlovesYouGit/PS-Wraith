@@ -1,0 +1,12 @@
+{
+  "command": "node",
+  "args": [
+    "C:\\Users\\JJ\\Downloads\\aws\\mcp list\\web-search-mcp\\dist\\index.js"
+  ],
+  "env": {
+    "BROWSER_FALLBACK_THRESHOLD": "3",
+    "BROWSER_HEADLESS": "true",
+    "MAX_BROWSERS": "3",
+    "MAX_CONTENT_LENGTH": "10000"
+  }
+}

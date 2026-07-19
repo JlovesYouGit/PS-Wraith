@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp_unix": 1782499180.033078,
+    "timestamp_iso": "2026-06-26T18:39:40.033078+00:00",
+    "coordinate": {
+      "value": 5,
+      "min": -16,
+      "max": 10000,
+      "hex": "0x5",
+      "virtual_hash": "46986528415d688b",
+      "virtual_bit_space": 120
+    },
+    "peer_address": "127.0.0.1:41863",
+    "payload": "HANDSHAKE from JJ",
+    "first_ping": true,
+    "status": "accepted",
+    "response_sent": true,
+    "response_status": "MANA_CIEL_ACCEPTED",
+    "response_formula_n": 781
+  }
+]

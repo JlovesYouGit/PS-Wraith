@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-bridge": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\JJ\\AppData\\Local\\Programs\\Qoder\\tools\\bridge_controller\\bridge_mcp_server.js"
+      ]
+    }
+  }
+}

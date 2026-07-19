@@ -1,5 +1,6 @@
 import hashlib
 
+from apn_override import ApnOverride
 from boost_engine import GramshasEngine
 from buffer_manager import WraithBufferManager
 from hardware_interface import DiskReadOrder, WraithHardwareInterface
@@ -9,6 +10,12 @@ from network_protection import WraithNetworkProtection
 from persistence_manager import WraithPersistenceManager
 from pragma_logic import WraithPragmaLogic
 from storage_manager import WraithStorageManager
+
+try:
+    from vemex_apn_network_override import VemexApnNetworkOverride
+    _VEMEX_APN_AVAILABLE = True
+except Exception:
+    _VEMEX_APN_AVAILABLE = False
 
 # Path: wraithps4-serv-backup-performance booster/main.py
 
@@ -38,6 +45,8 @@ class WraithSystem:
         self.market_engine: WraithMarketEngine = WraithMarketEngine()
         self.rj45_connected: bool = self._detect_rj45_connection()
         self.auth_token: str = "jj"
+        self.apn_tool: Optional[ApnOverride] = None
+        self.vemex_apn_override: Optional[VemexApnNetworkOverride] = None
 
     def _detect_rj45_connection(self) -> bool:
         """
@@ -128,6 +137,46 @@ class WraithSystem:
         )
 
         print(f"[*] Internal serv save: backup stored in {self.node_path} data path.")
+
+    def apply_apn_override(self, target_path: str):
+        """
+        Apply APN override to target binary/file.
+        Override APN to internet.ideasclaro.com.do
+        Types: default, supl, dun, xcap
+        Network: all, IPv4/IPv6
+        Connection: 10.222.220.171, fe80::c0e6:a5ff:fee7:9ed9,
+                    2001:1308:8121:3faa:4443:96cf:6fec:54c6,
+                    2001:1308:8121:3faa:c0e6:a5ff:fee7:9ed9
+        MAC: 2c:be:eb:53:70:1d
+        """
+        print("[*] Applying APN network override...")
+        print(f"    Target APN: internet.ideasclaro.com.do")
+        print(f"    APN Types: default, supl, dun, xcap")
+        print(f"    Network Types: all")
+        print(f"    IP Version: ipv4, ipv6")
+        print(f"    IPv4: 10.222.220.171")
+        print(f"    IPv6: fe80::c0e6:a5ff:fee7:9ed9")
+        print(f"    IPv6: 2001:1308:8121:3faa:4443:96cf:6fec:54c6")
+        print(f"    IPv6: 2001:1308:8121:3faa:c0e6:a5ff:fee7:9ed9")
+        print(f"    MAC: 2c:be:eb:53:70:1d")
+
+        try:
+            if _VEMEX_APN_AVAILABLE:
+                print("[*] Using Vemex direct network override...")
+                self.vemex_apn_override = VemexApnNetworkOverride(device_ip="10.222.220.171")
+                result = self.vemex_apn_override.apply_apn_override_network(target_path)
+                print(f"[*] Vemex network override result: {result.get('success', False)}")
+                return result
+            else:
+                print("[*] Vemex not available, using local override...")
+                from apn_override import scan_file
+                self.apn_tool = scan_file(target_path)
+                result = self.apn_tool.apply_override()
+                print(f"[*] Local APN override complete: {result['total_overrides']} overrides applied.")
+                return result
+        except Exception as e:
+            print(f"[!] APN override failed: {e}")
+            return {"error": str(e), "total_overrides": 0}
 
     def inject_updater(self):
         """Inject instructions into the system updater."""
@@ -296,6 +345,11 @@ class WraithSystem:
         self.manage_buffers()
         self.run_gramshas_boost()
         self.usb_handshake()
+
+        # Apply APN override if target path is configured
+        apn_target = getattr(self, 'apn_target_path', None)
+        if apn_target:
+            self.apply_apn_override(apn_target)
 
         print(f"[*] System State: self_serv = {self.self_serv} (FOREVER TRUE)")
         print("=====================================================")

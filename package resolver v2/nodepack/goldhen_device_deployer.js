@@ -26,6 +26,8 @@ class GoldHENDeviceDeployer {
         this.kernelPatched = false;
         this.adminPass = 'jj';
         this.softLayerUnblocked = false;
+        this.ipv6Addresses = [];
+        this.apnOverride = null;
         
         // GoldHEN paths
         this.goldhenDir = path.join(workDir, 'GoldHEN');
@@ -67,15 +69,12 @@ class GoldHENDeviceDeployer {
         // Load MAC from SeedGate JSON
         this.loadMacFromSeedGate();
         
+        // Force gateway with known MAC/IP
+        const forced = this.forceGateway();
+        console.log(`[Deploy] Forced gateway: ${forced.deviceMac} @ ${forced.deviceIp}`);
+        
         // Load admin pass from meta.json
         this.loadAdminPass();
-        
-        // Known system info - loaded from SeedGate/meta at runtime
-        this.senderMac = null;
-        this.receiverMac = null;
-        this.deviceMac = null;
-        this.deviceIp = null;
-        this.lanMac = null;
         
         console.log(`[Deploy] Sender MAC (our MAC): ${this.senderMac}`);
         console.log(`[Deploy] Receiver MAC (PS4 LAN): ${this.receiverMac}`);
@@ -90,7 +89,8 @@ class GoldHENDeviceDeployer {
             senderMac: this.senderMac,
             receiverMac: this.receiverMac,
             lanMac: this.lanMac,
-            adminPass: this.adminPass ? 'SET' : 'NONE'
+            adminPass: this.adminPass ? 'SET' : 'NONE',
+            forcedGateway: forced.forced
         };
     }
 
@@ -121,7 +121,13 @@ class GoldHENDeviceDeployer {
                 if (conn.established && conn.mac && conn.ip) {
                     this.deviceMac = conn.mac;
                     this.deviceIp = conn.ip;
+                    this.senderMac = conn.sender_mac || conn.mac;
+                    this.receiverMac = conn.receiver_mac || conn.mac;
+                    this.ipv6Addresses = conn.ipv6_addresses || [];
+                    this.apnOverride = conn.apn_override || null;
                     console.log(`[Deploy] Loaded MAC from SeedGate: ${this.deviceMac} @ ${this.deviceIp}`);
+                    console.log(`[Deploy] IPv6 addresses: ${this.ipv6Addresses.join(', ')}`);
+                    console.log(`[Deploy] APN override: ${this.apnOverride ? this.apnOverride.target_apn : 'NONE'}`);
                     return;
                 }
             }
@@ -131,7 +137,13 @@ class GoldHENDeviceDeployer {
                 if (conn.mac && conn.ip) {
                     this.deviceMac = conn.mac;
                     this.deviceIp = conn.ip;
+                    this.senderMac = conn.sender_mac || conn.mac;
+                    this.receiverMac = conn.receiver_mac || conn.mac;
+                    this.ipv6Addresses = conn.ipv6_addresses || [];
+                    this.apnOverride = conn.apn_override || null;
                     console.log(`[Deploy] Loaded MAC from SeedGate (fallback): ${this.deviceMac} @ ${this.deviceIp}`);
+                    console.log(`[Deploy] IPv6 addresses: ${this.ipv6Addresses.join(', ')}`);
+                    console.log(`[Deploy] APN override: ${this.apnOverride ? this.apnOverride.target_apn : 'NONE'}`);
                     return;
                 }
             }
@@ -162,6 +174,42 @@ class GoldHENDeviceDeployer {
         }
         
         console.log(`[Deploy] Admin pass: ${this.adminPass ? 'SET' : 'NONE'}`);
+    }
+
+    forceGateway() {
+        console.log('[Deploy] Forcing gateway to known device MAC/IP...');
+        console.log(`[Deploy] Target MAC: 2c:be:eb:53:70:1d`);
+        console.log(`[Deploy] Target IP: 10.222.220.171`);
+
+        this.deviceMac = '2c:be:eb:53:70:1d';
+        this.deviceIp = '10.222.220.171';
+        this.senderMac = '2c:be:eb:53:70:1d';
+        this.receiverMac = '2c:be:eb:53:70:1d';
+        this.lanMac = '2c:be:eb:53:70:1d';
+        this.ipv6Addresses = [
+            'fe80::c0e6:a5ff:fee7:9ed9',
+            '2001:1308:8121:3faa:4443:96cf:6fec:54c6',
+            '2001:1308:8121:3faa:c0e6:a5ff:fee7:9ed9'
+        ];
+        this.apnOverride = {
+            enabled: true,
+            target_apn: 'internet.ideasclaro.com.do',
+            apn_types: ['default', 'supl', 'dun', 'xcap'],
+            network_types: ['all'],
+            ip_version: ['ipv4', 'ipv6']
+        };
+
+        console.log(`[Deploy] Gateway forced: ${this.deviceMac} @ ${this.deviceIp}`);
+        return {
+            forced: true,
+            deviceMac: this.deviceMac,
+            deviceIp: this.deviceIp,
+            senderMac: this.senderMac,
+            receiverMac: this.receiverMac,
+            lanMac: this.lanMac,
+            ipv6Addresses: this.ipv6Addresses,
+            apnOverride: this.apnOverride
+        };
     }
 
     async probeDevice() {
@@ -881,6 +929,109 @@ class GoldHENDeviceDeployer {
         });
     }
 
+    async applyApnPatches() {
+        console.log('[Deploy] Applying APN network overrides...');
+        console.log(`[Deploy] Target APN: internet.ideasclaro.com.do`);
+        console.log(`[Deploy] IPv4: 10.222.220.171`);
+        console.log(`[Deploy] IPv6: fe80::c0e6:a5ff:fee7:9ed9`);
+        console.log(`[Deploy] IPv6: 2001:1308:8121:3faa:4443:96cf:6fec:54c6`);
+        console.log(`[Deploy] IPv6: 2001:1308:8121:3faa:c0e6:a5ff:fee7:9ed9`);
+        console.log(`[Deploy] Device MAC: 2c:be:eb:53:70:1d`);
+
+        const apnPatches = [
+            { name: 'apn_override_default', description: 'Override default APN to internet.ideasclaro.com.do', critical: false },
+            { name: 'apn_override_supl', description: 'Override SUPL APN to internet.ideasclaro.com.do', critical: false },
+            { name: 'apn_override_dun', description: 'Override DUN APN to internet.ideasclaro.com.do', critical: false },
+            { name: 'apn_override_xcap', description: 'Override XCAP APN to internet.ideasclaro.com.do', critical: false }
+        ];
+
+        if (!this.deviceIp) {
+            return { total: apnPatches.length, applied: 0, success: false, error: 'no_device_ip' };
+        }
+
+        const ports = [5000, 9090, 8080, 80, 3232];
+        let appliedCount = 0;
+
+        for (const patch of apnPatches) {
+            for (const port of ports) {
+                try {
+                    const result = await this.sendPatchRequestFast(this.deviceIp, port, patch);
+                    if (result.success) {
+                        appliedCount++;
+                        console.log(`  [OK] ${patch.name}: ${patch.description}`);
+                        break;
+                    }
+                } catch (e) {
+                    continue;
+                }
+            }
+        }
+
+        this.apnPatched = appliedCount > 0;
+        console.log(`[Deploy] APN patches applied: ${appliedCount}/${apnPatches.length}`);
+
+        return {
+            total: apnPatches.length,
+            applied: appliedCount,
+            success: this.apnPatched
+        };
+    }
+
+    async transferToDeviceMac() {
+        console.log('[Deploy] Transferring to device MAC...');
+        console.log(`[Deploy] Source: current device`);
+        console.log(`[Deploy] Target MAC: ${this.deviceMac}`);
+        console.log(`[Deploy] Target IP: ${this.deviceIp}`);
+
+        if (!this.deviceMac || !this.deviceIp) {
+            return { success: false, error: 'no_device_mac_or_ip' };
+        }
+
+        const transferPayload = {
+            type: 'mac_transfer',
+            source_mac: this.senderMac || this.deviceMac,
+            target_mac: this.deviceMac,
+            target_ip: this.deviceIp,
+            apn_override: this.apnOverride,
+            patches: [
+                { name: 'apn_override_default', description: 'Override default APN to internet.ideasclaro.com.do' },
+                { name: 'apn_override_supl', description: 'Override SUPL APN to internet.ideasclaro.com.do' },
+                { name: 'apn_override_dun', description: 'Override DUN APN to internet.ideasclaro.com.do' },
+                { name: 'apn_override_xcap', description: 'Override XCAP APN to internet.ideasclaro.com.do' }
+            ]
+        };
+
+        const ports = [5000, 9090, 8080, 80, 3232];
+        let transferSuccess = false;
+
+        for (const port of ports) {
+            try {
+                const result = await this.sendPatchRequestFast(this.deviceIp, port, {
+                    name: 'mac_transfer',
+                    description: `Transfer to MAC ${this.deviceMac}`,
+                    critical: false
+                });
+                if (result.success) {
+                    transferSuccess = true;
+                    console.log(`  [OK] Transfer accepted at ${this.deviceIp}:${port}`);
+                    break;
+                }
+            } catch (e) {
+                continue;
+            }
+        }
+
+        console.log(`[Deploy] Transfer to MAC ${this.deviceMac}: ${transferSuccess ? 'SUCCESS' : 'FAILED'}`);
+
+        return {
+            success: transferSuccess,
+            source_mac: this.senderMac || this.deviceMac,
+            target_mac: this.deviceMac,
+            target_ip: this.deviceIp,
+            payload: transferPayload
+        };
+    }
+
     async troubleshoot() {
         console.log('\n[Troubleshoot] Starting troubleshooting...');
         
@@ -1075,10 +1226,15 @@ class GoldHENDeviceDeployer {
         // Step 5: Apply kernel patches
         console.log('\n[5/5] Applying kernel patches...');
         const patchResult = await this.applyKernelPatches();
+
+        // Step 6: Apply APN network overrides
+        console.log('\n[6/6] Applying APN network overrides...');
+        const apnResult = await this.applyApnPatches();
         
         console.log('\n=== Deployment Complete ===');
         console.log(`Payload deployed: ${this.goldhenDeployed}`);
         console.log(`Kernel patched: ${this.kernelPatched}`);
+        console.log(`APN overrides: ${apnResult.applied}/${apnResult.total}`);
         console.log(`Device: ${this.deviceMac} @ ${this.deviceIp}`);
         console.log(`Route: ${this.senderMac} -> ${this.receiverMac}`);
         
@@ -1091,8 +1247,10 @@ class GoldHENDeviceDeployer {
             receiverMac: this.receiverMac,
             deployed: this.goldhenDeployed,
             kernelPatched: this.kernelPatched,
+            apnPatched: apnResult.success,
             deployResult,
             patchResult,
+            apnResult,
             troubleshooting: troubleshootResult
         };
     }

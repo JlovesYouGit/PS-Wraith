@@ -38,12 +38,17 @@ class GoldHENEndpointServer {
         this.deviceIp = null;
         this.receiverMac = null;
         this.senderMac = null;
+        this.ipv6Addresses = [];
+        this.apnOverride = null;
         
         // Get actual server IP
         this.serverIp = this.getLocalIP();
         
         // Resolve gateway from SeedGate/meta if available
         this.gateway = this.resolveGateway();
+        
+        // Load connection details from SeedGate
+        this.loadConnectionDetails();
         
         // Kernel patches
         this.kernelPatches = this.loadKernelPatches();
@@ -112,6 +117,37 @@ class GoldHENEndpointServer {
         return null;
     }
 
+    loadConnectionDetails() {
+        const possiblePaths = [
+            path.join(this.workDir, 'SeedGate', 'data', '.seedgate_connections.json'),
+            path.join(this.workDir, '..', 'SeedGate', 'data', '.seedgate_connections.json'),
+            '/Users/u/Desktop/PS-enhance/SeedGate/data/.seedgate_connections.json'
+        ];
+        
+        for (const filePath of possiblePaths) {
+            if (fs.existsSync(filePath)) {
+                try {
+                    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+                    for (const [id, conn] of Object.entries(data)) {
+                        if (conn.established && conn.mac && conn.ip) {
+                            this.deviceMac = conn.mac;
+                            this.deviceIp = conn.ip;
+                            this.senderMac = conn.sender_mac || conn.mac;
+                            this.receiverMac = conn.receiver_mac || conn.mac;
+                            this.ipv6Addresses = conn.ipv6_addresses || [];
+                            this.apnOverride = conn.apn_override || null;
+                            console.log(`[Server] Loaded connection: ${this.deviceMac} @ ${this.deviceIp}`);
+                            console.log(`[Server] IPv6: ${this.ipv6Addresses.join(', ')}`);
+                            return;
+                        }
+                    }
+                } catch (e) {
+                    console.log(`[Server] Could not load SeedGate connections: ${e.message}`);
+                }
+            }
+        }
+    }
+
     loadKernelPatches() {
         const patchesFile = path.join(this.workDir, 'library_mirror', 'kernel_patches.json');
         if (fs.existsSync(patchesFile)) {
@@ -153,7 +189,9 @@ class GoldHENEndpointServer {
             gateway: this.gateway || '192.168.0.1',
             interface: 'en0',
             adapter: 'USB-C_Ethernet',
-            adminPass: 'jj'
+            adminPass: 'jj',
+            ipv6Addresses: this.ipv6Addresses,
+            apnOverride: this.apnOverride
         };
     }
 
@@ -227,7 +265,12 @@ class GoldHENEndpointServer {
             case '/kernel_patches.json':
                 this.serveKernelPatches(res);
                 break;
-                
+
+            case '/apn_patches':
+            case '/apn_patches.json':
+                this.serveApnPatches(res);
+                break;
+
             case '/routes':
             case '/routes.json':
                 this.serveRoutes(res);
@@ -241,6 +284,10 @@ class GoldHENEndpointServer {
                 this.handleDeploy(req, res);
                 break;
                 
+            case '/sim_unblock':
+                this.handleSimUnblock(req, res);
+                break;
+                 
             default:
                 this.serve404(res);
         }
@@ -295,12 +342,40 @@ class GoldHENEndpointServer {
             senderMac: this.senderMac,
             receiverMac: this.receiverMac,
             adminPass: 'jj',
+            ipv6Addresses: this.ipv6Addresses,
+            apnOverride: this.apnOverride,
             patches: this.kernelPatches,
             routes: this.getRoutes()
         };
         
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify(patches, null, 2));
+    }
+
+    serveApnPatches(res) {
+        const apnConfig = {
+            timestamp: new Date().toISOString(),
+            target_apn: 'internet.ideasclaro.com.do',
+            apn_types: ['default', 'supl', 'dun', 'xcap'],
+            network_types: ['all'],
+            ip_version: ['ipv4', 'ipv6'],
+            ipv4_address: '10.222.220.171',
+            ipv6_addresses: [
+              'fe80::c0e6:a5ff:fee7:9ed9',
+              '2001:1308:8121:3faa:4443:96cf:6fec:54c6',
+              '2001:1308:8121:3faa:c0e6:a5ff:fee7:9ed9'
+            ],
+            device_mac: '2c:be:eb:53:70:1d',
+            patches: [
+                { name: 'apn_override_default', description: 'Override default APN to internet.ideasclaro.com.do', critical: false },
+                { name: 'apn_override_supl', description: 'Override SUPL APN to internet.ideasclaro.com.do', critical: false },
+                { name: 'apn_override_dun', description: 'Override DUN APN to internet.ideasclaro.com.do', critical: false },
+                { name: 'apn_override_xcap', description: 'Override XCAP APN to internet.ideasclaro.com.do', critical: false }
+            ]
+        };
+
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(apnConfig, null, 2));
     }
 
     serveRoutes(res) {
@@ -322,7 +397,9 @@ class GoldHENEndpointServer {
                 mac: this.deviceMac,
                 ip: this.deviceIp,
                 senderMac: this.senderMac,
-                receiverMac: this.receiverMac
+                receiverMac: this.receiverMac,
+                ipv6Addresses: this.ipv6Addresses,
+                apnOverride: this.apnOverride
             },
             goldhen: {
                 payload_exists: fs.existsSync(this.goldhenBin),
@@ -389,6 +466,34 @@ class GoldHENEndpointServer {
         
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify(deployInfo, null, 2));
+    }
+
+    handleSimUnblock(req, res) {
+        const body = [];
+        req.on('data', chunk => body.push(chunk));
+        req.on('end', () => {
+            let payload = {};
+            try {
+                payload = JSON.parse(Buffer.concat(body).toString() || '{}');
+            } catch (e) {
+                payload = {};
+            }
+            
+            const response = {
+                timestamp: new Date().toISOString(),
+                received: true,
+                device_mac: this.deviceMac,
+                device_ip: this.deviceIp,
+                payload: payload,
+                note: 'SIM unblock APDU commands received and logged. Execute these commands on the device SIM interface.'
+            };
+            
+            console.log(`[SIM_UNBLOCK] Received ${req.method} from ${req.connection.remoteAddress}`);
+            console.log(`[SIM_UNBLOCK] Commands: ${JSON.stringify(payload.apdu_commands || payload)}`);
+            
+            res.writeHead(200, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify(response, null, 2));
+        });
     }
 
     serve404(res) {

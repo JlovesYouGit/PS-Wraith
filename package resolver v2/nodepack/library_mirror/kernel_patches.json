@@ -4,6 +4,20 @@
   "deviceIp": null,
   "adminPass": null,
   "softLayerUnblocked": false,
+  "apn_override": {
+    "enabled": true,
+    "target_apn": "internet.ideasclaro.com.do",
+    "apn_types": ["default", "supl", "dun", "xcap"],
+    "network_types": ["all"],
+    "ip_version": ["ipv4", "ipv6"],
+    "ipv4_address": "10.222.220.171",
+    "ipv6_addresses": [
+      "fe80::c0e6:a5ff:fee7:9ed9",
+      "2001:1308:8121:3faa:4443:96cf:6fec:54c6",
+      "2001:1308:8121:3faa:c0e6:a5ff:fee7:9ed9"
+    ],
+    "device_mac": "2c:be:eb:53:70:1d"
+  },
   "patches": [
     {
       "name": "sys_dynlib_dlsym",
